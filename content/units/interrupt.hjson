@@ -35,14 +35,14 @@ weapons: [{
 		rotateSpeed: 1
                 x: 0
                 y: -2
-                reload: 115
+                reload: 60
                 shoot: {
-                    shots: 2
-                    shotDelay: 2
+                    shots: 1
+                    shotDelay: 0
             }
             inaccuracy: 2
             velocityRnd: 0.4
-            recoil: 0
+            recoil: 3
             shootSound: artillery
             shootEffect: none
             bullet: {
