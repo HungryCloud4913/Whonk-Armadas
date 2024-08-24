@@ -7,7 +7,7 @@ health: 140
 armor: 1
 engineSize: 4
 engineOffset: 6
-engineColor: ff3535
+engineColor: ffb4b4 
 targetAir: true
 faceTarget: true
 fogRadius: 12
@@ -44,7 +44,7 @@ y: 0
 shootY: 0
 bullet: {
   type: LaserBulletType
-  colors:[ff3535aa,ff3535,ffffff]
+  colors:[ffb4b4aa,ffb4b4,ffffff]
   layer: 79
   damage: 50
   lifetime: 80
