@@ -2,7 +2,7 @@ type: flying
 outlineColor: 2d2f39 
 flying: true
 hitSize: 12
-speed: 2.2
+speed: 2.4
 health: 140
 armor: 1
 engineSize: 4
@@ -12,6 +12,8 @@ targetAir: true
 faceTarget: true
 fogRadius: 12
 lowAltitude: true
+drag: 0.06
+accel: 0.08
 parts: [
   {
   type: RegionPart
@@ -23,7 +25,7 @@ parts: [
   progress: warmup
   heatProgress: reload
   weaponIndex: 0
-  layerOffset: -0.000001
+  layerOffset: -0.001
     }
 ]
 weapons: [
