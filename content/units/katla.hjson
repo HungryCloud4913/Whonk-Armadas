@@ -19,7 +19,7 @@ abilities: [
 {
 type: ArmorPlateAbility
 drawPlate: false
-healthMultiplier: 0.04
+healthMultiplier: 0.0001
 }
   ]
 parts: [
@@ -77,6 +77,7 @@ bullet: {
       collidesTiles: false
       collidesGround: false
       collidesAir: false
+      despawnHit: true
       lifetime: 0
         }
     {
@@ -90,6 +91,9 @@ bullet: {
     trailColor: ffb4b4
     lifetime: 60
     sprite: missile-large
+    width: 10
+    trailChance: 0
+    height: 12
     pierce: true
     pierceBuilding: true
     pierceCap: 3
