@@ -22,7 +22,7 @@ parts: [
   heatColor: ff3535
   progress: warmup
   heatProgress: reload
-  weaponIndex: 1
+  weaponIndex: 0
     }
 ]
 weapons: [
@@ -33,7 +33,7 @@ shoot: {
 type: ShootSpread
 shotDelay: 1
 shots: 2
-spread: 180
+spread: 90
   }
 rotate: false
 shootCone: 15
