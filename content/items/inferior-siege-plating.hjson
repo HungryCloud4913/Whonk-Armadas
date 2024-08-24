@@ -1,0 +1,6 @@
+type: material
+name: Inferior Siege Plating
+description: A green crystalline silicon alloy used for simple siege class structures and units
+explosiveness: 0
+flammability: 0
+color: 65973F
