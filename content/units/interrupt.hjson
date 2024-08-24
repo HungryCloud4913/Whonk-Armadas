@@ -35,7 +35,7 @@ weapons: [{
 		rotateSpeed: 1
                 x: 0
                 y: -2
-                reload: 60
+                reload: 95
                 shoot: {
                     shots: 1
                     shotDelay: 0
@@ -48,22 +48,22 @@ weapons: [{
             bullet: {
 		lightColor: baff94
                 type: ArtilleryBulletType
-                speed: 2.5
-                lifetime: 59.2
+                speed: 2.85
+                lifetime: 63
                 backColor: 65973F
                 frontColor: BAFF94
                 mixColorFrom: BAFF94
                 mixColorTo: 65973F
-                width: 7
-                height: 5
-		splashDamageRadius: 18
-		splashDamage: 25
+                width: 10
+                height: 10
+		splashDamageRadius: 22
+		splashDamage: 35
 		hitEffect: blastExplosion
         trailLength: 5
         trailColor: 65973F
          fragVelocityMin: 0.2
          fragVelocityMax: 0.4
-fragBullets: 2
+fragBullets: 3
          fragBullet: {
 		lightColor: baff94
                 type: ArtilleryBulletType
@@ -72,10 +72,10 @@ fragBullets: 2
                 frontColor: BAFF94
                 mixColorFrom: BAFF94
                 mixColorTo: 65973F
-                width: 5
-                height: 4
-		splashDamageRadius: 6
-		splashDamage: 10
+                width: 6
+                height: 6
+		splashDamageRadius: 10
+		splashDamage: 18
 }     
                }
         }
