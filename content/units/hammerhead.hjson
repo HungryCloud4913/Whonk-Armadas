@@ -29,7 +29,7 @@ rotateEffect: true
 {
 type: MoveEffectAbility
 y: 8
-x: 18
+x: -18
 minVelocity: 1.5
 interval: 1
 effect: disperseTrail
