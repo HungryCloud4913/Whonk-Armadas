@@ -1,0 +1,57 @@
+type: flying
+outlineColor: 3c3d42
+flying: true
+hitSize: 12
+speed: 2.2
+health: 140
+armor: 1
+engineSize: 4
+engineOffset: 6
+engineColor: ff3535
+targetAir: true
+faceTarget: true
+fogRadius: 12
+lowAltitude: true
+parts: [
+  {
+  type: RegionPart
+  mirror: true
+  under: true
+  moveX: 5
+  suffix: -arm
+  heatColor: ff3535
+  progress: warmup
+  heatProgress: reload
+  weaponIndex: 1
+    }
+]
+weapons: [
+{
+reload: 120
+shootSound: laser
+shoot: {
+type: ShootSpread
+shotDelay: 1
+shots: 2
+spread: 180
+  }
+rotate: false
+shootCone: 15
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: LaserBulletType
+  colors:[ff3535aa,ff3535,ffffff]
+  layer: 79
+  damage: 50
+  lifetime: 80
+  sideAngle: 5
+  sideLength: 40
+  length: 96
+  width: 12
+  largeHit: true
+    }
+}
+  ]
