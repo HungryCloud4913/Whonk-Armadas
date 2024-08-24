@@ -116,6 +116,7 @@ bullet: {
     speed: 2
     damage: 15
     splashDamage: 5
+    splashDamageRadius: 4
     layer: 79
     frontColor: ffffff
     backColor: ffb4b4
@@ -130,6 +131,7 @@ bullet: {
     pierceCap: 3
     lifetime: 60
     hitEffect: explosion
+    shrinkX: 1
       }
 }
   ]
