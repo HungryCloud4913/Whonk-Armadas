@@ -126,7 +126,7 @@ bullet: {
 	type: RailBulletType
 	shootEffect: none
 	smokeEffect: none
-	damage: 20
+	damage: 100
 	pointEffect: none
 	endEffect: none
 	hitEffect: hitBulletColor
