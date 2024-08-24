@@ -41,7 +41,7 @@ weapons: [{
                     shotDelay: 0
             }
             inaccuracy: 2
-            velocityRnd: 0.4
+            velocityRnd: 0.1
             recoil: 3
             shootSound: artillery
             shootEffect: none
