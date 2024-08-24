@@ -5,11 +5,11 @@ description: A slow but powerful tank. Fires a artillery cannon towards anything
 health: 880
 hitSize: 9
 flying: false
-speed: 0.42
+speed: 0.54
 accel: 0.5
 drag: 0.5
 armor: 8
-rotateSpeed: 0.8
+rotateSpeed: 1.6
 outlineColor: 2D2F39
 targetAir: true
 faceTarget: false
@@ -32,7 +32,7 @@ weapons: [{
                 mirror: false
                 top: true
                 rotate: true
-		rotateSpeed: 1
+		rotateSpeed: 3
                 x: 0
                 y: -2
                 reload: 95
@@ -77,6 +77,39 @@ fragBullets: 3
 		splashDamageRadius: 10
 		splashDamage: 18
 }     
+               }
+        }
+{
+                name: basic-siege-weapon
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 4
+                x: 4
+                y: -3
+                reload: 25
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 3
+            velocityRnd: 0.1
+            recoil: 2
+            shootEffect: none
+            bullet: {
+		lightColor: baff94
+                type: BasicBulletType
+                speed: 4
+                lifetime: 20
+                backColor: 65973F
+                frontColor: BAFF94
+                mixColorFrom: BAFF94
+                mixColorTo: 65973F
+                width: 4
+                height: 7
+                Damage: 7
+        trailLength: 2
+        trailColor: 65973F
                }
         }
 ]
