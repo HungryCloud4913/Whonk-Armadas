@@ -1,10 +1,10 @@
 type: flying
 outlineColor: 2d2f39 
 flying: true
-hitSize: 12
-speed: 2.4
-health: 140
-armor: 1
+hitSize: 10
+speed: 2.2
+health: 360
+armor: 0
 engineSize: 4
 engineOffset: 6
 engineColor: ffb4b4 
@@ -49,10 +49,10 @@ bullet: {
   type: LaserBulletType
   colors:[ffb4b4aa,ffb4b4,ffffff]
   layer: 79
-  damage: 50
+  damage: 40
   lifetime: 80
-  sideAngle: 5
-  sideLength: 60
+  sideAngle: 8
+  sideLength: 80
   length: 96
   width: 12
   largeHit: true
@@ -78,12 +78,12 @@ bullet: {
   type: LaserBulletType
   colors:[ffb4b4aa,ffb4b4,ffffff]
   layer: 80
-  damage: 30
+  damage: 25
   lifetime: 80
-  sideAngle: 10
-  sideLength: 40
-  length: 50
-  width: 6
+  sideAngle: 16
+  sideLength: 60
+  length: 60
+  width: 8
   largeHit: true
     }
 }
