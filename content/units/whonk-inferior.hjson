@@ -91,18 +91,18 @@ weapons: [{
 		rotateSpeed: 5
                 x: 0
                 y: 0
-                reload: 50
+                reload: 13
                 shoot: {
-                    shots: 5
-                    shotDelay: 2.5
+                    shots: 1
+                    shotDelay: 0
             }
-            inaccuracy: 1.5
+            inaccuracy: 6
             recoil: 1
             shootSound: malignShoot
             shootEffect: none
             bullet: {
                 type: missileBulletType
-                damage: 155
+                damage: 35
                 homing: true
                 speed: 6
                 lifetime: 35
@@ -114,7 +114,7 @@ weapons: [{
                 width: 5
                 height: 5
                 drag: -0.02
-        trailLength: 5
+        trailLength: 7
         trailColor: 7781DE
                }
 }
