@@ -64,43 +64,6 @@ bullet: {
   length: 120
   width: 12
   largeHit: true
-  spawnBullets: [
-    {
-      type: BulletType
-      despawnEffect: none
-      hitEffect: none
-      damage: 0
-      instantDisappear: true
-      hitSound: missile
-      despawnSound: missile
-      collides: false
-      collidesTiles: false
-      collidesGround: false
-      collidesAir: false
-      despawnHit: true
-      lifetime: 0
-        }
-    {
-    type: MissileBulletType
-    speed: 2
-    damage: 15
-    splashDamage: 5
-    layer: 79
-    frontColor: ffffff
-    backColor: ffb4b4
-    trailColor: ffb4b4
-    lifetime: 60
-    sprite: missile-large
-    width: 10
-    trailChance: 0
-    height: 12
-    pierce: true
-    pierceBuilding: true
-    pierceCap: 3
-    lifetime: 60
-    hitEffect: explosion
-      }
-  ]
     }
 }
 {
@@ -131,5 +94,42 @@ bullet: {
   width: 8
   largeHit: true
     }
+}
+{
+reload: 120
+baseRotation: 90
+shootSound: missile
+shoot: {
+type: ShootSpread
+shotDelay: 1
+shots: 2
+spread: 90
+  }
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+    type: MissileBulletType
+    speed: 2
+    damage: 15
+    splashDamage: 5
+    layer: 79
+    frontColor: ffffff
+    backColor: ffb4b4
+    trailColor: ffb4b4
+    lifetime: 60
+    sprite: missile-large
+    width: 10
+    trailChance: 0
+    height: 12
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+    lifetime: 60
+    hitEffect: explosion
+      }
 }
   ]
