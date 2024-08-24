@@ -43,7 +43,7 @@ weapons: [{
                     shotDelay: 1
             }
             inaccuracy: 2
-            recoil: 0
+            recoil: 1.8
             shootSound: bolt
             shootEffect: none
             bullet: {
