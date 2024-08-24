@@ -15,6 +15,28 @@ faceTarget: true
 engineOffset: 15.5
         engineColor: 82AFFF
         engineColorInner: FFFFFF
+abilities: [
+{
+type: MoveEffectAbility
+y: 8
+x: 18
+minVelocity: 1.5
+interval: 1
+effect: disperseTrail
+color: bdd5ff
+rotateEffect: true
+}
+{
+type: MoveEffectAbility
+y: 8
+x: 18
+minVelocity: 1.5
+interval: 1
+effect: disperseTrail
+color: bdd5ff
+rotateEffect: true
+}
+]
 trailLength: 10
 engines: [
 		  {
@@ -92,7 +114,7 @@ weapons: [{
 {
 top: false
 shootSound: none
-reload: 5
+reload: 1
 baseRotation: 90
 y: 8
 shootY: -1
@@ -102,13 +124,9 @@ alternate: false
 alwaysShooting: true
 bullet: {
 	type: RailBulletType
-	shootEffect: {
-		type: WrapEffect
-		effect: disperseTrail
-		color: bdd5ff
-		}
+	shootEffect: none
 	smokeEffect: none
-	damage: 100
+	damage: 20
 	pointEffect: none
 	endEffect: none
 	hitEffect: hitBulletColor
