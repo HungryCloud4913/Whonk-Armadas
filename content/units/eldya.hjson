@@ -28,7 +28,7 @@ parts: [
 weapons: [
 {
 reload: 120
-baseRot: 90
+baseRotation: 90
 shootSound: laser
 shoot: {
 type: ShootSpread
@@ -37,7 +37,7 @@ shots: 2
 spread: 90
   }
 rotate: false
-shootCone: 15
+shootCone: 180
 mirror: false
 x: 0
 y: 0
