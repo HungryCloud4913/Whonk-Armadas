@@ -2,11 +2,11 @@ type: flying
 name: Strike
 description: A small assault flying unit. Rams enemies and deals decent amounts of damage. Heavily armored, extremely low health.
 health: 300
-hitSize: 8
+hitSize: 5
 flying: true
-speed: 5.5
-accel: 0.04
-drag: 0.01
+speed: 4.3
+accel: 0.03
+drag: 0.015
 armor: 6
 rotateSpeed: 2
 outlineColor: 2D2F39
@@ -19,8 +19,8 @@ circleTarget: true
 abilities: [
 {
 type: MoveEffectAbility
-y: 4
-x: 18
+y: 4.2
+x: 6.5
 minVelocity: 1.5
 interval: 1
 effect: disperseTrail
@@ -29,8 +29,8 @@ rotateEffect: true
 }
 {
 type: MoveEffectAbility
-y: 4
-x: -8
+y: 4.2
+x: -6.5
 minVelocity: 1.5
 interval: 1
 effect: disperseTrail
@@ -42,21 +42,21 @@ trailLength: 10
 engines: [
                   {
 			x: 0
-			y: -7
+			y: -6.2
 			radius: 2.5
 			rotation: -90
                         trailLength: 8
 		  }
                   {
-			x: -7
-			y: +2.25
+			x: 0.2
+			y: -6
 			radius: 2.5
 			rotation: -135
                         trailLength: 4
 		  }
                   {
-			x: +7
-			y: +2.25
+			x: -0.2
+			y: -6
 			radius: 2.5
 			rotation: -45
                         trailLength: 4
@@ -71,10 +71,10 @@ weapons: [{
                 rotate: true
 		rotateSpeed: 2.5
                 x: 0
-                y: 0
-                reload: 65
+                y: -3
+                reload: 88
                 shoot: {
-                    shots: 12
+                    shots: 22
                     shotDelay: 0
             }
             inaccuracy: 22
@@ -82,11 +82,11 @@ weapons: [{
             shootSound: shotgun
             bullet: {
                 type: BasicBulletType
-                damage: 15
-                speed: 10
+                damage: 8
+                speed: 5
                 shootEffect: none
                 drag: -0.01
-                lifetime: 15
+                lifetime: 20
                 knockback: -1
                 hitColor: 7781DE
                 color: 7781DE
@@ -113,7 +113,7 @@ bullet: {
 	type: RailBulletType
 	shootEffect: none
 	smokeEffect: none
-	damage: 40
+	damage: 32
 	pointEffect: none
 	endEffect: none
 	hitEffect: hitBulletColor
