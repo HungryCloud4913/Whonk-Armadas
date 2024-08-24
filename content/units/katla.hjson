@@ -19,7 +19,7 @@ abilities: [
 {
 type: ArmorPlateAbility
 drawPlate: false
-healthMultiplier: 0.4
+healthMultiplier: 0.04
 }
   ]
 parts: [
@@ -94,6 +94,7 @@ bullet: {
     pierceBuilding: true
     pierceCap: 3
     lifetime: 60
+    hitEffect: explosion
       }
   ]
     }
