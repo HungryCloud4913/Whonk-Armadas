@@ -1,0 +1,121 @@
+type: flying
+name: Whonk Inferior
+description: A small flying unit wielding one cannon
+health: 2300
+hitSize: 25
+flying: true
+speed: 3
+accel: 0.5
+drag: 0.5
+armor: 20
+rotateSpeed: 6
+outlineColor: 2D2F39
+parts: [
+  {
+    type: RegionPart
+    suffix: -whonk
+    color:  ffffffff
+    outline: true
+    mirror: false
+    moveRot: 180
+  }
+]
+targetair: true
+faceTarget: false
+        engineOffset: 7
+        engineColor: 82AFFF
+        engineColorInner: FFFFFF
+		engines: [
+		  {
+			x: -10
+			y: -10
+			radius: 3
+			rotation: +45
+		        trailLength: 10
+		  }
+		  {
+			x: -10
+			y: +10
+			radius: 3
+			rotation: -45
+		        trailLength: 10
+		  }
+		  {
+			x: +10
+			y: -10
+			radius: 3
+			rotation: +135
+		        trailLength: 10
+		  }
+		  {
+			x: +10
+			y: +10
+			radius: 3
+			rotation: -135
+		        trailLength: 10
+		  }
+ {
+			x: 0
+			y: -14
+			radius: 3
+			rotation: +90
+		        trailLength: 10
+		  }
+		  {
+			x: -0
+			y: +14
+			radius: 3
+			rotation: -90
+		        trailLength: 10
+		  }
+		  {
+			x: -14
+			y: -0
+			radius: 3
+			rotation: 0
+		        trailLength: 10
+		  }
+		  {
+			x: +14
+			y: 0
+			radius: 3
+			rotation: +180
+		        trailLength: 10
+		  }
+		]
+weapons: [{
+                name: whonk-inferior-weapon
+                mirror: false
+                top: true
+                rotate: true
+		rotateSpeed: 5
+                x: 0
+                y: 0
+                reload: 50
+                shoot: {
+                    shots: 5
+                    shotDelay: 2.5
+            }
+            inaccuracy: 1.5
+            recoil: 1
+            shootSound: malignShoot
+            shootEffect: none
+            bullet: {
+                type: missileBulletType
+                damage: 155
+                homing: true
+                speed: 6
+                lifetime: 35
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 5
+                height: 5
+                drag: -0.02
+        trailLength: 5
+        trailColor: 7781DE
+               }
+}
+]

@@ -1,0 +1,293 @@
+type: flying
+name: Whonk
+description: A flying unit wielding multiple energy weapons and two extreme heavy energy launchers
+health: 525000
+hitSize: 150
+flying: true
+speed: 0.5
+accel: 0.5
+drag: 0.5
+armor: 80
+rotateSpeed: 0.3
+outlineColor: 2D2F39
+targetair: true
+faceTarget: true
+        engineOffset: 7
+        engineColor: 82AFFF
+        engineColorInner: FFFFFF
+		engines: [
+		  {
+			x: -20
+			y: -115
+			radius: 8
+			rotation: -90
+		        trailLength: 10
+		  }
+		  {
+			x: +20
+			y: -115
+			radius: 8
+			rotation: -90
+		        trailLength: 10
+		  }
+		  {
+			x: 0
+			y: -120
+			radius: 8
+			rotation: -90
+		        trailLength: 10
+		  }
+		]
+weapons: [{
+                name: pester-cannon-blue
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 3
+                x: +21
+                y: -53
+                reload: 140
+                shoot: {
+                    shots: 2
+                    shotDelay: 5
+            }
+            inaccuracy: 0
+            recoil: 2
+            shootSound: cannon
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 700
+                homing: false
+                speed: 7
+                sprite: large-bomb
+                lifetime: 150
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 80
+                height: 40
+		fragOnHit: true
+		fragBullets: 50
+		splashDamageRadius: 100
+		splashDamage: 700
+		hitEffect: blastExplosion
+        trailLength: 15
+        trailColor: 7781DE
+               }
+}
+{
+                name: pester-laser-blue-full
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 4
+                x: +27
+                y: -16
+                reload: 75
+                shoot: {
+                    shots: 15
+                    shotDelay: 1
+}
+            inaccuracy: 1
+            recoil: 4
+            shootSound: artillery
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 130
+                speed: 5
+                lifetime: 160
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 7
+                length: 10
+        trailLength: 10
+        trailColor: 7781DE
+               }
+}
+{
+                name: pester-laser-blue-full
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 4
+                x: +31
+                y: -83
+                reload: 75
+                shoot: {
+                    shots: 15
+                    shotDelay: 1
+}
+            inaccuracy: 1
+            recoil: 4
+            shootSound: artillery
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 130
+                speed: 5
+                lifetime: 160
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 7
+                length: 10
+        trailLength: 10
+        trailColor: 7781DE
+               }
+}
+{
+                name: pester-laser-blue-full
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 4
+                x: +21
+                y: +23
+                reload: 75
+                shoot: {
+                    shots: 15
+                    shotDelay: 1
+}
+            inaccuracy: 1
+            recoil: 4
+            shootSound: artillery
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 130
+                speed: 5
+                lifetime: 160
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 7
+                length: 10
+        trailLength: 10
+        trailColor: 7781DE
+               }
+}
+{
+                name: whonk-cannon
+                mirror: true
+                alternate: true
+		top: false
+                rotate: false
+		rotateSpeed: 0
+                x: +23
+                y: +98
+                reload: 300
+                shoot: {
+                    shots: 1
+                    shotDelay: 0
+            }
+            inaccuracy: 0
+            recoil: 7.5
+            shootSound: laserblast
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 2000
+                homing: false
+                speed: 7
+                sprite: large-bomb
+                lifetime: 100
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 100
+                height: 135
+                drag: -0.01
+		fragOnHit: true
+		fragBullets: 40
+		fragBullet: {
+					type: MissileBulletType
+					damage: 250
+					keepVelocity: false
+					speed: 6
+					lifetime: 30
+					width: 10
+					height: 10
+                                        backColor: BDD5FF
+                                        frontColor: BDD5FF
+                                        mixColorFrom: BDD5FF
+                                        mixColorTo: 7781DE
+		                        splashDamageRadius: 50
+		                        splashDamage: 50
+                         		hitEffect: blastExplosion
+                                        drag: -0.005
+                                        fragOnHit: true
+		                        fragBullets: 2
+		                        fragBullet: {
+					type: MissileBulletType
+					damage: 250
+					keepVelocity: false
+					speed: 3
+					lifetime: 20
+					width: 5
+					height: 5
+                                        backColor: BDD5FF
+                                        frontColor: BDD5FF
+                                        mixColorFrom: BDD5FF
+                                        mixColorTo: 7781DE
+		                        splashDamageRadius: 25
+		                        splashDamage: 10
+                         		hitEffect: blastExplosion
+                                        drag: -0.01
+				}
+				}
+		splashDamageRadius: 100
+		splashDamage: 1000
+		hitEffect: blastExplosion
+        trailLength: 30
+        trailColor: 7781DE
+               }
+       }
+{
+                name: whonk-railgun
+                mirror: false
+                top: true
+                rotate: true
+		rotateSpeed: 2
+                x: 0
+                y: -100
+                reload: 150
+                shoot: {
+                    shots: 3
+                    shotDelay: 15
+}
+            inaccuracy: 1
+            recoil: 5
+            shootSound: pulseBlast
+            shootEffect: none
+            bullet: {
+		type: RailBulletType
+		shootEffect: instShoot
+                hitEffect: massiveExplosion
+                pierceEffect: railHit
+                smokeEffect: smokeCloud
+                pointEffect: instTrail
+                despawnEffect: instBomb
+                pointEffectSpace: 20
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                damage: 700
+		length: 1000
+		reflectable: true
+               }
+       }
+]
