@@ -19,7 +19,7 @@ abilities: [
 {
 type: ArmorPlateAbility
 drawPlate: false
-healthMultiplier: 0.0002
+healthMultiplier: 0.002
 }
   ]
 parts: [
