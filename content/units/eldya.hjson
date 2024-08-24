@@ -28,6 +28,7 @@ parts: [
 weapons: [
 {
 reload: 120
+baseRot: 90
 shootSound: laser
 shoot: {
 type: ShootSpread
