@@ -52,9 +52,38 @@ bullet: {
   damage: 50
   lifetime: 80
   sideAngle: 5
-  sideLength: 40
+  sideLength: 60
   length: 96
   width: 12
+  largeHit: true
+    }
+}
+{
+reload: 120
+baseRotation: 90
+shootSound: laser
+shoot: {
+type: ShootSpread
+shotDelay: 1
+shots: 2
+spread: 90
+  }
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: LaserBulletType
+  colors:[ffb4b4aa,ffb4b4,ffffff]
+  layer: 80
+  damage: 30
+  lifetime: 80
+  sideAngle: 10
+  sideLength: 40
+  length: 50
+  width: 6
   largeHit: true
     }
 }
