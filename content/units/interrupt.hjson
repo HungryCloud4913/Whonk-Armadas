@@ -46,6 +46,7 @@ weapons: [{
             shootSound: artillery
             shootEffect: none
             bullet: {
+		lightColor: baff94
                 type: ArtilleryBulletType
                 speed: 2.5
                 lifetime: 59.2
@@ -60,10 +61,11 @@ weapons: [{
 		hitEffect: blastExplosion
         trailLength: 5
         trailColor: 65973F
-fragBullets: 2
-         fragBullet: {
          fragVelocityMin: 0.2
          fragVelocityMax: 0.4
+fragBullets: 2
+         fragBullet: {
+		lightColor: baff94
                 type: ArtilleryBulletType
                 lifetime: 25
                 backColor: 65973F
