@@ -1,5 +1,5 @@
 type: flying
-outlineColor: 3c3d42
+outlineColor: 2d2f39 
 flying: true
 hitSize: 12
 speed: 2.2
@@ -23,6 +23,7 @@ parts: [
   progress: warmup
   heatProgress: reload
   weaponIndex: 0
+  layerOffset: -0.000001
     }
 ]
 weapons: [
