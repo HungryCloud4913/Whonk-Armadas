@@ -10,9 +10,9 @@ drag: 0.01
 armor: 30
 rotateSpeed: 3
 outlineColor: 2D2F39
-targetair: true
+targetAir: true
 faceTarget: true
-engineOffset: +15.5
+engineOffset: 15.5
         engineColor: 82AFFF
         engineColorInner: FFFFFF
 trailLength: 10
@@ -71,22 +71,49 @@ weapons: [{
             inaccuracy: 17
             recoil: 1
             shootSound: shotgun
-            shootEffect: none
             bullet: {
-                type: SolidBulletType
+                type: BasicBulletType
                 damage: 70
                 speed: 10
+                shootEffect: none
                 drag: -0.01
                 lifetime: 20
                 knockback: -1
                 hitColor: 7781DE
                 color: 7781DE
-                frontcolor: 7781DE
-                backcolor: 7781DE
+                frontColor: 7781DE
+                backColor: 7781DE
                 width: 10
-                length: 10
-                traillength: 5
+                height: 10
+                trailLength: 5
                 trailColor: 7781DE
             }
       }
+{
+top: false
+shootSound: none
+reload: 5
+baseRotation: 90
+y: 8
+shootY: -1
+shootX: 0
+minShootVelocity: 1.5
+alwaysShooting: true
+bullet: {
+	type: RailBulletType
+	shootEffect: {
+		type: WrapEffect
+		effect: disperseTrail
+		color: bdd5ff
+		}
+	smokeEffect: none
+	damage: 100
+	pointEffect: none
+	endEffect: none
+	hitEffect: hitBulletColor
+	despawnEffect: none
+	length: 18
+	hitColor: bdd5ff
+}
+}
 ]
