@@ -19,7 +19,7 @@ parts: [
     outline: true
     mirror: false
     moveRot: 720
-    weaponIndex: 2
+    weaponIndex: 1
   }
 ]
 targetair: true
@@ -127,13 +127,16 @@ alternate: false
 mirror: false
 alwaysShooting: true
 controllable: false
-aiControllable: false
+shootCone: 360
 display: false
 bullet: {
 type: BulletType
 damage: 0
 lifetime: 0
 shootEffect: none
+hittable: false
+absorbable: false 
+collides: false 
 smokeEffect: none
 hitEffect: none
 despawnEffect: none
