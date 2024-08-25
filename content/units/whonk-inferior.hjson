@@ -19,7 +19,7 @@ parts: [
     outline: true
     mirror: false
     moveRot: 360
-    weaponIndex: 1
+    weaponIndex: 0
   }
   {
     type: RegionPart
@@ -29,7 +29,7 @@ parts: [
     outline: true
     mirror: false
     moveRot: 720
-    weaponIndex: 1
+    weaponIndex: 0
   }
   {
     type: RegionPart
@@ -39,7 +39,7 @@ parts: [
     outline: true
     mirror: false
     moveRot: 180
-    weaponIndex: 1
+    weaponIndex: 0
   }
 ]
 targetair: true
@@ -105,7 +105,79 @@ faceTarget: false
 		        trailLength: 10
 		  }
 		]
-weapons: [{
+weapons: [
+  {
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 140
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+  }
+  {
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 90
+    cooldownTime: 90
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+  }
+  {
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 50
+    cooldownTime: 50
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+  }
+{
                 name: whonk-inferior-weapon
                 mirror: false
                 top: true
@@ -139,27 +211,5 @@ weapons: [{
         trailLength: 7
         trailColor: 7781DE
                }
-}
-{
-shootSound: none
-reload: 120
-alternate: false
-mirror: false
-alwaysShooting: true
-controllable: false
-shootCone: 360
-display: false
-bullet: {
-type: BulletType
-damage: 0
-lifetime: 0
-shootEffect: none
-hittable: false
-absorbable: false 
-collides: false 
-smokeEffect: none
-hitEffect: none
-despawnEffect: none
-}
 }
 ]
