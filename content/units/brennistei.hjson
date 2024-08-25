@@ -10,32 +10,32 @@ rotateSpeed: 2
 abilities: [
   {
 type: ShieldArcAbility
-radius: 30
-angle: 40
+radius: 24
+angle: 35
 max: 600
 regen: 0.2
 angleOffset: 45
   }
   {
 type: ShieldArcAbility
-radius: 30
-angle: 40
+radius: 24
+angle: 35
 max: 600
 regen: 0.2
 angleOffset: 135
   }
   {
 type: ShieldArcAbility
-radius: 30
-angle: 40
+radius: 24
+angle: 35
 max: 600
 regen: 0.2
 angleOffset: 225
   }
   {
 type: ShieldArcAbility
-radius: 30
-angle: 40
+radius: 24
+angle: 35
 max: 600
 regen: 0.2
 angleOffset: 315
