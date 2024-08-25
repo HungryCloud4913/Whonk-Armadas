@@ -146,6 +146,6 @@ shootEffect: none
 smokeEffect: none
 hitEffect: none
 despawnEffect: none
-]
+}
 }
 ]
