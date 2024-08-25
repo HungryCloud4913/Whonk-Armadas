@@ -18,7 +18,27 @@ parts: [
     progress: reload
     outline: true
     mirror: false
+    moveRot: 360
+    weaponIndex: 1
+  }
+  {
+    type: RegionPart
+    suffix: -whonk
+    color:  ffffffff
+    progress: reload
+    outline: true
+    mirror: false
     moveRot: 720
+    weaponIndex: 1
+  }
+  {
+    type: RegionPart
+    suffix: -whonk
+    color:  ffffffff
+    progress: reload
+    outline: true
+    mirror: false
+    moveRot: 180
     weaponIndex: 1
   }
 ]
