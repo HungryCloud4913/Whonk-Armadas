@@ -60,7 +60,7 @@ parts: [
   under: true
   moveX: 6
   moveY: -6
-  suffix: -arm-top
+  suffix: -arm-bottom
   heatColor: ff3535
   progress: warmup
   heatProgress: reload
@@ -72,7 +72,7 @@ weapons: [
 {
 reload: 120
 baseRotation: 90
-shootSound: beam
+shootSound: laser
 shoot: {
 type: ShootSpread
 shotDelay: 1
@@ -99,7 +99,7 @@ bullet: {
 {
 reload: 120
 baseRotation: 0
-shootSound: beam
+shootSound: laser
 shoot: {
 type: ShootSpread
 shotDelay: 1
