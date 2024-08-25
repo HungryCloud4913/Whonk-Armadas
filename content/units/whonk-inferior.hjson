@@ -15,10 +15,11 @@ parts: [
     type: RegionPart
     suffix: -whonk
     color:  ffffffff
+    progress: reload
     outline: true
     mirror: false
     moveRot: 720
-    weaponIndex: 1
+    weaponIndex: 2
   }
 ]
 targetair: true
@@ -125,6 +126,9 @@ reload: 120
 alternate: false
 mirror: false
 alwaysShooting: true
+controllable: false
+aiControllable: false
+display: false
 bullet: {
 type: BulletType
 damage: 0
