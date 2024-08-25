@@ -10,17 +10,34 @@ abilities: [
   {
 type: ShieldArcAbility
 radius: 30
-angle: 120
+angle: 20
 max: 600
 regen: 0.2
+angleOffset: 45
   }
   {
 type: ShieldArcAbility
 radius: 30
-angle: 120
+angle: 20
 max: 600
 regen: 0.2
-angleOffset: 180
+angleOffset: 135
+  }
+  {
+type: ShieldArcAbility
+radius: 30
+angle: 20
+max: 600
+regen: 0.2
+angleOffset: 225
+  }
+  {
+type: ShieldArcAbility
+radius: 30
+angle: 20
+max: 600
+regen: 0.2
+angleOffset: 315
   }
 ]
 engines: [
