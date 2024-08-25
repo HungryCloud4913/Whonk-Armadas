@@ -18,7 +18,7 @@ parts: [
     outline: true
     mirror: false
     moveRot: 720
-    weaponIndex: 2
+    weaponIndex: 1
   }
 ]
 targetair: true
