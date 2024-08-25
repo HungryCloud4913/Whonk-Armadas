@@ -15,24 +15,9 @@ parts: [
     type: RegionPart
     suffix: -whonk
     color:  ffffffff
-    colorTo: ffffff00
-    mixColorTo: ffffff00
     outline: true
     mirror: false
-    moveRot: 180
-    weaponIndex: 2
-  }
-  {
-    type: RegionPart
-    suffix: -whonk
-    colorTo:  ffffffff
-    color: ffffff00
-    mixColor: ffffff00
-    mixColorTo: 00000000
-    outline: true
-    mirror: false
-    moveRot: 180
-    rotation: 180
+    moveRot: 720
     weaponIndex: 2
   }
 ]
