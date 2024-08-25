@@ -99,10 +99,18 @@ reload: 120
 baseRotation: 90
 shootSound: laser
 shoot: {
+type: ShootMulti
+source:{
 type: ShootSpread
-shotDelay: 1
 shots: 2
 spread: 90
+}
+dest: [
+{
+shots: 10
+shotDelay: 1
+}
+]
   }
 rotate: false
 shootCone: 90
@@ -111,14 +119,16 @@ x: 0
 y: 0
 shootY: 0
 bullet: {
-  type: ContinuousLaserBulletType
-  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  type: LaserBulletType
+  colors:[ffb4b4aa,ffb4b4,ffffff]
   layer: 80
-  damage: 20
+  damage: 30
   lifetime: 60
   length: 140
   width: 8
   largeHit: true
+  sideAngle: 10
+  sideLength: 50
     }
 }
 {
@@ -126,10 +136,18 @@ reload: 120
 baseRotation: 0
 shootSound: laser
 shoot: {
+type: ShootMulti
+source:{
 type: ShootSpread
-shotDelay: 1
 shots: 2
 spread: 90
+}
+dest: [
+{
+shots: 10
+shotDelay: 1
+}
+]
   }
 rotate: false
 shootCone: 90
@@ -138,20 +156,22 @@ x: 0
 y: 0
 shootY: 0
 bullet: {
-  type: ContinuousLaserBulletType
-  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  type: LaserBulletType
+  colors:[ffb4b4aa,ffb4b4,ffffff]
   layer: 80
-  damage: 10
+  damage: 25
   lifetime: 70
   length: 80
   width: 8
   largeHit: true
+  sideAngle: 10
+  sideLength: 30
     }
 }
 {
 name: shock-lasergun
 reload: 60
-shootSound: zap
+shootSound: spark
 x: 0
 y: 0
 mirror: false
