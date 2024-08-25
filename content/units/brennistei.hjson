@@ -6,35 +6,36 @@ speed: 2.15
 health: 3700
 armor: 5
 engineSize: 5
+rotateSpeed: 2
 abilities: [
   {
 type: ShieldArcAbility
-radius: 40
-angle: 30
+radius: 30
+angle: 40
 max: 600
 regen: 0.2
 angleOffset: 45
   }
   {
 type: ShieldArcAbility
-radius: 40
-angle: 30
+radius: 30
+angle: 40
 max: 600
 regen: 0.2
 angleOffset: 135
   }
   {
 type: ShieldArcAbility
-radius: 40
-angle: 30
+radius: 30
+angle: 40
 max: 600
 regen: 0.2
 angleOffset: 225
   }
   {
 type: ShieldArcAbility
-radius: 40
-angle: 30
+radius: 30
+angle: 40
 max: 600
 regen: 0.2
 angleOffset: 315
@@ -44,12 +45,12 @@ engines: [
   {
 radius: 5
 x: 10
-rotation: -180
+rotation: 0
 }
   {
 radius: 5
 x: -10
-rotation: 0
+rotation: -180
 }
   {
 radius: 5
