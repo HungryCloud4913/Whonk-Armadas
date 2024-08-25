@@ -21,26 +21,6 @@ parts: [
     moveRot: 360
     weaponIndex: 0
   }
-  {
-    type: RegionPart
-    suffix: -whonk
-    color:  ffffffff
-    progress: reload
-    outline: true
-    mirror: false
-    moveRot: 720
-    weaponIndex: 0
-  }
-  {
-    type: RegionPart
-    suffix: -whonk
-    color:  ffffffff
-    progress: reload
-    outline: true
-    mirror: false
-    moveRot: 180
-    weaponIndex: 0
-  }
 ]
 targetair: true
 faceTarget: false
