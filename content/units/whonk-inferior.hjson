@@ -20,18 +20,20 @@ parts: [
     outline: true
     mirror: false
     moveRot: 180
-    weaponIndex: 1
+    weaponIndex: 2
   }
   {
     type: RegionPart
     suffix: -whonk
-    color:  ffffffff
-    colorTo: ffffff00
-    mixColorTo: ffffff00
+    colorTo:  ffffffff
+    color: ffffff00
+    mixColor: ffffff00
+    mixColorTo: 00000000
     outline: true
     mirror: false
     moveRot: 180
-    weaponIndex: 1
+    rotation: 180
+    weaponIndex: 2
   }
 ]
 targetair: true
