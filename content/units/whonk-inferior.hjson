@@ -15,9 +15,23 @@ parts: [
     type: RegionPart
     suffix: -whonk
     color:  ffffffff
+    colorTo: ffffff00
+    mixColorTo: ffffff00
     outline: true
     mirror: false
     moveRot: 180
+    weaponIndex: 1
+  }
+  {
+    type: RegionPart
+    suffix: -whonk
+    color:  ffffffff
+    colorTo: ffffff00
+    mixColorTo: ffffff00
+    outline: true
+    mirror: false
+    moveRot: 180
+    weaponIndex: 1
   }
 ]
 targetair: true
@@ -117,5 +131,21 @@ weapons: [{
         trailLength: 7
         trailColor: 7781DE
                }
+}
+{
+shootSound: none
+reload: 120
+alternate: false
+mirror: false
+alwaysShooting: true
+bullet: {
+type: BulletType
+damage: 0
+lifetime: 0
+shootEffect: none
+smokeEffect: none
+hitEffect: none
+despawnEffect: none
+]
 }
 ]
