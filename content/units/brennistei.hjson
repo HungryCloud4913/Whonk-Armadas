@@ -113,7 +113,7 @@ shotDelay: 1
 ]
   }
 rotate: false
-shootCone: 90
+shootCone: 180
 mirror: false
 x: 0
 y: 0
@@ -150,7 +150,7 @@ shotDelay: 1
 ]
   }
 rotate: false
-shootCone: 90
+shootCone: 180
 mirror: false
 x: 0
 y: 0
