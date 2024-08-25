@@ -1,0 +1,148 @@
+type: flying
+outlineColor: 2d2f39 
+flying: true
+hitSize: 10
+speed: 2.15
+health: 700
+armor: 4
+engineSize: 5
+abilities: [
+  {
+type: ShieldArcAbility
+radius: 80
+angle: 360
+max: 100
+regen: 0.2
+  }
+]
+engines: [
+  {
+radius: 5
+x: 10
+rotation: -90
+}
+  {
+radius: 5
+x: -10
+rotation: 90
+}
+  {
+radius: 5
+y: 10
+rotation: 180
+}
+]
+engineOffset: 10
+engineColor: ffb4b4 
+targetAir: true
+faceTarget: true
+fogRadius: 18
+lowAltitude: true
+drag: 0.06
+accel: 0.08
+parts: [
+  {
+  type: RegionPart
+  mirror: true
+  under: true
+  moveX: 6
+  moveY: 6
+  suffix: -arm-top
+  heatColor: ff3535
+  progress: warmup
+  heatProgress: reload
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+    {
+  type: RegionPart
+  mirror: true
+  under: true
+  moveX: 6
+  moveY: -6
+  suffix: -arm-top
+  heatColor: ff3535
+  progress: warmup
+  heatProgress: reload
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+]
+weapons: [
+{
+reload: 120
+baseRotation: 90
+shootSound: beam
+shoot: {
+type: ShootSpread
+shotDelay: 1
+shots: 2
+spread: 90
+  }
+rotate: false
+shootCone: 90
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 20
+  lifetime: 60
+  length: 140
+  width: 8
+  largeHit: true
+    }
+}
+{
+reload: 120
+baseRotation: 0
+shootSound: beam
+shoot: {
+type: ShootSpread
+shotDelay: 1
+shots: 2
+spread: 90
+  }
+rotate: false
+shootCone: 90
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 10
+  lifetime: 70
+  length: 80
+  width: 8
+  largeHit: true
+    }
+}
+{
+name: shock-lasergun
+reload: 60
+shootSound: zap
+x: 0
+y: 0
+mirror: false
+rotate: true
+shootY: 1
+bullet: {
+  type: LaserBulletType
+  damage: 30
+  pierceCap: 10
+  length: 120
+  sideAngle: 10
+  sideLength: 40
+  colors:[ffb4b4aa,ffb4b4,ffffff]
+  width: 4
+  largeHit: true
+  lifetime: 30
+    }
+}
+  ]
