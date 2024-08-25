@@ -1,18 +1,26 @@
 type: flying
 outlineColor: 2d2f39 
 flying: true
-hitSize: 10
+hitSize: 22
 speed: 2.15
-health: 700
-armor: 4
+health: 3700
+armor: 5
 engineSize: 5
 abilities: [
   {
 type: ShieldArcAbility
-radius: 80
-angle: 360
-max: 100
+radius: 30
+angle: 120
+max: 600
 regen: 0.2
+  }
+  {
+type: ShieldArcAbility
+radius: 30
+angle: 120
+max: 600
+regen: 0.2
+angleOffset: 180
   }
 ]
 engines: [
