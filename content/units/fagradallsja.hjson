@@ -97,8 +97,9 @@ parts: [
 weapons: [
 {
 reload: 120
-baseRotation: 90
+baseRotation: 45
 shootSound: beam
+continuous: true
 shoot: {
 type: ShootSpread
 shots: 4
