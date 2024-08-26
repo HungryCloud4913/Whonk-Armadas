@@ -205,26 +205,51 @@ weapons: [
             bullet: {
                 type: SolidBulletType
                 damage: 1000
-                homing: false
                 speed: 10
                 lifetime: 100
-                knockback: -1
+                knockback: 0
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 1000000
+                absorbable: false
                 backColor: BDD5FF
                 frontColor: BDD5FF
                 mixColorFrom: BDD5FF
                 mixColorTo: 7781DE
                 width: 20
                 height: 20
-                drag: -0.01
-		fragOnHit: true
-		fragBullets: 100
-		splashDamageRadius: 100
+		splashDamageRadius: 10
 		splashDamage: 10
 		hitEffect: blastExplosion
-        trailLength: 30
-        trailColor: 5868FF
+                bulletInterval: 1
+                intervalRandomSpread: 0
+                intervalSpread: 0
+                intervalAngle: 0
+                intervalBullet: {
+                type: SolidBulletType
+                damage: 25
+                speed: 1
+                lifetime: 1
+                knockback: 0
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 1000000
+                absorbable: false
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 20
+                height: 20
+		splashDamageRadius: 10
+		splashDamage: 10
+		hitEffect: blastExplosion
                }
-}
+        trailLength: 30
+        trailColor: 7781DE
+               }
 {
                 name: ancient-executor-blue-full
                 mirror: true
@@ -245,26 +270,51 @@ weapons: [
             bullet: {
                 type: SolidBulletType
                 damage: 1000
-                homing: false
                 speed: 10
                 lifetime: 100
-                knockback: -1
+                knockback: 0
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 1000000
+                absorbable: false
                 backColor: BDD5FF
                 frontColor: BDD5FF
                 mixColorFrom: BDD5FF
                 mixColorTo: 7781DE
                 width: 20
                 height: 20
-                drag: -0.01
-		fragOnHit: true
-		fragBullets: 100
-		splashDamageRadius: 100
+		splashDamageRadius: 10
 		splashDamage: 10
 		hitEffect: blastExplosion
-        trailLength: 30
-        trailColor: 5868FF
+                bulletInterval: 1
+                intervalRandomSpread: 0
+                intervalSpread: 0
+                intervalAngle: 0
+                intervalBullet: {
+                type: SolidBulletType
+                damage: 25
+                speed: 1
+                lifetime: 1
+                knockback: 0
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 1000000
+                absorbable: false
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 20
+                height: 20
+		splashDamageRadius: 10
+		splashDamage: 10
+		hitEffect: blastExplosion
                }
-}
+        trailLength: 30
+        trailColor: 7781DE
+               }
 {
                 name: ancient-executor-blue-full
                 mirror: true
@@ -285,26 +335,51 @@ weapons: [
             bullet: {
                 type: SolidBulletType
                 damage: 1000
-                homing: false
                 speed: 10
                 lifetime: 100
-                knockback: -1
+                knockback: 0
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 1000000
+                absorbable: false
                 backColor: BDD5FF
                 frontColor: BDD5FF
                 mixColorFrom: BDD5FF
                 mixColorTo: 7781DE
                 width: 20
                 height: 20
-                drag: -0.01
-		fragOnHit: true
-		fragBullets: 100
-		splashDamageRadius: 100
+		splashDamageRadius: 10
 		splashDamage: 10
 		hitEffect: blastExplosion
-        trailLength: 30
-        trailColor: 5868FF
+                bulletInterval: 1
+                intervalRandomSpread: 0
+                intervalSpread: 0
+                intervalAngle: 0
+                intervalBullet: {
+                type: SolidBulletType
+                damage: 25
+                speed: 1
+                lifetime: 1
+                knockback: 0
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 1000000
+                absorbable: false
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 20
+                height: 20
+		splashDamageRadius: 10
+		splashDamage: 10
+		hitEffect: blastExplosion
                }
-}
+        trailLength: 30
+        trailColor: 7781DE
+               }
 {
                 name: ancient-executor-blue-full
                 mirror: true
@@ -325,24 +400,49 @@ weapons: [
             bullet: {
                 type: SolidBulletType
                 damage: 1000
-                homing: false
                 speed: 10
                 lifetime: 100
-                knockback: -1
+                knockback: 0
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 1000000
+                absorbable: false
                 backColor: BDD5FF
                 frontColor: BDD5FF
                 mixColorFrom: BDD5FF
                 mixColorTo: 7781DE
                 width: 20
                 height: 20
-                drag: -0.01
-		fragOnHit: true
-		fragBullets: 100
-		splashDamageRadius: 100
+		splashDamageRadius: 10
 		splashDamage: 10
 		hitEffect: blastExplosion
-        trailLength: 30
-        trailColor: 5868FF
+                bulletInterval: 1
+                intervalRandomSpread: 0
+                intervalSpread: 0
+                intervalAngle: 0
+                intervalBullet: {
+                type: SolidBulletType
+                damage: 25
+                speed: 1
+                lifetime: 1
+                knockback: 0
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 1000000
+                absorbable: false
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: 7781DE
+                width: 20
+                height: 20
+		splashDamageRadius: 10
+		splashDamage: 10
+		hitEffect: blastExplosion
                }
-}
+        trailLength: 30
+        trailColor: 7781DE
+               }
 ]
