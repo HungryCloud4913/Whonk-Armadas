@@ -79,7 +79,6 @@ bullet: {
   layer: 80
   damage: 50
   lifetime: 180
-  recoil: 1
   length: 160
   width: 10
   largeHit: true
@@ -106,7 +105,6 @@ bullet: {
   length: 160
   width: 10
   largeHit: true
-  recoil: 1
   hitColor: ffb4b4
     }
 }
@@ -127,7 +125,6 @@ bullet: {
   layer: 80
   damage: 50
   lifetime: 180
-  recoil: 1
   length: 160
   width: 10
   largeHit: true
@@ -154,7 +151,6 @@ bullet: {
   length: 160
   width: 10
   largeHit: true
-  recoil: 1
   hitColor: ffb4b4
     }
 }
