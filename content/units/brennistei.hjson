@@ -7,6 +7,12 @@ health: 3700
 armor: 5
 engineSize: 5
 rotateSpeed: 2
+circleTarget: true
+targetFlags: [
+  drill,
+  generator,
+  core
+  ]
 abilities: [
   {
 type: ShieldArcAbility
@@ -61,7 +67,7 @@ rotation: 90
 engineOffset: 10
 engineColor: ffb4b4 
 targetAir: true
-faceTarget: true
+faceTarget: false
 fogRadius: 18
 lowAltitude: true
 drag: 0.06
