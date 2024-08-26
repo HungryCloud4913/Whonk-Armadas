@@ -7,7 +7,7 @@ health: 14500
 armor: 8
 engineSize: 6
 rotateSpeed: 2
-strafePenalty: 0
+strafePenalty: 1
 engines: [
   {
 radius: 6
