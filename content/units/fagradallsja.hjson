@@ -7,40 +7,6 @@ health: 14500
 armor: 8
 engineSize: 6
 rotateSpeed: 2
-abilities: [
-  {
-type: ShieldArcAbility
-radius: 24
-angle: 40
-max: 600
-regen: 0.2
-angleOffset: 45
-  }
-  {
-type: ShieldArcAbility
-radius: 24
-angle: 40
-max: 600
-regen: 0.2
-angleOffset: 135
-  }
-  {
-type: ShieldArcAbility
-radius: 24
-angle: 40
-max: 600
-regen: 0.2
-angleOffset: 225
-  }
-  {
-type: ShieldArcAbility
-radius: 24
-angle: 40
-max: 600
-regen: 0.2
-angleOffset: 315
-  }
-]
 engines: [
   {
 radius: 6
@@ -97,14 +63,78 @@ parts: [
 weapons: [
 {
 reload: 120
-baseRotation: 45
+baseRotation: 0
 shootSound: beam
 continuous: true
-shoot: {
-type: ShootSpread
-shots: 4
-spread: 90
-  }
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 160
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 120
+baseRotation: 90
+shootSound: beam
+continuous: true
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 160
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 120
+baseRotation: 180
+shootSound: beam
+continuous: true
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 160
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 120
+baseRotation: 270
+shootSound: beam
+continuous: true
 rotate: false
 shootCone: 180
 mirror: false
@@ -192,6 +222,7 @@ bullet: {
       lightning: 3
       lightningDamage: 4
       hitSound: spark
+      lightningColor: ffb4b4
         }
     }
 }
