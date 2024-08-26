@@ -97,40 +97,12 @@ parts: [
 weapons: [
 {
 reload: 120
-baseRotation: 90
+baseRotation: 45
 shootSound: beam
 continuous: true
 shoot: {
 type: ShootSpread
-shots: 2
-spread: 90
-  }
-rotate: false
-shootCone: 180
-mirror: false
-x: 0
-y: 0
-shootY: 0
-bullet: {
-  type: ContinuousLaserBulletType
-  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
-  layer: 80
-  damage: 50
-  lifetime: 180
-  length: 160
-  width: 10
-  largeHit: true
-  hitColor: ffb4b4
-    }
-}
-{
-reload: 120
-baseRotation: 90
-shootSound: beam
-continuous: true
-shoot: {
-type: ShootSpread
-shots: 2
+shots: 4
 spread: 90
   }
 rotate: false
