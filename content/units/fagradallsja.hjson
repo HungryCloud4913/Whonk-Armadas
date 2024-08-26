@@ -7,6 +7,7 @@ health: 14500
 armor: 8
 engineSize: 6
 rotateSpeed: 2
+strafePenalty: 0
 engines: [
   {
 radius: 6
@@ -78,6 +79,7 @@ bullet: {
   layer: 80
   damage: 50
   lifetime: 180
+  recoil: 1
   length: 160
   width: 10
   largeHit: true
@@ -104,6 +106,7 @@ bullet: {
   length: 160
   width: 10
   largeHit: true
+  recoil: 1
   hitColor: ffb4b4
     }
 }
@@ -124,6 +127,7 @@ bullet: {
   layer: 80
   damage: 50
   lifetime: 180
+  recoil: 1
   length: 160
   width: 10
   largeHit: true
@@ -150,6 +154,7 @@ bullet: {
   length: 160
   width: 10
   largeHit: true
+  recoil: 1
   hitColor: ffb4b4
     }
 }
@@ -210,6 +215,7 @@ bullet: {
   fragSpread: 15
   shootWarmupSpeed: 0.05
   minWarmup: 0.5
+  recoil: 1
   fragBullet: {
       type: LaserBulletType
       length: 32
