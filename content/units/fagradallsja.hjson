@@ -134,7 +134,7 @@ shootY: 0
 shoot: {
     type: ShootSpread
     shots: 30
-    spread: 12
+    spread: 6
       }
 bullet: {
   type: MissileBulletType
@@ -177,6 +177,8 @@ bullet: {
   fragBullets: 3
   fragRandomSpread: 0
   fragSpread: 15
+  shootWarmupSpeed: 0.05
+  minWarmup: 0.5
   fragBullet: {
       type: LaserBulletType
       length: 32
