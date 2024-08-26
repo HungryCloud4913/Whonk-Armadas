@@ -9,11 +9,17 @@ engineSize: 4
 engineOffset: 6
 engineColor: ffb4b4 
 targetAir: true
-faceTarget: true
+faceTarget: false
 fogRadius: 12
 lowAltitude: true
 drag: 0.06
 accel: 0.08
+circleTarget: true
+targetFlags: [
+  generator,
+  duct,
+  core
+  ]
 parts: [
   {
   type: RegionPart
