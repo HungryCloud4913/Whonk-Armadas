@@ -1,0 +1,195 @@
+type: flying
+outlineColor: 2d2f39 
+flying: true
+hitSize: 22
+speed: 2
+health: 14500
+armor: 8
+engineSize: 6
+rotateSpeed: 2
+abilities: [
+  {
+type: ShieldArcAbility
+radius: 24
+angle: 40
+max: 600
+regen: 0.2
+angleOffset: 45
+  }
+  {
+type: ShieldArcAbility
+radius: 24
+angle: 40
+max: 600
+regen: 0.2
+angleOffset: 135
+  }
+  {
+type: ShieldArcAbility
+radius: 24
+angle: 40
+max: 600
+regen: 0.2
+angleOffset: 225
+  }
+  {
+type: ShieldArcAbility
+radius: 24
+angle: 40
+max: 600
+regen: 0.2
+angleOffset: 315
+  }
+]
+engines: [
+  {
+radius: 6
+x: 14
+rotation: 0
+}
+  {
+radius: 6
+x: -14
+rotation: -180
+}
+  {
+radius: 6
+y: 14
+rotation: 90
+}
+]
+engineOffset: 14
+engineColor: ffb4b4 
+targetAir: true
+faceTarget: true
+fogRadius: 18
+lowAltitude: true
+drag: 0.08
+accel: 0.09
+parts: [
+  {
+  type: RegionPart
+  mirror: true
+  under: true
+  moveX: 7
+  moveY: 7
+  suffix: -arm
+  heatColor: ff3535
+  progress: warmup
+  heatProgress: reload
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+    {
+  type: RegionPart
+  mirror: true
+  under: true
+  moveX: 7
+  moveY: -7
+  suffix: -arm-bottom
+  heatColor: ff3535
+  progress: warmup
+  heatProgress: reload
+  weaponIndex: 0
+  layerOffset: -0.001
+    }
+]
+weapons: [
+{
+reload: 120
+baseRotation: 90
+shootSound: beam
+shoot: {
+type: ShootSpread
+shots: 4
+spread: 45
+  }
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 160
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 180
+shootSound: largeCannon
+x: 0
+y: 0
+mirror: false
+rotate: false
+shootCone: 360
+shootY: 0
+shoot: {
+    type: ShootSpread
+    shots: 30
+    spread: 12
+      }
+bullet: {
+  type: MissileBulletType
+  shootEffect: shootBigColor
+  smokeEffect: {
+        type: MultiEffect
+        effects: [shootSmokeSquareBig, {
+            type: WaveEffect
+            lifetime: 30
+            interp: pow5Out
+            colorTo: ffb4b4
+            lightColor: ffb4b4
+            sizeTo: 80
+            strokeFrom: 5
+              }
+          ]
+          }
+  frontColor: ffffff
+  backColor: ffb4b4
+  width: 8
+  height: 10
+  largeHit: true
+  lifetime: 30
+  weaveMag: 10
+  weaveScl: 1
+  speed: 3
+  lifetime: 80
+  drag: 0.01
+  trailLength: 10
+  trailWidth: 2.2
+  trailColor: ffb4b4
+  lightColor: ffb4b4
+  trailSinScl: 2
+  trailSinMag: 0.9
+  damage: 10
+  splashDamage: 12
+  splashDamageRadius: 13
+  splashDamagePierce: true
+  hitEffect: hitSquaresColor
+  fragBullets: 3
+  fragRandomSpread: 0
+  fragSpread: 15
+  fragBullet: {
+      type: LaserBulletType
+      length: 32
+      width: 6
+      lifetime: 50
+      sideAngle: 15
+      sideLength: 16
+      colors: [ffb4b4aa, ffb4b4, ffffff]
+      damage: 8
+      lightning: 3
+      lightningDamage: 4
+      hitSound: spark
+        }
+    }
+}
+  ]
