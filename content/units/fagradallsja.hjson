@@ -1,7 +1,7 @@
 type: flying
 outlineColor: 2d2f39 
 flying: true
-hitSize: 22
+hitSize: 38
 speed: 2
 health: 14500
 armor: 8
