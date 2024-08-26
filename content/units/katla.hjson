@@ -10,7 +10,13 @@ engineSize: 4
 engineOffset: 8
 engineColor: ffb4b4 
 targetAir: true
-faceTarget: true
+faceTarget: false
+circleTarget: true
+targetFlags: [
+  factory,
+  drill,
+  core
+  ]
 fogRadius: 15
 lowAltitude: true
 drag: 0.06
