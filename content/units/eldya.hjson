@@ -17,7 +17,7 @@ accel: 0.08
 circleTarget: true
 targetFlags: [
   generator,
-  duct,
+  extinguisher,
   core
   ]
 parts: [
