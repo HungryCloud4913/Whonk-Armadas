@@ -109,7 +109,7 @@ parts: [
     progress: reload
     outline: true
     mirror: false
-    moveRot: 360
+    moveRot: 90
     weaponIndex: 0
   }
 ]
