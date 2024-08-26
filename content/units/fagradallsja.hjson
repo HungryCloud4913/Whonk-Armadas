@@ -211,7 +211,8 @@ bullet: {
   fragSpread: 15
   shootWarmupSpeed: 0.05
   minWarmup: 0.5
-  recoil: 1
+  recoil: 0.1
+  keepVelocity: false
   fragBullet: {
       type: LaserBulletType
       length: 32
