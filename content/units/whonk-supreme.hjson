@@ -206,7 +206,7 @@ weapons: [
                 type: SolidBulletType
                 damage: 1000
                 speed: 13
-                drag: -0.075
+                drag: -0.005
                 lifetime: 150
                 knockback: 0
                 pierce: true
@@ -229,7 +229,7 @@ weapons: [
                 intervalAngle: 0
                 intervalBullet: {
                 type: SolidBulletType
-                damage: 25
+                damage: 500
                 speed: 1
                 lifetime: 1
                 knockback: 0
@@ -244,8 +244,8 @@ weapons: [
                 mixColorTo: 7781DE
                 width: 20
                 height: 20
-		splashDamageRadius: 10
-		splashDamage: 10
+		splashDamageRadius: 15
+		splashDamage: 500
 		hitEffect: blastExplosion
                }
         trailLength: 30
@@ -273,7 +273,7 @@ weapons: [
                 type: SolidBulletType
                 damage: 1000
                 speed: 13
-                drag: -0.075
+                drag: -0.005
                 lifetime: 150
                 knockback: 0
                 pierce: true
@@ -296,7 +296,7 @@ weapons: [
                 intervalAngle: 0
                 intervalBullet: {
                 type: SolidBulletType
-                damage: 25
+                damage: 500
                 speed: 1
                 lifetime: 1
                 knockback: 0
@@ -311,8 +311,8 @@ weapons: [
                 mixColorTo: 7781DE
                 width: 20
                 height: 20
-		splashDamageRadius: 10
-		splashDamage: 10
+		splashDamageRadius: 15
+		splashDamage: 500
 		hitEffect: blastExplosion
                }
         trailLength: 30
@@ -340,7 +340,7 @@ weapons: [
                 type: SolidBulletType
                 damage: 1000
                 speed: 13
-                drag: -0.075
+                drag: -0.005
                 lifetime: 150
                 knockback: 0
                 pierce: true
@@ -363,7 +363,7 @@ weapons: [
                 intervalAngle: 0
                 intervalBullet: {
                 type: SolidBulletType
-                damage: 25
+                damage: 500
                 speed: 1
                 lifetime: 1
                 knockback: 0
@@ -378,8 +378,8 @@ weapons: [
                 mixColorTo: 7781DE
                 width: 20
                 height: 20
-		splashDamageRadius: 10
-		splashDamage: 10
+		splashDamageRadius: 15
+		splashDamage: 500
 		hitEffect: blastExplosion
                }
         trailLength: 30
@@ -407,7 +407,7 @@ weapons: [
                 type: SolidBulletType
                 damage: 1000
                 speed: 13
-                drag: -0.075
+                drag: -0.005
                 lifetime: 150
                 knockback: 0
                 pierce: true
@@ -430,7 +430,7 @@ weapons: [
                 intervalAngle: 0
                 intervalBullet: {
                 type: SolidBulletType
-                damage: 25
+                damage: 500
                 speed: 1
                 lifetime: 1
                 knockback: 0
@@ -445,8 +445,8 @@ weapons: [
                 mixColorTo: 7781DE
                 width: 20
                 height: 20
-		splashDamageRadius: 10
-		splashDamage: 10
+		splashDamageRadius: 15
+		splashDamage: 500
 		hitEffect: blastExplosion
                }
         trailLength: 30
