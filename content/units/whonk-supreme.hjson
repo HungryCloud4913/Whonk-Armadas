@@ -250,6 +250,7 @@ weapons: [
         trailLength: 30
         trailColor: 7781DE
                }
+}
 {
                 name: ancient-executor-blue-full
                 mirror: true
@@ -315,6 +316,7 @@ weapons: [
         trailLength: 30
         trailColor: 7781DE
                }
+}
 {
                 name: ancient-executor-blue-full
                 mirror: true
@@ -380,6 +382,7 @@ weapons: [
         trailLength: 30
         trailColor: 7781DE
                }
+}
 {
                 name: ancient-executor-blue-full
                 mirror: true
@@ -445,4 +448,5 @@ weapons: [
         trailLength: 30
         trailColor: 7781DE
                }
+}
 ]
