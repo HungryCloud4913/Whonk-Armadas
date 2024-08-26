@@ -28,7 +28,13 @@ rotation: 90
 engineOffset: 14
 engineColor: ffb4b4 
 targetAir: true
-faceTarget: true
+faceTarget: false
+circleTarget: true
+targetFlags: [
+  reactor,
+  storage,
+  core
+  ]
 fogRadius: 18
 lowAltitude: true
 drag: 0.08
