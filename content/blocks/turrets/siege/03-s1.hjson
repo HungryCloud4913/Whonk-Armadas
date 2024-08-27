@@ -2,6 +2,7 @@ type: ItemTurret
 reload: 180
 range: 250
 size: 1
+category: turret
 drawer:{
 type: DrawTurret
 basePrefix: siege-
@@ -29,12 +30,12 @@ ammoTypes: {
     frontColor: ffffff
     backColor: baff94
     weaveMag: 16
-    weaveScl: 4
+    weaveScl: 8
     speed: 2
     lifetime: 125
     trailChance: 0
     trailLength: 20
-    trailWidth: 1.2
+    trailWidth: 1+2.2
     trailColor: baff94
     hitEffect: explosion
     despawnEffect: none
