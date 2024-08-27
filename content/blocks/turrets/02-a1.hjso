@@ -1,0 +1,74 @@
+type: ItemTurret
+reload: 40
+range: 100
+size: 1
+drawer: {
+type: DrawTurret
+basePrefix: assault-
+  }
+heatColor: bdd5ff
+category: turret
+shootSound: bang
+shootY: 3.5
+shoot: {
+  type: ShootSine
+  shots: 3
+  scl: 3
+  mag: 15
+  shotDelay: 3
+    }
+ammoTypes: {
+  meridium: {
+    type: BasicBulletType
+    damage: 15
+    hitColor: BDD5FF
+    trailColor: BDD5FF
+    backColor: BDD5FF
+    frontColor: ffffff
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    shootEffect: shootSmallColor
+    smokeEffect:{
+      type: WaveEffect
+      lifetime: 15
+      colorTo: BDD5FF
+      sizeTo: 6
+      strokeFrom: 1
+        }
+    trailLength: 10
+    trailWidth: 1.2
+    height: 8
+    width: 6
+    lifetime: 25
+    speed: 4
+    shrinkY: 0
+    shrinkX: 0.3
+      }
+  inferior-assault-plating: {
+    type: BasicBulletType
+    damage: 20
+    rangeChange: 100
+    hitColor: 7781DE
+    trailColor: 7781DE
+    backColor: 7781DE
+    frontColor: ffffff
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    shootEffect: shootSmallColor
+    smokeEffect:{
+      type: WaveEffect
+      lifetime: 15
+      colorTo: 7781DE
+      sizeTo: 6
+      strokeFrom: 1
+        }
+    trailLength: 13
+    trailWidth: 1.4
+    height: 10
+    width: 8
+    lifetime: 50
+    speed: 4
+    shrinkY: 0
+    shrinkX: 0.3
+      }
+}
