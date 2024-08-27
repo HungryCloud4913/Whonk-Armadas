@@ -33,6 +33,8 @@ shootType: {
   backColor: bfffe4
   trailColor: bfffe4
   hitColor: bfffe4
+  shootEffect: shootSmallColor
+  smokeEffect: colorSpark
   despawnEffect: {
     type: WaveEffect
     colorTo: bfffe4
