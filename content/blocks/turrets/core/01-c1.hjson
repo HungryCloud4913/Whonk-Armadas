@@ -1,6 +1,6 @@
 type: PowerTurret
 size: 1
-category: turrets
+category: turret
 drawer: {
 type: DrawTurret
 basePrefix: core-
