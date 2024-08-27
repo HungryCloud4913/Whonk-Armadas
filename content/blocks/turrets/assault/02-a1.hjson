@@ -72,3 +72,6 @@ ammoTypes: {
     shrinkX: 0.3
       }
 }
+requirements: [
+  meridium/60
+]
