@@ -35,7 +35,7 @@ ammoTypes: {
     lifetime: 125
     trailChance: 0
     trailLength: 20
-    trailWidth: 1+2.2
+    trailWidth: 2.2
     trailColor: baff94
     hitEffect: explosion
     despawnEffect: none
