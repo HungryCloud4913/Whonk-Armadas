@@ -1,0 +1,45 @@
+type: PowerTurret
+size: 1
+drawer: {
+type: DrawTurret
+basePrefix: core-
+  }
+reload: 50
+heatColor: ffffff
+shootY: 3.5
+shootSound: blaster
+consumes: {
+  power: 1
+    }
+range: 120
+shootType: {
+  type: BasicBulletType
+  damage: 18
+  splashDamage: 6
+  splashDamageRadius: 5
+  sprite: missile-large
+  height: 6
+  width: 4
+  shrinkY: 0
+  shrinkX: 0.2
+  trailLength: 10
+  speed: 3
+  lifetime: 40
+  trailWidth: 1.1
+  trailSinMag: 0.5
+  trailSinScl: 2
+  frontColor: ffffff
+  backColor: bfffe4
+  trailColor: bfffe4
+  hitColor: bfffe4
+  despawnEffect: {
+    type: WaveEffect
+    colorTo: bfffe4
+    sizeTo: 8
+    strokeFrom: 2
+      }
+  hitEffect: hitBulletColor
+    }
+requirements: [
+    promethiote/30
+    ]
