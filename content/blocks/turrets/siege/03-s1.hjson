@@ -1,0 +1,46 @@
+type: ItemTurret
+reload: 180
+range: 250
+size: 1
+drawer:{
+type: DrawTurret
+basePrefix: siege-
+  }
+heatColor: baff94
+shootSound: missile
+shootY: 0
+inaccuracy: 4
+shoot: {
+  type: ShootBarrel
+  barrels: [
+      1, 0, 0
+      -1, 0, 0
+    ]
+  shots: 2
+  shotDelay: 10
+    }
+ammoTypes: {
+  inferior-siege-plating:{
+    type: MissileBulletType
+    damage: 0
+    splashDamage: 60
+    splashDamageRadius: 18
+    scaledSplashDamage: true
+    frontColor: ffffff
+    backColor: baff94
+    weaveMag: 16
+    weaveScl: 4
+    speed: 2
+    lifetime: 125
+    trailChance: 0
+    trailLength: 20
+    trailWidth: 1.2
+    trailColor: baff94
+    hitEffect: explosion
+    despawnEffect: none
+    hitSound: explosion
+      }
+}
+requirements: [
+    inferior-siege-plating/1
+  ]
