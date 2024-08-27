@@ -1,0 +1,433 @@
+type: flying
+outlineColor: 2d2f39 
+flying: true
+hitSize: 38
+speed: 2
+health: 40000
+armor: 12
+engineSize: 8
+rotateSpeed: 2
+strafePenalty: 1
+engines: [
+  {
+radius: 8
+x: 28
+rotation: 0
+}
+  {
+radius: 8
+x: -28
+rotation: -180
+}
+  {
+radius: 8
+y: 28
+rotation: 90
+}
+]
+engineOffset: 28
+engineColor: ffb4b4 
+targetAir: true
+faceTarget: false
+circleTarget: true
+targetFlags: [
+  drill,
+  reactor,
+  storage,
+  core
+  ]
+fogRadius: 22
+lowAltitude: true
+drag: 0.08
+accel: 0.09
+parts: [
+  {
+    type: RegionPart
+    suffix: -whonk1
+    color:  ffffffff
+    progress: reload
+    outline: true
+    mirror: false
+    moveRot: 180
+    weaponIndex: 0
+  }
+        {
+    type: RegionPart
+    suffix: -whonk2
+    color:  ffffffff
+    progress: reload
+    outline: true
+    mirror: false
+    moveRot: -320
+    weaponIndex: 0
+  }
+]
+weapons: [
+    {
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 140
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+    display: false
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+  }
+  {
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 90
+    cooldownTime: 90
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+          display: false
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+  }
+  {
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+    recoil: 0
+    reload: 50
+    cooldownTime: 50
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: none
+          display: false
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+  }
+{
+reload: 120
+baseRotation: 0
+shootSound: beam
+continuous: true
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 176
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 120
+baseRotation: 90
+shootSound: beam
+continuous: true
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 176
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 120
+baseRotation: 180
+shootSound: beam
+continuous: true
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 176
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 120
+baseRotation: 270
+shootSound: beam
+continuous: true
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 176
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 120
+baseRotation: 45
+shootSound: beam
+continuous: true
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 176
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 120
+baseRotation: 135
+shootSound: beam
+continuous: true
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 176
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 120
+baseRotation: 225
+shootSound: beam
+continuous: true
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 176
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 120
+baseRotation: 315
+shootSound: beam
+continuous: true
+rotate: false
+shootCone: 180
+mirror: false
+x: 0
+y: 0
+shootY: 0
+bullet: {
+  type: ContinuousLaserBulletType
+  colors:[ffb4b4aa,ffb4b4cc,ffb4b4,ffffff]
+  layer: 80
+  damage: 50
+  lifetime: 180
+  length: 176
+  width: 10
+  largeHit: true
+  hitColor: ffb4b4
+    }
+}
+{
+reload: 180
+shootSound: laserBlast
+x: 0
+y: 0
+mirror: false
+rotate: false
+shootCone: 360
+shootY: 0
+    shootWarmupSpeed: 0.05
+  minWarmup: 0.5
+shoot: {
+    type: ShootSpread
+    shots: 10
+    spread: 18
+      }
+bullet: {
+  type: LaserBulletType
+  shootEffect: shootBigColor
+  smokeEffect: {
+        type: MultiEffect
+        effects: [shootSmokeSquareBig, {
+            type: WaveEffect
+            lifetime: 30
+            interp: pow5Out
+            colorTo: ffb4b4
+            lightColor: ffb4b4
+            sizeTo: 80
+            strokeFrom: 5
+              }
+          ]
+          }
+  colors:[ ffb4b4aa, ffb4b4, ffffff]
+  width: 8
+  length: 160
+  largeHit: true
+  lifetime: 30
+  lifetime: 80
+  sideAngle: 18
+  damage: 80
+  hitEffect: hitSquaresColor
+  fragRandomSpread: 0
+  fragSpread: 15
+  shootWarmupSpeed: 0.05
+  minWarmup: 0.5
+  recoil: 0.4
+  lightningSpacing: 10
+  lightningDelay: 0.2
+  lightningLength: 3
+  lightningType: {
+  type: MissileBulletType
+  shootEffect: shootBigColor
+  smokeEffect: {
+        type: MultiEffect
+        effects: [shootSmokeSquareBig, {
+            type: WaveEffect
+            lifetime: 30
+            interp: pow5Out
+            colorTo: ffb4b4
+            lightColor: ffb4b4
+            sizeTo: 80
+            strokeFrom: 5
+              }
+          ]
+          }
+  frontColor: ffffff
+  backColor: ffb4b4
+  width: 8
+  height: 10
+  largeHit: true
+  lifetime: 30
+  weaveMag: 10
+  weaveScl: 1
+  speed: 3
+  lifetime: 80
+  drag: 0.01
+  trailLength: 10
+  trailWidth: 2.2
+  trailColor: ffb4b4
+  lightColor: ffb4b4
+  trailSinScl: 2
+  trailSinMag: 0.9
+  damage: 10
+  splashDamage: 12
+  splashDamageRadius: 13
+  splashDamagePierce: true
+  hitEffect: hitSquaresColor
+  fragBullets: 3
+  fragRandomSpread: 0
+  fragSpread: 15
+  recoil: 0.1
+  keepVelocity: false
+  fragBullet: {
+      type: LaserBulletType
+      length: 32
+      width: 6
+      lifetime: 50
+      sideAngle: 15
+      sideLength: 16
+      colors: [ffb4b4aa, ffb4b4, ffffff]
+      damage: 8
+      lightning: 3
+      lightningDamage: 4
+      hitSound: spark
+      lightningColor: ffb4b4
+        }
+    }
+        }
+}
+  ]
