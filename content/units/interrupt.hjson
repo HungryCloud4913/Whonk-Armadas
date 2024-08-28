@@ -1,7 +1,5 @@
 template: TankUnitType
 type: tank
-name: Interrupt
-description: A slow but powerful tank. Fires a artillery cannon towards anything. Long ranged, powerful damage, but very slow.
 health: 880
 hitSize: 9
 flying: false
