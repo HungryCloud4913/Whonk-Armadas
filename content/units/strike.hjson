@@ -1,6 +1,4 @@
 type: flying
-name: Strike
-description: A small assault flying unit. Rams enemies and deals decent amounts of damage. Heavily armored, extremely low health.
 health: 300
 hitSize: 5
 flying: true
