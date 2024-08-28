@@ -1,6 +1,4 @@
 type: flying
-name: Focus Hologram
-description: A weaker holographic version of the Focus ship
 health: 15000
 hitSize: 95
 flying: true
