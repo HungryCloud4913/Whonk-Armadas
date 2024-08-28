@@ -1,6 +1,4 @@
 type: flying
-name: Focus
-description: A flying unit wielding multiple energy weapons and an energy railgun
 health: 350000
 hitSize: 95
 flying: true
