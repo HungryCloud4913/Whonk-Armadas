@@ -1,7 +1,5 @@
 template: TankUnitType
 type: tank
-name: Fragment
-description: A small, semi-fast tank made to attack bases. A standard unit.
 health: 620
 hitSize: 7
 flying: false
