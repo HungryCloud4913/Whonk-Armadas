@@ -1,6 +1,4 @@
 type: flying
-name: Hammerhead
-description: A small flying unit that speeds up and damages enemies by charging energy into its hammer shaped front.
 health: 15250
 hitSize: 27
 flying: true
