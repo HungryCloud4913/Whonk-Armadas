@@ -1,6 +1,4 @@
 type: flying
-name: Whonk
-description: A flying unit wielding multiple energy weapons and two extreme heavy energy launchers
 health: 525000
 hitSize: 150
 flying: true
