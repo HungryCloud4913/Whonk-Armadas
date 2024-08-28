@@ -1,6 +1,4 @@
 type: flying
-name: Whonk Supreme
-description: The supreme whonk. The whonk to overcome all whonks
 health: 2500000
 hitSize: 500
 flying: true
