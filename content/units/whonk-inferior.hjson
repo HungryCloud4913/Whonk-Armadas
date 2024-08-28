@@ -1,6 +1,4 @@
 type: flying
-name: Whonk Inferior
-description: A small flying unit wielding one cannon
 health: 2300
 hitSize: 25
 flying: true
