@@ -1,4 +1,4 @@
-type: unitAssembler
+type: unitFabricator
 name: Assault Tank Fabricator
 description: A fabricator that creates T1 Assault class tanks
 size: 3
@@ -15,8 +15,8 @@ requirements: [
 silicon/30
 inferior-assault-plating/60
 ]
-time: 2500
+time: 2404
 }]
 consumes: {
- power: 100
+ power: 1.2
 }
