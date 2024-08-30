@@ -1,22 +1,24 @@
-type: unitFabricator
 name: Assault Tank Fabricator
-description: A fabricator that creates T1 Assault class tanks
 size: 3
-category: units
-requirements: [
-inferior-assault-plating/150
-silicon/200
-]
+description: Produces T1 Assault class tanks
 health: 540
+type: unitFactory
+configurable: true
+  consumes: {
+    power: 2
+  }
 plans: [
 {
 unit: fragment
-requirements: [
-silicon/30
-inferior-assault-plating/60
-]
-time: 2404
-}]
-consumes: {
- power: 1.2
+  requirements: [
+    silicon/40
+    whonk-armadas-inferior-assault-plating/60
+  ]
+time: 2700
 }
+]
+category: units
+requirements: [
+    silicon/200
+    whonk-armadas-inferior-assault-plating/100
+  ]
