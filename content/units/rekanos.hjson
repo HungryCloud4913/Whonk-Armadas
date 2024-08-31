@@ -1,5 +1,6 @@
 drawBody: false
 drawCell: false
+outlines: false
 health: 690690
 armor: -1
 speed: 0.5
