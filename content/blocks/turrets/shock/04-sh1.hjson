@@ -1,0 +1,48 @@
+type: PowerTurret
+reload: 180
+shootSound: dullExplosion
+size: 2
+drawer: {
+  type: DrawTurret
+  basePrefix: shock-
+    }
+range: 120
+shoot: {
+  shots: 2
+    }
+inaccuracy: 1
+category: turret
+shootY: 1
+consumes: {
+  power: 2
+    }
+heatColor: ff0000
+shootType: {
+  type: LaserBulletType
+  damage: 70
+  lightning: 2
+  lightningLength: 4
+  colors: [ffb4b4aa, ffb4b4, ffffff]
+  lightningColor: ffb4b4
+  lightColor: ffb4b4
+  hitSound: spark
+  lightningDamage: 8
+  lightningType: {
+      type: BulletType
+      damage: 0
+      lifetime: 0.0001
+      lifetime: 10
+      hitEffect: hitLancer
+      despawnEffect: hitLancer
+      status: burning
+      statusDuration: 20
+      lightColor: ffb4b4
+        }
+  length: 120
+  width: 8
+  sideAngle: 8
+  sideLength: 19
+    }
+requirements: [
+    inferior-shock-plating/30
+  ]
