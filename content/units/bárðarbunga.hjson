@@ -37,44 +37,44 @@ radius: 0
 progress: warmup
 radiusTo: 50
 spinSpeed: 5
-x: 10
+x: -40
 y: 0
   layer: 110
   }
   {
 type:  FlarePart
-color1: ffffff
-color2: ffb4b4
+color2: ffffff
+color1: ffb4b4
 radius: 0
 progress: warmup
 radiusTo: 50
 spinSpeed: 5
-x: 0
-y: 10
-  layer: 110
-  }
-  {
-type:  FlarePart
-color1: ffffff
-color2: ffb4b4
-radius: 0
-progress: warmup
-radiusTo: 50
-spinSpeed: 5
-x: -10
+x: 40
 y: 0
   layer: 110
   }
   {
 type:  FlarePart
-color1: ffffff
-color2: ffb4b4
+color2: ffffff
+color1: ffb4b4
 radius: 0
 progress: warmup
 radiusTo: 50
 spinSpeed: 5
 x: 0
-y: -10
+y: 40
+  layer: 110
+  }
+  {
+type:  FlarePart
+color2: ffffff
+color1: ffb4b4
+radius: 0
+progress: warmup
+radiusTo: 50
+spinSpeed: 5
+x: 0
+y: -40
   layer: 110
   }
 {
@@ -114,7 +114,7 @@ shoot: {
   shots: 360
   shotDelay: 0.2
   scl: 1
-  mag: 1
+  mag: 4
     }
 bullet: {
     type: LightningBulletType
@@ -122,7 +122,21 @@ bullet: {
     lightningLength: 40
     damage: 300
     lightning: 5
-    lightningLength: 20
+    lightningType: {
+        type: LightningBulletType
+        lightningLengthRand: 10
+        lightningLength: 20
+        damage: 300
+        lightningColor: ffb4b4
+        lifetime: 24
+        hitEffect: hitLancer
+        despawnEffect: none
+        status: electrified
+        statusDuration: 5
+        hittable: false
+        healPercent: 1.6
+        collidesTeam: true
+          }
     hitEffect: hitLancer
     shootEffect: hitLancer
       }
