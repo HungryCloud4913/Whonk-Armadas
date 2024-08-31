@@ -104,7 +104,7 @@ layer: 110
 weapons: [
 {
 reload: 60
-shootSound: techLoop
+shootSound: techloop
 x: 0
 mirror: false
 shootY: 2
@@ -113,7 +113,7 @@ shoot: {
   type: ShootSine
   shots: 360
   shotDelay: 0.2
-  scl: 1
+  scl: 4
   mag: 4
     }
 bullet: {
