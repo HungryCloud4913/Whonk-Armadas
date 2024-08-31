@@ -10,6 +10,9 @@ engineSize: 10
 engineColor: ffb4b4
 drawCell: false
 outline: false
+flying: true
+type: flying
+
 parts: [
 {
 type: ShapePart
