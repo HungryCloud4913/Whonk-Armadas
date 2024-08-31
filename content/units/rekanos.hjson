@@ -22,8 +22,8 @@ layer: 110
 }
   {
 type:  FlarePart
-color1: ffffff
-color2: ffb4b4
+color2: ffffff
+color1: ffb4b4
 progress: warmup
 radius: 100
 spinSpeed: 2
@@ -31,8 +31,8 @@ spinSpeed: 2
   }
   {
 type:  FlarePart
-color1: ffffff
-color2: ffb4b4
+color2: ffffff
+color1: ffb4b4
 progress: warmup
 radius: 50
 spinSpeed: 5
