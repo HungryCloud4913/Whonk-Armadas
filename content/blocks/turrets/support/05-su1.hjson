@@ -16,6 +16,7 @@ drawer: {
     mixColor: ffdcfb00
     mixColorTo: ffdcfbff
     blending: additive
+    suffix: -heat2
       }
 ]
 }
