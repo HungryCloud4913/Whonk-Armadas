@@ -20,13 +20,17 @@ heatColor: ff0000
 shootType: {
   type: LaserBulletType
   damage: 70
-  lightning: 2
-  lightningLength: 4
+  hitSound: spark
   colors: [ffb4b4aa, ffb4b4, ffffff]
   lightningColor: ffb4b4
   lightColor: ffb4b4
-  hitSound: spark
+spawnBullets: [{
+  type: BulletType
+  damage: 0
+  speed: 120
   lightningDamage: 8
+  lightning: 2
+  lightningLength: 4
   lightningType: {
       type: BulletType
       damage: 0
@@ -38,6 +42,8 @@ shootType: {
       statusDuration: 20
       lightColor: ffb4b4
         }
+  lifetime: 1
+}]
   length: 120
   width: 8
   sideAngle: 8
