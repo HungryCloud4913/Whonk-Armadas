@@ -1,0 +1,35 @@
+type: LiquidTurret
+shootSound: sap
+loopSound: none
+reload: 20
+shootY: 7
+shoot: {
+  type: ShootBarrels
+  barrels: [
+    4,0,0
+    -4,0,0
+    ]
+    }
+range: 60
+category: turret
+size: 2
+drawer: {
+  type: DrawTurret
+  basePrefix: specialist-
+    }
+heatColor: ffffff
+cooldownTime: 60
+ammoTypes: {
+  slag: {
+    type: SapBulletType
+    damage: 30
+    knockback: 1.5
+    length: 60
+    color: ffb987
+    width: 0.6
+    lifetime: 21
+      }
+}
+requirements: [
+    inferior-specialist-plating
+  ]
