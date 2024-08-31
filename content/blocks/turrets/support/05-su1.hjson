@@ -1,7 +1,7 @@
 type: PowerTurret
 size: 2
 category: turret
-targetTeam: true
+targetHealing: true
 heatColor: ff0000
 armor: 2
 shootSound: lasershoot
