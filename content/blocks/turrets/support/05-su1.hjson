@@ -1,0 +1,62 @@
+type: PowerTurret
+size: 2
+category: turret
+targetTeam: true
+heatColor: ff0000
+armor: 2
+drawer: {
+  type: DrawTurret
+  basePrefix: support-
+    parts: [
+    {
+    type: RegionPart
+    progress: recoil
+    color: ffdcfb00
+    colorTo: ffdcfbff
+    mixColor: ffdcfb00
+    mixColorTo: ffdcfbff
+    blending: additive
+      }
+]
+}
+reload: 50
+range: 100
+consumes: {
+  power: 2
+    }
+shootY: 6.5
+shootType: {
+  type: LaserBoltBulletType
+  healAmount: 90
+  speed: 5
+  lifetime: 20
+  collidesTeam: true
+  healColor: ffbaf8
+  hitColor: ffbaf8
+  backColor: ffbaf8
+  frontColor: ffdcfb
+  shootEffect: {
+    type: WaveEffect
+    sizeTo: 12
+    lifetime: 12
+    colorTo: ffbaf8
+    strokeFrom: 2
+      }
+  smokeEffect: none
+  hitEffect: {
+    type: WaveEffect
+    sizeTo: 12
+    lifetime: 12
+    colorTo: ffbaf8
+    strokeFrom: 2
+      }
+  despawnEffect: {
+    type: WaveEffect
+    sizeTo: 12
+    lifetime: 12
+    colorTo: ffbaf8
+    strokeFrom: 2
+      }
+requirements: [
+  support-plating/50
+  ]
