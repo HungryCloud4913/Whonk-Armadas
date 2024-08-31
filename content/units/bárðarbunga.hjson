@@ -24,7 +24,7 @@ type:  FlarePart
 color1: ffffff
 color2: ffb4b4
 radius: 0
-progress: health
+progress: warmup
 radiusTo: 100
 spinSpeed: 2
   layer: 110
@@ -34,7 +34,7 @@ type:  FlarePart
 color1: ffffff
 color2: ffb4b4
 radius: 0
-progress: health
+progress: warmup
 radiusTo: 50
 spinSpeed: 5
 x: 10
@@ -46,7 +46,7 @@ type:  FlarePart
 color1: ffffff
 color2: ffb4b4
 radius: 0
-progress: health
+progress: warmup
 radiusTo: 50
 spinSpeed: 5
 x: 0
@@ -58,7 +58,7 @@ type:  FlarePart
 color1: ffffff
 color2: ffb4b4
 radius: 0
-progress: health
+progress: warmup
 radiusTo: 50
 spinSpeed: 5
 x: -10
@@ -70,7 +70,7 @@ type:  FlarePart
 color1: ffffff
 color2: ffb4b4
 radius: 0
-progress: health
+progress: warmup
 radiusTo: 50
 spinSpeed: 5
 x: 0
