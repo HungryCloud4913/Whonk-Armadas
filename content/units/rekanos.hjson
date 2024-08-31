@@ -113,8 +113,8 @@ shoot: {
   type: ShootSine
   shots: 360
   shotDelay: 0.2
-  scl: 4
-  mag: 4
+  scl: 8
+  mag: 8
     }
 bullet: {
     type: LightningBulletType
