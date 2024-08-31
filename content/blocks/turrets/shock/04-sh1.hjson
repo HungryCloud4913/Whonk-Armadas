@@ -24,8 +24,15 @@ shootType: {
   colors: [ffb4b4aa, ffb4b4, ffffff]
   lightningColor: ffb4b4
   lightColor: ffb4b4
-spawnBullets: [{
+  status: shocked
+  statusDuration: 60
+  lifetime: 12
+  fragBullets: 1
+  fragRandomSpread: 0
+  fragBullet: {
   type: BulletType
+  hitEffect: none
+  despawnEffect: none
   damage: 0
   speed: 120
   lightningDamage: 8
@@ -43,7 +50,7 @@ spawnBullets: [{
       lightColor: ffb4b4
         }
   lifetime: 1
-}]
+  }
   length: 120
   width: 8
   sideAngle: 8
