@@ -37,6 +37,7 @@ shootType: {
   hitColor: ffbaf8
   backColor: ffbaf8
   frontColor: ffdcfb
+  damage: 20
   shootEffect: {
     type: WaveEffect
     sizeTo: 12
