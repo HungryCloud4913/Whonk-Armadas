@@ -258,7 +258,7 @@ parts: [
   layer: 110
   stroke: 0
   strokeTo: 1.5
-  radius: 45
+  radius: 85
   color: BDD5FF
   rotateSpeed: 1.2
 }
@@ -271,7 +271,7 @@ parts: [
   layer: 110
   stroke: 0
   strokeTo: 1.5
-  radius: 52
+  radius: 90
   color: BDD5FF
   rotateSpeed: 1.0
 }
@@ -284,9 +284,22 @@ parts: [
   layer: 110
   stroke: 0
   strokeTo: 1.5
-  radius: 57
+  radius: 95
   color: BDD5FF
   rotateSpeed: 0.8
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 6
+  hollow: true
+  layer: 110
+  stroke: 0
+  strokeTo: 1.5
+  radius: 100
+  color: BDD5FF
+  rotateSpeed: 0.6
 }
 {
   type: FlarePart
@@ -297,7 +310,7 @@ parts: [
   y: 0
   followRotation: true
   radius: 60
-  radiusTo: 86
+  radiusTo: 100
   spinSpeed: 0.6
   partProgress: warmup
 }
@@ -309,8 +322,8 @@ parts: [
   x: 0
   y: 0
   followRotation: true
-  radius: 50
-  radiusTo: 80
+  radius: 60
+  radiusTo: 100
   spinSpeed: 2.7
   partProgress: warmup
 }
