@@ -22,13 +22,13 @@ shootType: {
   damage: 70
   hitSound: spark
   colors: [ffb4b4aa, ffb4b4, ffffff]
-  lightningColor: ffb4b4
   lightColor: ffb4b4
   status: shocked
   statusDuration: 60
   lifetime: 12
   fragBullets: 1
   fragRandomSpread: 0
+  fragVelocityMin: 1
   fragBullet: {
   type: BulletType
   hitEffect: none
@@ -39,6 +39,7 @@ shootType: {
   lightning: 2
   lightningLength: 4
   pierceCap: 3
+  lightningColor: ffb4b4
   lightningType: {
       type: BulletType
       damage: 0
