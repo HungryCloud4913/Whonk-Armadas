@@ -26,6 +26,8 @@ ammoTypes: {
     knockback: 1.5
     length: 60
     color: ffb987
+    status: melting
+    statusDuration: 30
     width: 0.6
     lifetime: 21
       }
