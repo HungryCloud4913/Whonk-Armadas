@@ -1,0 +1,571 @@
+type: flying
+name: Quasorus
+description: IT COMES IN A FORM OF MANY AND NONE
+health: 2400000
+hitSize: 50
+flying: true
+speed: 0.7
+accel: 0.1
+drag: 0.5
+armor: 0
+rotateSpeed: 2
+drawBody: false
+drawCell: false
+outlines: false
+        engineOffset: -0.5
+weapons: [
+ {
+    alwaysShooting: true
+    controllable: false
+    shootCone: 360
+    x: 0
+    mirror: false
+parts: [
+  {
+  type: HaloPart
+  x: 0
+  y: 0
+  haloRadius: 16
+  shapes: 3
+  triLength: 0
+  triLengthTo: 8
+  layer: 110
+  tri: true
+  haloRotateSpeed: -0.9
+  color: baff94
+  }
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  layer: 110
+  radius: 7
+  circle: true
+  hollow: true
+  stroke: 0
+  strokeTo: 1
+  color: baff94
+  }
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 4
+    layer: 110
+  hollow: true
+  stroke: 0
+  strokeTo: 1
+  radius: 12
+  color: baff94
+  rotateSpeed: -4
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 6
+  hollow: true
+    layer: 110
+  stroke: 0
+  strokeTo: 1
+  radius: 14
+  color: baff94
+  rotateSpeed: 4
+}
+  {
+  type: HaloPart
+  x: 0
+  y: 0
+  haloRadius: 22
+  shapes: 4
+    layer: 110
+  triLength: 0
+  triLengthTo: 20
+  tri: true
+  haloRotateSpeed: -0.9
+  color: baff94
+  }
+{
+  type: FlarePart
+  color1: baff94
+  color2: ffffff
+  stroke: 6
+  x: 0
+  y: 0
+  followRotation: true
+  radius: 0
+  radiusTo: 20
+  spinSpeed: 1.2
+  partProgress: warmup
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  layer: 110
+  radius: 22
+  circle: true
+  hollow: true
+  stroke: 0
+  strokeTo: 1.5
+  color: baff94
+  }
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 4
+  hollow: true
+  layer: 110
+  stroke: 0
+  strokeTo: 1.5
+  radius: 20
+  color: baff94
+  rotateSpeed: 2.1
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 4
+  layer: 110
+  hollow: true
+  stroke: 0
+  strokeTo: 1.5
+  radius: 16
+  color: baff94
+  rotateSpeed: -2.1
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 4
+  hollow: true
+  stroke: 0
+  strokeTo: 1.5
+  radius: 8
+  layer: 110
+  color: baff94
+  rotateSpeed: -2.1
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 4
+  hollow: true
+  layer: 110
+  stroke: 0
+  strokeTo: 1.5
+  radius: 8
+  color: baff94
+  rotateSpeed: 2.1
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  layer: 110
+  radius: 30
+  circle: true
+  hollow: true
+  stroke: 0
+  strokeTo: 1
+  color: baff94
+  }
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 5
+  hollow: true
+  layer: 110
+  stroke: 0
+  strokeTo: 1.5
+  radius: 30
+  color: baff94
+  rotateSpeed: 2.7
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 4
+  hollow: true
+  layer: 110
+  stroke: 0
+  strokeTo: 1.5
+  radius: 27
+  color: baff94
+  rotateSpeed: 1.5
+}
+{
+  type: FlarePart
+  color1: baff94
+  color2: ffffff
+  stroke: 7
+  x: 0
+  y: 0
+  followRotation: true
+  radius: 20
+  radiusTo: 60
+  spinSpeed: 1.7
+  partProgress: warmup
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  layer: 110
+  radius: 60
+  circle: true
+  hollow: true
+  stroke: 0
+  strokeTo: 1
+  color: baff94
+  }
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 6
+  hollow: true
+  layer: 110
+  stroke: 0
+  strokeTo: 1.5
+  radius: 60
+  color: baff94
+  rotateSpeed: 3.2
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 3
+  hollow: true
+  layer: 110
+  stroke: 0
+  strokeTo: 1.5
+  radius: 45
+  color: baff94
+  rotateSpeed: 1.2
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 4
+  hollow: true
+  layer: 110
+  stroke: 0
+  strokeTo: 1.5
+  radius: 52
+  color: baff94
+  rotateSpeed: 1.0
+}
+{
+  x: 0
+  y: 0
+  type: ShapePart
+  sides: 5
+  hollow: true
+  layer: 110
+  stroke: 0
+  strokeTo: 1.5
+  radius: 57
+  color: baff94
+  rotateSpeed: 0.8
+}
+{
+  type: FlarePart
+  color1: baff94
+  color2: ffffff
+  stroke: 4
+  x: 0
+  y: 0
+  followRotation: true
+  radius: 60
+  radiusTo: 86
+  spinSpeed: 0.6
+  partProgress: warmup
+}
+{
+  type: FlarePart
+  color1: baff94
+  color2: ffffff
+  stroke: 6
+  x: 0
+  y: 0
+  followRotation: true
+  radius: 50
+  radiusTo: 80
+  spinSpeed: 2.7
+  partProgress: warmup
+}
+]
+    recoil: 0
+    reload: 140
+    shootWarmupSpeed: 0.04
+    minWarmup: 0.25
+    shootSound: cutter
+    bullet: {
+      type: BulletType
+      hittable: false
+      absorbable: false 
+      collides: false 
+      speed: 0
+      lifetime: 0
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+    }
+  }
+{
+                name: ???
+                mirror: false
+                top: true
+                rotate: true
+		rotateSpeed: 100
+                x: 0
+                y: 0
+                reload: 75
+                shoot: 
+                    shots: 1
+                    shotDelay: 0
+            
+            inaccuracy: 0
+            recoil: 1
+            shootSound: grinding
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 500
+                speed: 10
+                drag: -0.01
+                lifetime: 60
+                knockback: -1
+                               backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: BDD5FF
+                width: 3
+                height: 6
+		splashDamageRadius: 50
+		splashDamage: 100
+		hitEffect: blastExplosion
+        trailLength: 25
+        trailColor: BDD5FF
+               }
+}
+{
+                name: ???
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 100
+                x: +10
+                y: +10
+                reload: 17.5
+                shoot: 
+                    shots: 1
+                    shotDelay: 0
+            inaccuracy: 0
+            recoil: 1
+            shootSound: grinding
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 50
+                speed: 10
+                drag: -0.01
+                lifetime: 30
+                knockback: 0
+                               backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: BDD5FF
+                width: 3
+                height: 6
+		splashDamageRadius: 30
+		splashDamage: 500
+		hitEffect: blastExplosion
+        trailLength: 20
+        trailColor: BDD5FF
+               }
+}
+{
+                name: ???
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 100
+                x: -10
+                y: +10
+                reload: 17.5
+                shoot: 
+                    shots: 10
+                    shotDelay: 5
+            inaccuracy: 0
+            recoil: 1
+            shootSound: grinding
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 500
+                speed: 10
+                drag: -0.01
+                lifetime: 30
+                knockback: 0
+                               backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: BDD5FF
+                width: 3
+                height: 6
+		splashDamageRadius: 30
+		splashDamage: 500
+		hitEffect: blastExplosion
+        trailLength: 20
+        trailColor: BDD5FF
+               }
+}
+{
+                name: ???
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 100
+                x: -20
+                y: +25
+                reload: 25
+                shoot: 
+                    shots: 1
+                    shotDelay: 0
+            inaccuracy: 0
+            recoil: 1
+            shootSound: message
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 500
+                speed: 10
+                drag: -0.01
+                lifetime: 50
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 1000000
+                absorbable: false
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: BDD5FF
+                width: 20
+                height: 20
+		splashDamageRadius: 10
+		splashDamage: 10
+		hitEffect: blastExplosion
+                bulletInterval: 1
+                intervalRandomSpread: 0
+                intervalSpread: 0
+                intervalAngle: 0
+                intervalBullet: {
+                type: SolidBulletType
+                damage: 500
+                speed: 1
+                lifetime: 1
+                knockback: 0
+                pierce: true
+                pierceBuilding: true
+                pierceArmor: true
+                pierceCap: 1000000
+                absorbable: false
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: BDD5FF
+                width: 20
+                height: 20
+		splashDamageRadius: 15
+		splashDamage: 500
+		hitEffect: blastExplosion
+               }
+        trailLength: 30
+        trailColor: BDD5FF
+               }
+}
+{
+                name: ???
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 100
+                x: 30
+                y: -50
+                reload: 100
+                shoot: {
+                    shots: 2
+                    shotDelay: 5
+            }
+            inaccuracy: 0
+            recoil: 0
+            shootSound: buttonClick
+            shootEffect: none
+            bullet: {
+                type: SolidBulletType
+                damage: 700
+                homing: false
+                speed: 8
+                sprite: large-bomb
+                lifetime: 150
+                knockback: -1
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: BDD5FF
+                width: 80
+                height: 40
+		fragOnHit: true
+		fragBullets: 50
+		splashDamageRadius: 100
+		splashDamage: 700
+		hitEffect: blastExplosion
+        trailLength: 15
+        trailColor: BDD5FF
+               }
+}
+{
+                name: ???
+                mirror: true
+                top: true
+                rotate: true
+		rotateSpeed: 100
+                x: +30
+                y: -20
+                reload: 75
+                shoot: {
+                    shots: 15
+                    shotDelay: 1
+}
+            inaccuracy: 1
+            recoil: 0
+            shootSound: techLoop
+            shootEffect: none
+            bullet: {
+                type: MissileBulletType
+                damage: 130
+                speed: 7
+                lifetime: 160
+                knockback: 0
+                backColor: BDD5FF
+                frontColor: BDD5FF
+                mixColorFrom: BDD5FF
+                mixColorTo: BDD5FF
+                width: 7
+                length: 10
+        trailLength: 10
+        trailColor: BDD5FF
+               }
+}
+]
