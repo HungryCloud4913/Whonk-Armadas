@@ -29,6 +29,7 @@ shootType: {
   fragBullets: 1
   fragRandomSpread: 0
   fragVelocityMin: 1
+      pierceCap: 3
   fragBullet: {
   type: BulletType
   hitEffect: none
@@ -51,7 +52,6 @@ shootType: {
       statusDuration: 20
       lightColor: ffb4b4
       pierce: true
-      pierceCap: 3
       pierceBuilding: true
         }
   lifetime: 1
