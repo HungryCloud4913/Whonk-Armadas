@@ -57,6 +57,7 @@ shootType: {
     colorTo: ffbaf8
     strokeFrom: 2
       }
+}
 requirements: [
   support-plating/50
   ]
