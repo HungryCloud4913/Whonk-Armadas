@@ -4,6 +4,7 @@ category: turret
 targetTeam: true
 heatColor: ff0000
 armor: 2
+shootSound: lasershoot
 drawer: {
   type: DrawTurret
   basePrefix: support-
