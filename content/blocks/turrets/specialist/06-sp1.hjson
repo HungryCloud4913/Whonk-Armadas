@@ -4,7 +4,7 @@ loopSound: none
 reload: 20
 shootY: 7
 shoot: {
-  type: ShootBarrels
+  type: ShootBarrel
   barrels: [
     4,0,0
     -4,0,0
