@@ -106,7 +106,7 @@ reload: 60
 shootSound: techloop
 x: 0
 mirror: false
-shootY: 2
+shootY: 40
 shootCone: 180
 shoot: {
   type: ShootSine
@@ -138,6 +138,31 @@ bullet: {
           }
     hitEffect: hitLancer
     shootEffect: hitLancer
+      }
+}
+{
+reload: 5
+shootSound: back
+alwaysShooting: true
+x: 0
+mirror: false
+shootY: 2
+shootCone: 180
+display: false
+shoot: {
+  type: ShootSine
+  shots: 360
+  shotDelay: 0.2
+  scl: 8
+  mag: 8
+    }
+bullet: {
+    type: BulletType
+    shootEffect: none
+    smokeEffect: none
+    hitEffect: none
+    despawnEffect: none
+    damage: 0
       }
 }
   ]
