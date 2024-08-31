@@ -31,5 +31,5 @@ ammoTypes: {
       }
 }
 requirements: [
-    inferior-specialist-plating
+    inferior-specialist-plating/39
   ]
