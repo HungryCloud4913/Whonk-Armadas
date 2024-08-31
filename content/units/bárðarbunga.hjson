@@ -1,0 +1,130 @@
+drawBody: false
+drawCell: false
+health: 690690
+armor: -1
+speed: 0.5
+hitSize: 80
+engineOffset: 0
+engineSize: 10
+engineColor: ffb4b4
+drawCell: false
+outline: false
+parts: [
+{
+type: ShapePart
+radius: 40
+hollow: true
+circle: true
+color: ffb4b4
+stroke: 4
+layer: 110
+}
+  {
+type:  FlarePart
+color1: ffffff
+color2: ffb4b4
+radius: 0
+progress: health
+radiusTo: 100
+spinSpeed: 2
+  layer: 110
+  }
+  {
+type:  FlarePart
+color1: ffffff
+color2: ffb4b4
+radius: 0
+progress: health
+radiusTo: 50
+spinSpeed: 5
+x: 10
+y: 0
+  layer: 110
+  }
+  {
+type:  FlarePart
+color1: ffffff
+color2: ffb4b4
+radius: 0
+progress: health
+radiusTo: 50
+spinSpeed: 5
+x: 0
+y: 10
+  layer: 110
+  }
+  {
+type:  FlarePart
+color1: ffffff
+color2: ffb4b4
+radius: 0
+progress: health
+radiusTo: 50
+spinSpeed: 5
+x: -10
+y: 0
+  layer: 110
+  }
+  {
+type:  FlarePart
+color1: ffffff
+color2: ffb4b4
+radius: 0
+progress: health
+radiusTo: 50
+spinSpeed: 5
+x: 0
+y: -10
+  layer: 110
+  }
+{
+type: HaloPart
+haloRadius: 80
+radius: 8
+shapes: 8
+tri: true
+triLength: 10
+color: ffb4b4
+layer: 110
+haloRotateSpeed: 2
+  }
+{
+type: HaloPart
+haloRadius: 80
+haloRotateSpeed: 2
+shapeRotation: 180
+radius: 8
+shapes: 8
+tri: true
+triLength: 10
+color: ffb4b4
+layer: 110
+  }
+]
+weapons: [
+{
+reload: 60
+shootSound: techLoop
+x: 0
+mirror: false
+shootY: 2
+shootCone: 180
+shoot: {
+  type: ShootSine
+  shots: 360
+  shotDelay: 0.2
+  scl: 1
+  mag: 1
+    }
+bullet: {
+    type: LightningBulletType
+    lightningColor: ffb4b4
+    lightningLength: 40
+    damage: 300
+    lightning: 5
+    lightningLength: 20
+    hitEffect: hitLancer
+    shootEffect: hitLancer
+      }
+}
+  ]
