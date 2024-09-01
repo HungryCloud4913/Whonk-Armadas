@@ -68,12 +68,12 @@ itemWhitelist: [
 {
 type: NoiseMesh
 planet: cryzon
-divisions: 6
+divisions: 5
 radius: 1.1
 color1: f5f5f5
 color2: d3ede8
-octaves: 1
-persistence:  1
+octaves: 0.1
+persistence: 1.1
 scale: 0.75
 mag: 1
 coct: 2
