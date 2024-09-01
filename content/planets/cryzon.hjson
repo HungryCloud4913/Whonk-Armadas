@@ -10,6 +10,7 @@ atmosphereColor: d1ffff
 orbitRadius: 120
 orbitOffset: 9
 orbitTime: 31536000
+drawOrbit: true
 rotateTime: 11200
 accessible: true
 allowLaunchToNumbered: true
@@ -24,6 +25,8 @@ allowWaves: true
 allowLaunchToNumbered: false
 enemyBuildSpeedMultiplier: 1
 defaultCore: core-shard
+radius: 1.2
+alwaysUnlocked: true
 itemWhitelist: [
     inferior-assault-plating,
     inferior-core-plating,
