@@ -64,4 +64,18 @@ coct: 2
 cper: 1.8
 cscl: 2.2
   }
+{
+type: NoiseMesh
+divisions: 4
+radius: 1.1
+color1: 9b9b9b
+color2: 213d37
+octaves: 3
+persistence: 0.7
+scale: 0.9
+mag: 1
+coct: 2
+cper: 1.2
+cscl: 2.2
+  }
   ]
