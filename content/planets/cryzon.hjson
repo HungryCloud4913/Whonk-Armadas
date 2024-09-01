@@ -12,7 +12,7 @@ orbitOffset: 9
 orbitTime: 31536000
 rotateTime: 11200
 accessible: true
-allowLaunchToNumbered: false
+allowLaunchToNumbered: true
 defaultEnv: 8
 allowLaunchSchematics: false
 allowLaunchLoadout: false
