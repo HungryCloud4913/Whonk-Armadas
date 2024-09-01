@@ -52,7 +52,7 @@ itemWhitelist: [
   mesh: [
 {
 type: NoiseMesh
-divisions: 4
+divisions: 6
 radius: 1.1
 color1: f5f5f5
 color2: d3ede8
@@ -66,7 +66,7 @@ cscl: 2.2
   }
 {
 type: NoiseMesh
-divisions: 4
+divisions: 6
 radius: 1.1
 color1: 9b9b9b
 color2: 213d37
