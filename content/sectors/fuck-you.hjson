@@ -1,3 +1,4 @@
 sector: 24
 planet: cryzon
 difficulty: 4
+alwaysUnlocked: true
