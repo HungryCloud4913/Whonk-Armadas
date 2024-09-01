@@ -25,7 +25,7 @@ allowWaves: true
 allowLaunchToNumbered: false
 enemyBuildSpeedMultiplier: 1
 defaultCore: core-shard
-radius: 1.5
+radius: 1.2
 alwaysUnlocked: true
 itemWhitelist: [
     inferior-assault-plating,
@@ -70,8 +70,8 @@ divisions: 6
 radius: 1
 color1: 9b9b9b
 color2: 213d37
-octaves: 5
-persistence: 1.4
+octaves: 3
+persistence: 1.2
 scale: 0.9
 mag: 1.4
 coct: 4
