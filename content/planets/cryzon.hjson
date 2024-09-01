@@ -53,10 +53,10 @@ itemWhitelist: [
 {
 type: NoiseMesh
 divisions: 6
-radius: 1.1
+radius: 1.2
 color1: f5f5f5
 color2: d3ede8
-octaves: 4
+octaves: 1
 persistence:  1.2
 scale: 0.9
 mag: 1.5
