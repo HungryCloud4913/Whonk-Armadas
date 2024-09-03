@@ -11,6 +11,7 @@ parts: [
   moveY: -3
   heatColor: ff0000cc
   under: true
+  progress: recoil
 }
 ]
 }
@@ -29,7 +30,7 @@ ammoTypes: {
       pierce: true
       pierceCap: 3
       pierceDamageFactor: 0.05
-      trailinterval: 1
+      trailInterval: 1
       lifetime: 30
       speed: 8
       splashDamage: 10
@@ -65,6 +66,7 @@ ammoTypes: {
           interp: pow5Out
           sizeInterp: pow5In
           lifetime: 50
+          cone: 20
             }
       hitEffect: {
         type: MultiEffect
@@ -101,7 +103,7 @@ ammoTypes: {
       pierce: true
       pierceCap: 5
       pierceDamageFactor: 0.02
-      trailinterval: 1
+      trailInterval: 1
       lifetime: 30
       speed: 8
       splashDamage: 10
@@ -137,6 +139,7 @@ ammoTypes: {
           interp: pow5Out
           sizeInterp: pow5In
           lifetime: 50
+          cone: 20
             }
       hitEffect: {
         type: MultiEffect
