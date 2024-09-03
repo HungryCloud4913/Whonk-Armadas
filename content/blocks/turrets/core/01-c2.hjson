@@ -9,6 +9,7 @@ parts: [
   color: ffffff00
   colorTo: ffffffff
   progress: reload
+  suffix: -glow
     }
 ]
 }
@@ -24,6 +25,8 @@ soundPitchMin: 10
 soundPitchMax: 14
 shootType: {
   type: BasicBulletType
+  speed: 2
+  lifetime: 80
   damage: 40
   splashDamage: 12
   splashDamageRadius: 10
