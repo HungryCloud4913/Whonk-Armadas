@@ -1,0 +1,58 @@
+type: PowerTurret
+size: 2
+drawer: {
+type: DrawTurret
+basePrefix: core-
+parts: [
+  {
+  type: RegionPart
+  color: ffffff00
+  colorTo: ffffffff
+  progress: reload
+    }
+]
+}
+range: 160
+reload: 90
+consumes: {
+  power: 1.5
+    }
+category: turret
+heatColor: ff0000
+shootSound: malignShoot
+soundPitchMin: 10
+soundPitchMax: 14
+shootType: {
+  type: BasicBulletType
+  damage: 40
+  splashDamage: 12
+  splashDamageRadius: 10
+  hitEffect: hitBulletColor
+  shootEffect: shootBigColor
+  smokeEffect: bigColorSpark
+  hitColor: bfffe4
+  backColor: bfffe4
+  frontColor: ffffff
+  trailColor: bfffe4
+  trailLength: 12
+  trailWidth: 2
+  height: 10
+  width: 7
+  sizeInterp: slope
+  fragBullets: 3
+  fragSpread: 90
+  fragRandomSpread: 0
+  fragBullet: {
+      type: LaserBulletType
+      damage: 4
+      colors: [bfffe4aa,bfffe4,ffffff]
+      length: 30
+      width: 10
+      sideLength: 0
+      hitEffect: hitLaserColor
+        }
+}
+requirements: [
+    promethiote/50
+    inferior-core-plating/10
+      ]
