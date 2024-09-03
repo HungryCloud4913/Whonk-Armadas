@@ -13,6 +13,7 @@ parts: [
   under: true
 }
 ]
+}
 reload: 60
 range: 240
 heatColor: bdd5ff
