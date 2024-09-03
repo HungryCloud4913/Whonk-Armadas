@@ -29,7 +29,7 @@ shootType: {
   splashDamageRadius: 10
   hitEffect: hitBulletColor
   shootEffect: shootBigColor
-  smokeEffect: bigColorSpark
+  smokeEffect: colorSparkBig
   hitColor: bfffe4
   backColor: bfffe4
   frontColor: ffffff
