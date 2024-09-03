@@ -1,0 +1,169 @@
+type: ItemTurret
+size: 2
+shootY: 7
+drawer: {
+type: DrawTurret
+basePrefix: assault-
+parts: [
+{
+  type: RegionPart
+  suffix: -barrel
+  moveY: -3
+  heatColor: ff0000cc
+  under: true
+}
+]
+reload: 60
+range: 240
+heatColor: bdd5ff
+category: turret
+shootSound: laser
+soundPitchMin: 10
+soundPitchMax: 15
+recoil: 0
+ammoTypes: {
+  inferior-assault-plating: {
+      type: BulletType
+      damage: 60
+      pierce: true
+      pierceCap: 3
+      pierceDamageFactor: 0.05
+      trailinterval: 1
+      lifetime: 30
+      speed: 8
+      splashDamage: 10
+      trailEffect: {
+        type: ParticleEffect
+        colorFrom: ffffffaa
+        colorTo: 7781deaa
+        length: 12
+        interp: pow5Out
+        sizeInterp: pow5In
+        lifetime: 15
+        sizeFrom: 5
+          }
+      shootEffect: {
+        type: MultiEffect
+        effects: [shootBigColor, {
+              type: WaveEffect
+              sizeTo: 20
+              lifetime: 10
+              colorTo: 7781de
+              strokeFrom: 3
+                }
+          ]
+          }
+        smokeEffect: {  
+          type: ParticleEffect
+          particles: 16
+          sizeFrom: 4
+          sizeTo: 0
+          colorTo: 7781deaa 
+          colorFrom: ffffffaa
+          length: 20
+          interp: pow5Out
+          sizeInterp: pow5In
+          lifetime: 50
+            }
+      hitEffect: {
+        type: MultiEffect
+        effects: [
+{
+          type: WaveEffect
+          lifetime: 10
+          colorTo: 7781de
+          sizeTo: 20
+          strokeFrom: 3
+          lifetime: 10
+            }
+          {
+          type: ParticleEffect
+          cone: 120
+          line: true
+          rotWithParent: true
+          baseRotation: 180
+          colorTo: 7781de
+          lenFrom: 10
+          lenTo: 0
+          interp: pow5Out
+          strokeFrom: 1
+          strokeTo: 0
+          lifetime: 12
+            }
+              ]
+      }
+      despawnEffect: none
+        }
+  superior-assault-plating: {
+      type: BulletType
+      damage: 100
+      pierce: true
+      pierceCap: 5
+      pierceDamageFactor: 0.02
+      trailinterval: 1
+      lifetime: 30
+      speed: 8
+      splashDamage: 10
+      trailEffect: {
+        type: ParticleEffect
+        colorFrom: ffffffaa
+        colorTo: 7781deaa
+        length: 14
+        interp: pow5Out
+        sizeInterp: pow5In
+        lifetime: 15
+        sizeFrom: 5
+          }
+      shootEffect: {
+        type: MultiEffect
+        effects: [shootBigColor, {
+              type: WaveEffect
+              sizeTo: 22
+              lifetime: 10
+              colorTo: 7781de
+              strokeFrom: 3
+                }
+          ]
+          }
+        smokeEffect: {  
+          type: ParticleEffect
+          particles: 16
+          sizeFrom: 6
+          sizeTo: 0
+          colorTo: 7781deaa 
+          colorFrom: ffffffaa
+          length: 20
+          interp: pow5Out
+          sizeInterp: pow5In
+          lifetime: 50
+            }
+      hitEffect: {
+        type: MultiEffect
+        effects: [
+{
+          type: WaveEffect
+          lifetime: 10
+          colorTo: 7781de
+          sizeTo: 24
+          strokeFrom: 3
+          lifetime: 10
+            }
+          {
+          type: ParticleEffect
+          cone: 120
+          line: true
+          rotWithParent: true
+          baseRotation: 180
+          colorTo: 7781de
+          lenFrom: 12
+          lenTo: 0
+          interp: pow5Out
+          strokeFrom: 1
+          strokeTo: 0
+          lifetime: 12
+            }
+              ]
+      }
+      despawnEffect: none
+        }
+}
