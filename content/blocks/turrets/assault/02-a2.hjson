@@ -168,3 +168,7 @@ ammoTypes: {
       despawnEffect: none
         }
 }
+requirements: [
+  meridium/120
+  inferior-assault-plating/50
+    ]
