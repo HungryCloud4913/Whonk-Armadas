@@ -34,6 +34,7 @@ ammoTypes: {
       lifetime: 30
       speed: 8
       splashDamage: 10
+      splashDamageRadius: 10
       trailEffect: {
         type: ParticleEffect
         colorFrom: ffffffaa
@@ -107,6 +108,7 @@ ammoTypes: {
       lifetime: 30
       speed: 8
       splashDamage: 10
+      splashDamageRadius: 20
       trailEffect: {
         type: ParticleEffect
         colorFrom: ffffffaa
