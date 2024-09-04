@@ -20,7 +20,7 @@ drawCell: false
 maxRange: 10
 deathExplosionEffect: none
 deathSound: large-explosion
-weapons [
+weapons: [
   {
   reload: 40
   shootCone: 360
