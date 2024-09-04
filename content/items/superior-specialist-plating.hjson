@@ -1,6 +1,5 @@
 type: material
-name: Superior Specialist Plating
-description: An orange crystalline silicon alloy used for complex specialist class structures and units
 explosiveness: 0
 flammability: 0
+radioactivity: 1
 color: D76D42
