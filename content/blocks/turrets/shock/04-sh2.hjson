@@ -1,0 +1,156 @@
+type: ItemTurret
+range: 240
+reload: 240
+shootSound: largeCannon
+soundPitchMin: 10
+soundPitchMax: 14
+ammoPerShot: 4
+size: 3
+heatColor: ff0000
+cooldownTime: 250
+recoilTime: 240
+shootCone: 2
+rotateSpeed: 4
+drawer: {
+  type: DrawTurret
+  basePrefix: shock-
+  parts: [
+    {
+      type:  RegionPart
+      under: true
+      suffix: -hitter
+      mirror: true
+      moveX: -2
+      moveY: -2
+      heatColor: ff0000
+      progress: recoil
+      heatProgress: recoil
+        }
+{
+      type: RegionPart
+      under: true
+      suffix: -barrel
+      mirror: false
+      moveY: -3
+      heatColor: ff0000
+      progress: recoil
+      heatProgress: recoil
+        }
+]
+}
+category: turret
+consumes: {
+  power: 6
+    }
+ammoTypes: {
+    inferior-shock-plating: {
+      type: BasicBulletType
+      sizeInterp: slope
+      trailInterp: slope
+      shrinkX: 1
+      shrinkY: 1
+      damage: 230
+      sprite: large-orb
+      trailLength: 20
+      trailWidth: 3
+      height: 12
+      width: 12
+      speed: 1
+      lifetime: 240
+      shootEffect: shootTitan
+      ammoMultiplier: 1
+      frontColor: ffffff
+      backColor: ffb4b4
+      smokeEffect: {
+        type: WrapEffect
+        color: ffb4b4
+        effect: shootSmokeTitan
+          }
+      hitEffect: hitBulletColor
+      despawnEffect: {
+        type: WrapEffect
+        color: ffb4b4
+        effect: shockwave
+          }
+      bulletInterval: 60
+      intervalBullets: 20
+      intervalRandomSpread: 360
+      intervalBullet: {
+        type: LightningBulletType
+        lightningLength: 30
+        lightningColor: ffb4b4
+        lightningLengthRand: 6
+        damage: 8
+        buildingDamageMultiplier: 0.1
+        lightningType: {
+          type: BulletType
+          lifetime: 12
+          hitEffect: hitLancer
+          despawnEffect: hitLancer
+          despawnSound: spark
+          hitSound: spark
+          status: burning
+          statusDuration: 90
+          hittable: false
+          damage: 0
+            }
+      }
+    }
+superior-shock-plating: {
+      type: BasicBulletType
+      sizeInterp: slope
+      trailInterp: slope
+      shrinkX: 1
+      shrinkY: 1
+      damage: 300
+      sprite: large-orb
+      trailLength: 24
+      trailWidth: 3
+      height: 12
+      width: 12
+      speed: 1
+      lifetime: 240
+      shootEffect: shootTitan
+      ammoMultiplier: 1
+      frontColor: ffb4b4
+      backColor: b94444
+      smokeEffect: {
+        type: WrapEffect
+        color: b94444
+        effect: shootSmokeTitan
+          }
+      hitEffect: hitBulletColor
+      despawnEffect: {
+        type: WrapEffect
+        color: b94444
+        effect: shockwave
+          }
+      bulletInterval: 60
+      intervalBullets: 20
+      intervalRandomSpread: 360
+      intervalBullet: {
+        type: LightningBulletType
+        lightningLength: 30
+        lightningColor: b94444
+        lightningLengthRand: 6
+        damage: 8
+        buildingDamageMultiplier: 0.1
+        lightningType: {
+          type: BulletType
+          lifetime: 12
+          hitEffect: hitLancer
+          despawnEffect: hitLancer
+          despawnSound: spark
+          hitSound: spark
+          status: burning
+          statusDuration: 90
+          hittable: false
+          damage: 0
+            }
+      }
+    }
+}
+requirements: [
+    inferior-shock-plating/200
+    superior-shock-plating/20
+      ]
