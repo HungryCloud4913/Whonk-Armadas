@@ -1,6 +1,5 @@
-type: material
-name: Meridium
-description: A blue crystalline material used for forming assault class materials
-explosiveness: 0
+type: item
+explosiveness: 0.1
 flammability: 0
+charge: 0
 color: BDD5FF
