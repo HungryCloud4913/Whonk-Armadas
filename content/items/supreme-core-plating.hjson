@@ -1,6 +1,5 @@
 type: material
-name: Supreme Core Plating
-description: A turquoise crystalline silicon alloy used for advanced core class structures and units
+radioactivity: 0.6
 explosiveness: 0
 flammability: 0
 color: 73C8A8
