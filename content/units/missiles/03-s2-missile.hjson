@@ -1,5 +1,4 @@
 type: missile
-controller: missileAI
 template: MissileUnitType
 health: 50
 speed: 4
