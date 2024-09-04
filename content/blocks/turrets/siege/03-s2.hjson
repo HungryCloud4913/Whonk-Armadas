@@ -5,6 +5,7 @@ ammoPerShot: 5
 range: 400
 category: turret
 shootSound: missileLarge
+predictTarget: false
 drawer: {
   type: DrawTurret
   basePrefix: siege-
