@@ -53,7 +53,7 @@ weapons: [
 abilities: [
 {
 type: MoveEffectAbility
-effect: missile-trail
+effect: missileTrail
 teamColor: false
 color: baff94ff
 interval: 2
