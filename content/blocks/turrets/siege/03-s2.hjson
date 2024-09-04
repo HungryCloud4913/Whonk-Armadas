@@ -30,7 +30,13 @@ drawer: {
       mirror: true
       suffix: -side
       moveX: 2
-      growX: 0.1
+      moves: [
+{
+type: PartMove
+gX: -1
+progress: warmup
+}
+]
       progress: warmup
         }
 ]
