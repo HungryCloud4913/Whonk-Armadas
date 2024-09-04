@@ -66,6 +66,7 @@ ammoTypes: {
         type: WrapEffect
         color: ffb4b4
         effect: shootSmokeTitan
+        rotWithParent: true
           }
       hitEffect: hitBulletColor
       despawnEffect: {
@@ -122,6 +123,7 @@ superior-shock-plating: {
         type: WrapEffect
         color: b94444
         effect: shootSmokeTitan
+        rotWithParent: true
           }
       hitEffect: hitBulletColor
       despawnEffect: {
