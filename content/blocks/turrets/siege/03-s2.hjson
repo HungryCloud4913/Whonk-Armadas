@@ -39,7 +39,7 @@ drawer: {
   shootWarmupSpeed: 0.05
   ammoTypes: {
     inferior-siege-plating: {
-      spawnUnit: Whonk-Armadas-03-s2-missile
+      spawnUnit: 03-s2-missile
       shootEffect: shootTitan
       smokeEffect: shootSmokeTitan
         }
