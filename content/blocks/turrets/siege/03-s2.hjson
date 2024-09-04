@@ -12,10 +12,10 @@ drawer: {
     {
     type: RegionPart
     suffix: -missile
-    color: 00000000
-    mixColor: ffff00ff
-    colorTo: ffffffff
-    mixColorTo: 00000000
+    colorTo: 00000000
+    mixColorTo: ffff00ff
+    color: ffffffff
+    mixColor: 00000000
     progress: reload
     moves: [
       {
@@ -29,8 +29,8 @@ drawer: {
       type: RegionPart
       mirror: true
       suffix: -side
-      moveY: 2
-      growX: 0
+      moveX: 2
+      growX: 0.1
       progress: warmup
         }
 ]
