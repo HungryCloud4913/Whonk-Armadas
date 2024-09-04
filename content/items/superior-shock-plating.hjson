@@ -1,6 +1,5 @@
 type: material
-name: Superior Shock Plating
-description: A red crystalline silicon alloy used for complex shock class structures and units
 explosiveness: 0
 flammability: 0
+charge: 1
 color: B94444
