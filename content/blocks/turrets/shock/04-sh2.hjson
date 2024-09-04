@@ -61,6 +61,7 @@ ammoTypes: {
       ammoMultiplier: 1
       frontColor: ffffff
       backColor: ffb4b4
+      trailColor: ffb4b4
       smokeEffect: {
         type: WrapEffect
         color: ffb4b4
@@ -93,6 +94,7 @@ ammoTypes: {
           statusDuration: 90
           hittable: false
           damage: 0
+          hitSoundVolume: 2
             }
       }
     }
@@ -100,6 +102,7 @@ superior-shock-plating: {
       type: BasicBulletType
       sizeInterp: slope
       trailInterp: slope
+      reloadMultiplier: 0.95
       shrinkX: 1
       shrinkY: 1
       damage: 300
@@ -114,6 +117,7 @@ superior-shock-plating: {
       ammoMultiplier: 1
       frontColor: ffb4b4
       backColor: b94444
+      trailColor: b94444
       smokeEffect: {
         type: WrapEffect
         color: b94444
@@ -126,14 +130,14 @@ superior-shock-plating: {
         effect: shockwave
           }
       bulletInterval: 60
-      intervalBullets: 20
+      intervalBullets: 24
       intervalRandomSpread: 360
       intervalBullet: {
         type: LightningBulletType
         lightningLength: 30
         lightningColor: b94444
         lightningLengthRand: 6
-        damage: 8
+        damage: 10
         buildingDamageMultiplier: 0.1
         lightningType: {
           type: BulletType
@@ -146,6 +150,7 @@ superior-shock-plating: {
           statusDuration: 90
           hittable: false
           damage: 0
+          hitSoundVolume: 2
             }
       }
     }
