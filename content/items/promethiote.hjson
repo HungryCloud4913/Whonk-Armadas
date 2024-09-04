@@ -1,6 +1,5 @@
 type: material
-name: Promethiote
-description: A turquoise crystalline material used for forming core class materials
 explosiveness: 0
 flammability: 0
+radioactivity: 0.1
 color: BFFFE4
