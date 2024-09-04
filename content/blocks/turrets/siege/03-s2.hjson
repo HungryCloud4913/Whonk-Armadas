@@ -1,0 +1,50 @@
+type: ItemTurret
+size: 2
+reload: 140
+ammoPerShot: 5
+range: 400
+category: turret
+shootSound: missileLarge
+drawer: {
+  type: DrawTurret
+  basePrefix: siege-
+  parts: [
+    {
+    type: RegionPart
+    suffix: -missile
+    color: 00000000
+    mixColor: ffff00ff
+    colorTo: ffffffff
+    mixColorTo: 00000000
+    progress: reload
+    moves: [
+      {
+        type: PartMove
+        progress: warmup
+        y: 2
+          }
+      ]
+      }
+{
+      type: RegionPart
+      mirror: true
+      suffix: -side
+      moveY: 2
+      growX: 0
+      progress: warmup
+        }
+]
+}
+  minWarmup: 0.5
+  shootWarmupSpeed: 0.05
+  ammoTypes: {
+    inferior-siege-plating: {
+      spawnUnit: 03-s2-missile
+      shootEffect: shootTitan
+      smokeEffect: shootSmokeTitan
+        }
+  }
+requirements: [
+    inferior-siege-plating/160
+    superior-siege-plating/12
+      ]
