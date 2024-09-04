@@ -1,6 +1,4 @@
 type: material
-name: Supreme Assault Plating
-description: A blue crystalline silicon alloy used for advanced assault class structures and units
-explosiveness: 0
+explosiveness: 0.6
 flammability: 0
 color: 7781DE
