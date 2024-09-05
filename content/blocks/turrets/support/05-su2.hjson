@@ -38,7 +38,7 @@ parts: [
   radius: 3
   color: ffbaf8
   lightColor: ffbaf8
-  timeScl: 80
+  timeScl: 1
   sides: 8
   layer: 110
   useWarmupRadius: true
