@@ -142,7 +142,7 @@ bullet: {
 }
 {
 reload: 5
-shootSound: back
+shootSound: flux
 alwaysShooting: true
 x: 0
 mirror: false
