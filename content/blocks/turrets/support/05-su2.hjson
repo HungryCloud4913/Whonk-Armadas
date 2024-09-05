@@ -79,6 +79,8 @@ shootType: {
   lifetime: 0
   instantDisappear: true
   despawnHit: true
+  collidesTeam: true
+  healColor: ffbaf8
     }
 requirements: [
     inferior-support-plating/140
