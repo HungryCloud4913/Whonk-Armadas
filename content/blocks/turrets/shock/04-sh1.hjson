@@ -24,6 +24,7 @@ shootType: {
   colors: [ffb4b4aa, ffb4b4, ffffff]
   lightColor: ffb4b4
   status: shocked
+  displayAmmoMultiplier: false
   statusDuration: 60
   lifetime: 12
   fragBullets: 1
