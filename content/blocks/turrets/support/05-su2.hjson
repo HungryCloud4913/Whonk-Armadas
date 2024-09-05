@@ -68,6 +68,7 @@ shootType: {
   splashDamageRadius: 160
   shootEffect: none
   smokeEffect: none
+  displayAmmoMultiplier: false
   hitEffect: {
       type: WaveEffect
       colorFrom: ffbaf8
