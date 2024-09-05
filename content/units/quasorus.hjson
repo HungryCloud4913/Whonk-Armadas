@@ -265,7 +265,7 @@ parts: [
 }
 ]
     recoil: 0
-    reload: 1
+    reload: 70
     shootWarmupSpeed: 0.04
     minWarmup: 0.25
     shootSound: grinding
