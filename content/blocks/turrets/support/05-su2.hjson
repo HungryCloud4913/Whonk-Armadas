@@ -6,6 +6,7 @@ reload: 90
 range: 160
 size: 3
 category: turret
+recoil: 0
 drawer: {
 type: DrawMulti
 drawers: [
