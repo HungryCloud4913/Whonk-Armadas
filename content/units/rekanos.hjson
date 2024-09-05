@@ -3,7 +3,7 @@ drawCell: false
 outlines: false
 health: 420000
 armor: -1
-speed: 0.5
+speed: 1.3
 hitSize: 80
 engineOffset: 0
 engineSize: 10
