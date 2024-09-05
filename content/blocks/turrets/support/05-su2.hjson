@@ -1,0 +1,84 @@
+type: PowerTurret
+rotateSpeed: 0
+outlineColor: 3c3d42
+squareSprite: false
+reload: 40
+range: 160
+size: 3
+category: turret
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawTurret
+basePrefix: open-
+parts: [
+  {
+  type: RegionPart
+  suffix: -trapdoor-right
+  moveY: 4
+  moveX: 4
+  outline: false
+    }
+  {
+  type: RegionPart
+  suffix: -trapdoor-left
+  moveY: -4
+  moveX: -4
+  outline: false
+    }
+]
+}
+{
+  type: DrawShape
+  radius: 3
+  color: ffbaf8
+  lightColor: ffbaf8
+  timeScl: 80
+  sides: 8
+  layer: 110
+  useWarmupRadius: true
+    }
+]
+}
+consumes: {
+  power: 5
+  liquids: [
+    {
+    liquid: ozone
+    booster: false
+    optional: false
+      }
+    ]
+}
+shootY: 0
+shootSound: none
+targetHealing: true
+shootCone: 360
+shootType: {
+  type: BasicBulletType
+  damage: 0
+  splashDamage: 45
+  splashDamageRadius: 160
+  shootEffect: none
+  smokeEffect: none
+  hitEffect: {
+      type: WaveEffect
+      colorFrom: ffbaf8
+      colorTo: ffbaf8
+      sizeTo: 160
+      lifetime: 40
+        }
+  healPercent: 1.2
+  lifetime: 0
+  instantDisappear: true
+  despawnHit: true
+    }
+requirements: [
+    inferior-support-plating/140
+    superior-support-plating/30
+  ]
