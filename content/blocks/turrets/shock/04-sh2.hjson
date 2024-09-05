@@ -62,6 +62,8 @@ ammoTypes: {
       frontColor: ffffff
       backColor: ffb4b4
       trailColor: ffb4b4
+      pierce: true
+      pierceCap: 5
       smokeEffect: {
         type: WrapEffect
         color: ffb4b4
@@ -82,7 +84,7 @@ ammoTypes: {
         lightningLength: 30
         lightningColor: ffb4b4
         lightningLengthRand: 6
-        damage: 8
+        damage: 25
         buildingDamageMultiplier: 0.1
         lightningType: {
           type: BulletType
@@ -119,6 +121,8 @@ superior-shock-plating: {
       frontColor: ffb4b4
       backColor: b94444
       trailColor: b94444
+      pierce: true
+      pierceCap: 5
       smokeEffect: {
         type: WrapEffect
         color: b94444
@@ -139,7 +143,7 @@ superior-shock-plating: {
         lightningLength: 30
         lightningColor: b94444
         lightningLengthRand: 6
-        damage: 10
+        damage: 50
         buildingDamageMultiplier: 0.1
         lightningType: {
           type: BulletType
