@@ -18,6 +18,7 @@ drawer: {
     color: ffffffff
     mixColor: 00000000
     progress: reload
+    outline: false
     moves: [
       {
         type: PartMove
