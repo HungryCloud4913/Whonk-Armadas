@@ -19,6 +19,7 @@ shootType: {
   splashDamage: 6
   splashDamageRadius: 5
   sprite: missile-large
+  displayAmmoMultiplier: false
   height: 6
   width: 4
   shrinkY: 0
