@@ -2,7 +2,7 @@ type: PowerTurret
 rotateSpeed: 0
 outlineColor: 3c3d42
 squareSprite: false
-reload: 40
+reload: 90
 range: 160
 size: 3
 category: turret
@@ -62,7 +62,7 @@ shootCone: 360
 shootType: {
   type: BasicBulletType
   damage: 0
-  splashDamage: 45
+  splashDamage: 60
   splashDamageRadius: 160
   shootEffect: none
   smokeEffect: none
@@ -71,9 +71,10 @@ shootType: {
       colorFrom: ffbaf8
       colorTo: ffbaf8
       sizeTo: 160
-      lifetime: 40
+      lifetime: 80
         }
-  healPercent: 1.2
+  despawnEffect: none
+  healPercent: 2.4
   lifetime: 0
   instantDisappear: true
   despawnHit: true
