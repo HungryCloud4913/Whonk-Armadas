@@ -119,7 +119,7 @@ bullet: {
     type: LightningBulletType
     lightningColor: ffb4b4
     lightningLength: 40
-    damage: 300
+    damage: 175
     lightning: 5
     lightningType: {
         type: LightningBulletType
