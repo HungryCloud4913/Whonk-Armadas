@@ -1,7 +1,7 @@
 drawBody: false
 drawCell: false
 outlines: false
-health: 520000
+health: 420000
 armor: -1
 speed: 0.5
 hitSize: 80
