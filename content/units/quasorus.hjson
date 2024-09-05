@@ -306,7 +306,7 @@ parts: [
     reload: 140
     shootWarmupSpeed: 0.04
     minWarmup: 0.25
-    shootSound: cutter
+    shootSound: grinding
     bullet: {
       type: BulletType
       hittable: false
