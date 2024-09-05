@@ -33,6 +33,7 @@ shootType: {
   hitEffect: hitBulletColor
   shootEffect: shootBigColor
   smokeEffect: colorSparkBig
+  displayAmmoMultiplier: false
   hitColor: bfffe4
   backColor: bfffe4
   frontColor: ffffff
