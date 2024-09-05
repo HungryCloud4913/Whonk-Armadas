@@ -394,7 +394,7 @@ parts: [
                     shotDelay: 0
             inaccuracy: 0
             recoil: 1
-            shootSound: grinding
+            shootSound: message
             shootEffect: none
             bullet: {
                 type: SolidBulletType
@@ -430,7 +430,7 @@ parts: [
                     shotDelay: 5
             inaccuracy: 0
             recoil: 1
-            shootSound: grinding
+            shootSound: message
             shootEffect: none
             bullet: {
                 type: SolidBulletType
