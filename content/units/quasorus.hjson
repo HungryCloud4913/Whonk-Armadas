@@ -258,14 +258,14 @@ parts: [
   x: 0
   y: 0
   followRotation: true
-  radius: 50
-  radiusTo: 80
+  radius: 65
+  radiusTo: 70
   spinSpeed: 2.7
   partProgress: warmup
 }
 ]
     recoil: 0
-    reload: 140
+    reload: 1
     shootWarmupSpeed: 0.04
     minWarmup: 0.25
     shootSound: grinding
