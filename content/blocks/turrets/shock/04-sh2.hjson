@@ -4,7 +4,7 @@ reload: 240
 shootSound: largeCannon
 soundPitchMin: 10
 soundPitchMax: 14
-ammoPerShot: 4
+ammoPerShot: 10
 size: 3
 heatColor: ff0000
 cooldownTime: 250
@@ -58,7 +58,7 @@ ammoTypes: {
       speed: 1
       lifetime: 240
       shootEffect: shootTitan
-      ammoMultiplier: 1
+      ammoMultiplier: 2
       frontColor: ffffff
       backColor: ffb4b4
       trailColor: ffb4b4
@@ -143,7 +143,7 @@ superior-shock-plating: {
         lightningLength: 30
         lightningColor: b94444
         lightningLengthRand: 6
-        damage: 50
+        damage: 35
         buildingDamageMultiplier: 0.1
         lightningType: {
           type: BulletType
