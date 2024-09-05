@@ -61,11 +61,11 @@ parts: [
   x: 0
   y: 0
   type: ShapePart
-  sides: 6
+  sides: 9
   hollow: true
     layer: 110
   stroke: 0
-  strokeTo: 1
+  strokeTo: 3
   radius: 14
   color: baff94
   rotateSpeed: 4
@@ -91,7 +91,7 @@ parts: [
   x: 0
   y: 0
   followRotation: true
-  radius: 0
+  radius: 15
   radiusTo: 20
   spinSpeed: 1.2
   partProgress: warmup
@@ -100,24 +100,12 @@ parts: [
   x: 0
   y: 0
   type: ShapePart
-  layer: 110
-  radius: 22
-  circle: true
-  hollow: true
-  stroke: 0
-  strokeTo: 1.5
-  color: baff94
-  }
-{
-  x: 0
-  y: 0
-  type: ShapePart
-  sides: 4
+  sides: 7
   hollow: true
   layer: 110
   stroke: 0
-  strokeTo: 1.5
-  radius: 20
+  strokeTo: 1.8
+  radius: 40
   color: baff94
   rotateSpeed: 2.1
 }
@@ -151,12 +139,12 @@ parts: [
   x: 0
   y: 0
   type: ShapePart
-  sides: 4
+  sides: 8
   hollow: true
   layer: 110
   stroke: 0
-  strokeTo: 1.5
-  radius: 8
+  strokeTo: 2
+  radius: 29
   color: baff94
   rotateSpeed: 2.1
 }
@@ -206,7 +194,7 @@ parts: [
   x: 0
   y: 0
   followRotation: true
-  radius: 20
+  radius: 55
   radiusTo: 60
   spinSpeed: 1.7
   partProgress: warmup
@@ -261,32 +249,6 @@ parts: [
   radius: 52
   color: baff94
   rotateSpeed: 1.0
-}
-{
-  x: 0
-  y: 0
-  type: ShapePart
-  sides: 5
-  hollow: true
-  layer: 110
-  stroke: 0
-  strokeTo: 1.5
-  radius: 57
-  color: baff94
-  rotateSpeed: 0.8
-}
-{
-  type: FlarePart
-  color1: baff94
-  color2: ffffff
-  stroke: 4
-  x: 0
-  y: 0
-  followRotation: true
-  radius: 60
-  radiusTo: 86
-  spinSpeed: 0.6
-  partProgress: warmup
 }
 {
   type: FlarePart
