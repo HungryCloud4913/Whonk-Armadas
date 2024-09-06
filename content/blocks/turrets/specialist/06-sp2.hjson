@@ -3,6 +3,8 @@ reload: 30
 range: 200
 size: 3
 shootY: 12
+minWarmup: 0.96
+shootWarmupSpeed: 0.05
 drawer: {
 type: DrawTurret
 basePrefix: specialist-
@@ -80,7 +82,7 @@ basePrefix: specialist-
   type: ShapePart
   mirror: false
   radius: 0
-  radiusTo: 8
+  radiusTo: 4
   x: 0
   y: 0
   moveY: -2
@@ -105,7 +107,7 @@ basePrefix: specialist-
   radius: 0
   haloRadius: 0
   radiusTo: 8
-  haloRadiusTo: 4
+  haloRadiusTo: 2
   triLengthTo: 8
   haloRotateSpeed: 0
     progress: {
