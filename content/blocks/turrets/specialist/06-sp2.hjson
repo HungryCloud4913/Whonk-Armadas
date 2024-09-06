@@ -18,6 +18,7 @@ basePrefix: specialist-
   hollow: false
   layer: 110
   color: ffb987
+  rotation: 45
   progress: {
       type: warmup
       op: delay
@@ -36,7 +37,8 @@ basePrefix: specialist-
   sides: 4
   hollow: false
   layer: 110
-  color: ffb987
+  color: ffb987  
+  rotation: 45
   progress: {
       type: warmup
       op: delay
@@ -47,11 +49,12 @@ basePrefix: specialist-
   type: ShapePart
   circle: true
   hollow: true
-  radius: 20
+  radius: 10
   x: 0
   y: 0
   moveY: 2
   rotateSpeed: 3
+  color: ffb987
     }
 {
   type: ShapePart
@@ -102,6 +105,7 @@ basePrefix: specialist-
   haloRadius: 0
   radiusTo: 8
   haloRadiusTo: 4
+  triLengthTo: 8
   haloRotateSpeed: 0
     progress: {
       type: warmup
