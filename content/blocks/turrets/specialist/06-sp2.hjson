@@ -161,5 +161,5 @@ shootType: {
 }
 requirements: [
     inferior-specialist-plating/200
-    superior-specialis-plating/40
+    superior-specialist-plating/40
     ]
