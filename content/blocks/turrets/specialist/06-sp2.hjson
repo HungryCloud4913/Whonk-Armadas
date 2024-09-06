@@ -55,12 +55,13 @@ basePrefix: specialist-
   moveY: 2
   rotateSpeed: 3
   color: ffb987
+  layer: 110
     }
 {
   type: ShapePart
   mirror: false
   radius: 0
-  radiusTo: 8
+  radiusTo: 4
   x: 0
   y: 0
   moveY: -8
@@ -112,6 +113,7 @@ basePrefix: specialist-
       op: delay
       amount: 0.9
         }
+  layer: 110
 }
 ]
 }
