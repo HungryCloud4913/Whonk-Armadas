@@ -1,0 +1,165 @@
+type: PowerTurret
+reload: 30
+range: 200
+size: 3
+shootY: 12
+drawer: {
+type: DrawTurret
+basePrefix: specialist-
+  parts: [
+  {
+  type: ShapePart
+  radius: 0
+  radiusTo: 6
+  x: 0
+  y: 0
+  moveY: 12
+  sides: 4
+  hollow: false
+  layer: 110
+  color: ffb987
+  progress: {
+      type: warmup
+      op: delay
+      amount: 0.9
+        }
+    }
+{
+  type: ShapePart
+  mirror: true
+  radius: 0
+  radiusTo: 6
+  x: 0
+  y: 0
+  moveY: 12
+  moveX: 5.75
+  sides: 4
+  hollow: false
+  layer: 110
+  color: ffb987
+  progress: {
+      type: warmup
+      op: delay
+      amount: 0.9
+        }
+}
+{
+  type: ShapePart
+  circle: true
+  hollow: true
+  radius: 20
+  x: 0
+  y: 0
+  moveY: 2
+  rotateSpeed: 3
+    }
+{
+  type: ShapePart
+  mirror: false
+  radius: 0
+  radiusTo: 8
+  x: 0
+  y: 0
+  moveY: -8
+  moveX: 0
+  circle: true
+  hollow: false
+  layer: 110
+  color: ffb987
+  progress: {
+      type: warmup
+      op: delay
+      amount: 0.5
+        }
+}
+{
+  type: ShapePart
+  mirror: false
+  radius: 0
+  radiusTo: 8
+  x: 0
+  y: 0
+  moveY: -2
+  moveX: 0
+  sides: 4
+  hollow: false
+  layer: 110
+  color: ffb987
+  rotation: 45
+  progress: {
+      type: warmup
+      op: delay
+      amount: 0.5
+        }
+}
+{
+  type: HaloPart
+  color: ffb987
+  mirror: false
+  shapes: 2
+  tri: true
+  radius: 0
+  haloRadius: 0
+  radiusTo: 8
+  haloRadiusTo: 4
+  haloRotateSpeed: 0
+    progress: {
+      type: warmup
+      op: delay
+      amount: 0.9
+        }
+}
+]
+}
+shoot: {
+  type: ShootBarrel
+  shots: 3
+  barrels: [
+    -6, 0, 0
+    0, 0, 0
+    6, 0, 0
+    ]
+}
+category: turret
+consumes: {
+  power: 12
+}
+shootType: {
+  type: BasicBulletType
+  sprite: circle-bullet
+  trailLength: 20
+  trailColor: ffb987
+  trailWidth: 2.5
+  height: 12
+  width: 12
+  shrinkX: 0
+  shrinkY: 0
+  damage: 40
+  knockback: 0.4
+  backColor: ffb987
+  frontColor: ffffff
+  speed: 10
+  lifetime: 20
+  fragBullets: 2
+  fragSpread: 180
+  fragRandomSpread: 0
+  hitEffect: hitBulletColor
+  despawnEffect: hitBulletColor
+  fragBullet: {
+    type: ShrapnelBulletType
+    damage: 15
+    status: burning
+    despawnSound: shotgun
+    length: 40
+    width: 8
+    toColor: ffb987
+    lifetime: 15
+    hitColor: ffb987
+      }
+  shootEffect: shootSmokeSquareBig
+  smokeEffect: shootSmokeDisperse
+}
+requirements: [
+    inferior-specialist-plating/200
+    superior-specialis-plating/40
+    ]
