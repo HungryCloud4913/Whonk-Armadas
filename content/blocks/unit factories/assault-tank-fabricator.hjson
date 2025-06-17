@@ -3,7 +3,7 @@ size: 3
 description: Produces T1 Assault class tanks
 health: 540
 type: unitFactory
-configurable: true
+configurable: false
   consumes: {
     power: 2
   }
