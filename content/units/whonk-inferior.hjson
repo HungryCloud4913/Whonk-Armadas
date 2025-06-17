@@ -197,7 +197,7 @@ abilities: [
       orbRadius: 5
       x: 20
       y: 0
-effectColor: 861B1B
+particleColor: 861B1B
 color: FFB4B4
     }
 {
@@ -205,7 +205,7 @@ color: FFB4B4
       orbRadius: 5
       x: -20
       y: 0
-effectColor: 2F388C
+particleColor: 2F388C
 color: BDD5FF
     }
 ]
