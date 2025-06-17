@@ -85,6 +85,6 @@ shootType: {
   healColor: ffbaf8
     }
 requirements: [
-    inferior-support-plating/140
-    superior-support-plating/30
+    copper/140
+    lead/30
   ]
