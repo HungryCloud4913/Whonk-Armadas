@@ -43,7 +43,7 @@ consumes: {
   power: 6
     }
 ammoTypes: {
-    inferior-shock-plating: {
+    copper: {
       type: BasicBulletType
       sizeInterp: slope
       trailInterp: slope
@@ -101,7 +101,7 @@ ammoTypes: {
             }
       }
     }
-superior-shock-plating: {
+lead: {
       type: BasicBulletType
       sizeInterp: slope
       trailInterp: slope
@@ -162,6 +162,6 @@ superior-shock-plating: {
     }
 }
 requirements: [
-    inferior-shock-plating/200
-    superior-shock-plating/20
+    copper/200
+    lead/20
       ]
