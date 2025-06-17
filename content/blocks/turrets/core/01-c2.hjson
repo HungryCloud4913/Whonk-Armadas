@@ -57,6 +57,6 @@ shootType: {
         }
 }
 requirements: [
-    coppere/50
+    copper/50
     lead/10
       ]
