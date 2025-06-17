@@ -57,6 +57,6 @@ shootType: {
         }
 }
 requirements: [
-    promethiote/50
-    inferior-core-plating/10
+    coppere/50
+    lead/10
       ]
