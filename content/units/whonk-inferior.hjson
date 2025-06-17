@@ -192,6 +192,7 @@ weapons: [
 }
 ]
 abilities: [
+{
       type: SuppressionFieldAbility
       orbRadius: 5
       x: 20
