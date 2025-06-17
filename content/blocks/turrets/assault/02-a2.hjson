@@ -24,7 +24,7 @@ soundPitchMin: 10
 soundPitchMax: 15
 recoil: 0
 ammoTypes: {
-  inferior-assault-plating: {
+  meridium: {
       type: BulletType
       damage: 60
       pierce: true
@@ -98,82 +98,7 @@ ammoTypes: {
       }
       despawnEffect: none
         }
-  superior-assault-plating: {
-      type: BulletType
-      damage: 100
-      pierce: true
-      pierceCap: 5
-      pierceDamageFactor: 0.02
-      trailInterval: 1
-      lifetime: 30
-      speed: 8
-      splashDamage: 10
-      splashDamageRadius: 20
-      trailEffect: {
-        type: ParticleEffect
-        colorFrom: ffffffaa
-        colorTo: 7781deaa
-        length: 14
-        interp: pow5Out
-        sizeInterp: pow5In
-        lifetime: 15
-        sizeFrom: 5
-          }
-      shootEffect: {
-        type: MultiEffect
-        effects: [shootBigColor, {
-              type: WaveEffect
-              sizeTo: 22
-              lifetime: 10
-              colorTo: 7781de
-              strokeFrom: 3
-                }
-          ]
-          }
-        smokeEffect: {  
-          type: ParticleEffect
-          particles: 16
-          sizeFrom: 6
-          sizeTo: 0
-          colorTo: 7781deaa 
-          colorFrom: ffffffaa
-          length: 20
-          interp: pow5Out
-          sizeInterp: pow5In
-          lifetime: 50
-          cone: 20
-            }
-      hitEffect: {
-        type: MultiEffect
-        effects: [
-{
-          type: WaveEffect
-          lifetime: 10
-          colorTo: 7781de
-          sizeTo: 24
-          strokeFrom: 3
-          lifetime: 10
-            }
-          {
-          type: ParticleEffect
-          cone: 120
-          line: true
-          rotWithParent: true
-          baseRotation: 180
-          colorTo: 7781de
-          lenFrom: 12
-          lenTo: 0
-          interp: pow5Out
-          strokeFrom: 1
-          strokeTo: 0
-          lifetime: 12
-            }
-              ]
-      }
-      despawnEffect: none
-        }
 }
 requirements: [
   meridium/120
-  inferior-assault-plating/50
     ]
