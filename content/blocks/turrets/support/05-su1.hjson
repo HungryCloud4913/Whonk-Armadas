@@ -62,5 +62,5 @@ shootType: {
       }
 }
 requirements: [
-  inferior-support-plating/50
+  copper/50
   ]
