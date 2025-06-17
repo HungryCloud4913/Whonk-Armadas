@@ -45,5 +45,5 @@ shootType: {
   hitEffect: hitBulletColor
     }
 requirements: [
-    promethiote/30
+    copper/30
     ]
