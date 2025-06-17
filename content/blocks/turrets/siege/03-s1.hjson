@@ -21,7 +21,7 @@ shoot: {
   shotDelay: 10
     }
 ammoTypes: {
-  inferior-siege-plating:{
+  copper:{
     type: MissileBulletType
     damage: 0
     splashDamage: 60
@@ -43,5 +43,5 @@ ammoTypes: {
       }
 }
 requirements: [
-    inferior-siege-plating/1
+    copper/1
   ]
