@@ -43,26 +43,6 @@ defaultCore: core-shard
 radius: 1.2
 alwaysUnlocked: true
 itemWhitelist: [
-    inferior-assault-plating,
-    inferior-core-plating,
-    inferior-shock-plating,
-    inferior-siege-plating,
-    inferior-specialist-plating,
-    inferior-support-plating,
-    meridium,
-    promethiote,
-    superior-assault-plating,
-    superior-core-plating,
-    superior-shock-plating,
-    superior-siege-plating,
-    superior-specialist-plating,
-    superior-support-plating,
-    supreme-assault-plating,
-    supreme-core-plating,
-    supreme-shock-plating,
-    supreme-siege-plating,
-    supreme-specialist-plating,
-    supreme-support-plating
     ]
   mesh: [
 {
