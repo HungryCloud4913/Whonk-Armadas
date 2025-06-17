@@ -18,7 +18,7 @@ shoot: {
   shotDelay: 3
     }
 ammoTypes: {
-  meridium: {
+  copper: {
     type: BasicBulletType
     damage: 15
     hitColor: BDD5FF
@@ -46,5 +46,5 @@ ammoTypes: {
       }
 }
 requirements: [
-  meridium/60
+  copper/60
 ]
