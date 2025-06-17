@@ -168,6 +168,6 @@ shootType: {
   smokeEffect: shootSmokeDisperse
 }
 requirements: [
-    inferior-specialist-plating/200
-    superior-specialist-plating/40
+    copper/200
+    lead/40
     ]
