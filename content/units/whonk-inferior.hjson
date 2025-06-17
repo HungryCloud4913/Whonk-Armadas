@@ -192,28 +192,18 @@ weapons: [
 }
 ]
 abilities: [
-    {
-      type: SuppressionFieldAbility
-      orbRadius: 8
-      x: 20
-      y: 0
-    }
-{
-      type: SuppressionFieldAbility
-      orbRadius: 8
-      x: -20
-      y: 0
-    }
-{
       type: SuppressionFieldAbility
       orbRadius: 5
       x: 20
       y: 0
+color: 861B1B
     }
 {
       type: SuppressionFieldAbility
       orbRadius: 5
       x: -20
       y: 0
+color: 2F388C
+active: false
     }
 ]
