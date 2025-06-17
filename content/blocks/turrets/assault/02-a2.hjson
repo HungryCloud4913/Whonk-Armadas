@@ -24,7 +24,7 @@ soundPitchMin: 10
 soundPitchMax: 15
 recoil: 0
 ammoTypes: {
-  meridium: {
+  copper: {
       type: BulletType
       damage: 60
       pierce: true
@@ -100,5 +100,5 @@ ammoTypes: {
         }
 }
 requirements: [
-  meridium/120
+  copper/120
     ]
