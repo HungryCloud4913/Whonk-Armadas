@@ -33,5 +33,5 @@ ammoTypes: {
       }
 }
 requirements: [
-    inferior-specialist-plating/39
+    copper/39
   ]
