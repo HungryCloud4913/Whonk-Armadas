@@ -63,5 +63,5 @@ shootType: {
   sideLength: 19
     }
 requirements: [
-    inferior-shock-plating/30
+    copper/30
   ]
