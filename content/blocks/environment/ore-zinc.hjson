@@ -1,0 +1,6 @@
+type: OreBlock
+itemDrop: zinc-ore
+oreDefault: true
+oreScale: 18.0
+oreThreshold: 0.81
+variants: 4
