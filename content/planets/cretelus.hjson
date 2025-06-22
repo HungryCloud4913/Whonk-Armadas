@@ -1,0 +1,207 @@
+# The planet's display name. If you want to support multiple languages, use bundles instead!
+localizedName: Cretelus
+
+mesh: [
+{
+//ocen :D
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 55
+radius: 1.185
+octaves: 3
+persistence: 1
+mag: 0
+color1: b5ddd5
+color2: 9ac2ba
+}
+{
+//snow way
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 51
+radius: 1.138
+octaves: 3.8
+persistence: 1
+mag: 0.4
+color1: dddddd
+color2: c6c6c6
+}
+{
+//monutain
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 18
+radius: 0.74
+octaves: 3.8
+persistence: 1
+mag: 5
+color1: 969c9b
+color2: 7b8181
+}
+{
+//monutainium snow
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 18
+radius: 1.138
+octaves: 3.8
+persistence: 1
+mag: 0.4
+color1: dddddd
+color2: c6c6c6
+}
+{
+//monutainium 
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 18
+radius: 1.138
+octaves: 3.8
+persistence: 1
+mag: 0.2
+color1: a4a4a4
+color2: 898989
+}
+
+]
+
+# The mesh used for clouds. (Now supported btw)
+cloudMesh: [
+{
+  type: HexSkyMesh
+  seed: 48
+  speed: 1
+  radius: 0.0315
+  divisions: 5
+  color: 92b5c2aa
+  octaves: 1
+  persistence: 0.7
+  scl: 1
+  thresh: 0.6
+}
+{
+  type: HexSkyMesh
+  seed: 48
+  speed: 0.6
+  radius: 0.15
+  divisions: 5
+  color: 83cabbaa
+  octaves: 1
+  persistence: 0.7
+  scl: 1
+  thresh: 0.3
+}
+{
+  type: HexSkyMesh
+  seed: 48
+  speed: 0.6
+  radius: 0.13
+  divisions: 5
+  color: 559487aa
+  octaves: 1
+  persistence: 0.7
+  scl: 1
+  thresh: 0.3
+}
+]
+
+# A planet generator. For (H)JSON planets it's pre-determined (AsteroidGenerator) and cannot be changed.
+# But you can at least modify the existing one's fields. Highly not recommended unless you REALLY know what you're doing,
+# better make sector presets and don't waste your time with this.
+generator: {
+  # Mininum amount of asteroids.
+  min: 1
+  # Maximum amount of asteroids.
+  max: 1
+
+  # Noise properties.
+  octaves: 2
+  persistence: 0.4
+  scale: 30
+  mag: 0.4
+  thresh: 1
+  foct: 3
+  fmag: 0.5
+  fscl: 50
+  fper: 0.6
+
+  # Asteroid radius range.
+  radMin: 600
+  radMax: 600
+
+  # This one is ABSOLUTELY pointless, lmao.
+  stoneChance: 0
+
+  # Terrain generation chances, in order: ice > carbon > beryl > ferric.
+  iceChance: 0.5
+  carbonChance: 1
+  berylChance: 0
+  ferricChance: 0
+}
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+
+# Make sure this planet is always accessible anytime.
+alwaysUnlocked: true
+# This determines the size of the sector grid.
+# Fun fact: The console will warn you about this "unknown" field, but it also functions properly at the same time.
+sectorSize: 4.4
+# Spacing between a parent (this) and satellites.
+orbitSpacing: 5
+# Radius of this planet's sphere.
+radius: 1.15
+# Minimum camera zoom.
+minZoom: 0.5
+# Whether to draw the orbit.
+drawOrbit: true
+# Atmosphere offset.
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.35
+# Whether this can be landed on.
+accessible: true
+# Toggle day-night cycle.
+updateLighting: false
+# A number used for sector generation. If == -1, planet ID is picked instead.
+sectorSeed: 529
+# Whether this planet is blooming.
+bloom: true
+# This is self-explanatory...
+visible: true
+# The color of the planet's icon displayed in top-left dialog.
+iconColor: 82e4c2
+atmosphereColor: 367660
+# Another self-explanatory field...
+hasAtmosphere: true
+# Whether simulate waves when off-planet.
+allowWaveSimulation: false
+# Whether allow to land on procedurally generated sectors at all. False = only presets are available.
+allowLaunchToNumbered: false
+# Whether sectors are reset when a player loses them.
+clearSectorOnLose: true
+# Whether waves are re-created when a sector is lost.
+allowWaves: true
+# Icon's name displayed in top-left dialog.
+icon: planet
+# Default core block for launch loadouts.
+defaultCore: 9-a1-core-descendant
+# The parent of the planet.
+parent: sun
+# The parent of the whole solar system the planet is in. Affects lighting.
+solarSystem: sun
+# Possible planets that could be landed on from this planet.
+# In the current version, only 1 entry is applicable if you decide to use modded accelerators.
+# Probably useless since the Interplanetary Accelerator is hidden and not working.
+launchCandidates: []
+# Items not available in this planet. Commented out because itemWhitelist is used instead as seen below.
+#hiddenItems: [
+#
+#]
+# Only items available in this planet. Recommended over hiddenItems.
+itemWhitelist: [
+]
