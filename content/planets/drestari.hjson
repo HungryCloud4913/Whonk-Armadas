@@ -1,0 +1,285 @@
+# The planet's display name. If you want to support multiple languages, use bundles instead!
+localizedName: Drestari
+
+mesh: [
+{
+//ocen :D
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 55
+radius: 1.2
+octaves: 3
+persistence: 1
+mag: 0
+color1: 4d5fb3
+color2: 303985
+}
+{
+//sand way
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 51
+radius: 1.175
+octaves: 3.8
+persistence: 1
+mag: 0.2
+color1: e8da82
+color2: be9a5e
+}
+{
+//mesag layer 1
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 30
+radius: 1.18
+octaves: 3.8
+persistence: 0.6
+mag: 0.2
+color1: e8da82
+color2: be9a5e
+}
+{
+//mesag layer 1
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 30
+radius: 1.14
+octaves: 3.8
+persistence: 0.6
+mag: 0.6
+color1: b3665f
+color2: b3665f
+}
+{
+//mesag layer 2
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 30
+radius: 1.1
+octaves: 3.8
+persistence: 0.6
+mag: 1
+color1: be8e6f
+color2: be8e6f
+}
+{
+//mesag layer 3
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 30
+radius: 1.06
+octaves: 3.8
+persistence: 0.6
+mag: 1.4
+color1: baa350
+color2: baa350
+}
+{
+//mesag layer 4
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 30
+radius: 1.02
+octaves: 3.8
+persistence: 0.6
+mag: 1.8
+color1: ba8250
+color2: ba8250
+}
+{
+//mesag layer 5
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 30
+radius: 0.98
+octaves: 3.8
+persistence: 0.6
+mag: 2.2
+color1: ba5050
+color2: ba5050
+}
+{
+//mesag layer 6
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 30
+radius: 0.94
+octaves: 3.8
+persistence: 0.6
+mag: 2.6
+color1: 763f3f
+color2: 763f3f
+}
+{
+//mesag layer 7
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 30
+radius: 0.9
+octaves: 3.8
+persistence: 0.6
+mag: 3
+color1: 897272
+color2: 897272
+}
+{
+//mesag layer 8
+type: NoiseMesh
+planet: cretelus
+divisions: 5
+seed: 30
+radius: 0.86
+octaves: 3.8
+persistence: 0.6
+mag: 3.4
+color1: 944747
+color2: 944747
+}
+
+]
+
+# The mesh used for clouds. (Now supported btw)
+cloudMesh: [
+{
+  type: HexSkyMesh
+  seed: 48
+  speed: 1
+  radius: 0.045
+  divisions: 5
+  color: 939ed188
+  octaves: 1
+  persistence: 2
+  scl: 1
+  thresh: 0.6
+}
+{
+  type: HexSkyMesh
+  seed: 77
+  speed: 2
+  radius: 0.15
+  divisions: 5
+  color: e8a3a3aa
+  octaves: 1
+  persistence: 0.7
+  scl: 1
+  thresh: 0.4
+}
+{
+  type: HexSkyMesh
+  seed: 77
+  speed: 2
+  radius: 0.13
+  divisions: 5
+  color: 6e4343aa
+  octaves: 1
+  persistence: 0.7
+  scl: 1
+  thresh: 0.4
+}
+]
+
+# A planet generator. For (H)JSON planets it's pre-determined (AsteroidGenerator) and cannot be changed.
+# But you can at least modify the existing one's fields. Highly not recommended unless you REALLY know what you're doing,
+# better make sector presets and don't waste your time with this.
+generator: {
+  # Mininum amount of asteroids.
+  min: 1
+  # Maximum amount of asteroids.
+  max: 1
+
+  # Noise properties.
+  octaves: 2
+  persistence: 0.4
+  scale: 30
+  mag: 0.4
+  thresh: 1
+  foct: 3
+  fmag: 0.5
+  fscl: 50
+  fper: 0.6
+
+  # Asteroid radius range.
+  radMin: 600
+  radMax: 600
+
+  # This one is ABSOLUTELY pointless, lmao.
+  stoneChance: 0
+
+  # Terrain generation chances, in order: ice > carbon > beryl > ferric.
+  iceChance: 0.5
+  carbonChance: 1
+  berylChance: 0
+  ferricChance: 0
+}
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+
+# Make sure this planet is always accessible anytime.
+alwaysUnlocked: true
+# This determines the size of the sector grid.
+# Fun fact: The console will warn you about this "unknown" field, but it also functions properly at the same time.
+sectorSize: 4.4
+# Spacing between a parent (this) and satellites.
+orbitSpacing: 5
+# Radius of this planet's sphere.
+radius: 1.15
+# Minimum camera zoom.
+minZoom: 0.5
+# Whether to draw the orbit.
+drawOrbit: true
+# Atmosphere offset.
+atmosphereRadIn: 0.02
+atmosphereRadOut: 0.35
+# Whether this can be landed on.
+accessible: true
+# Toggle day-night cycle.
+updateLighting: false
+# A number used for sector generation. If == -1, planet ID is picked instead.
+sectorSeed: 529
+# Whether this planet is blooming.
+bloom: true
+# This is self-explanatory...
+visible: true
+# The color of the planet's icon displayed in top-left dialog.
+iconColor: ce5555
+atmosphereColor: ce5555
+# Another self-explanatory field...
+hasAtmosphere: true
+# Whether simulate waves when off-planet.
+allowWaveSimulation: false
+# Whether allow to land on procedurally generated sectors at all. False = only presets are available.
+allowLaunchToNumbered: false
+# Whether sectors are reset when a player loses them.
+clearSectorOnLose: true
+# Whether waves are re-created when a sector is lost.
+allowWaves: true
+# Icon's name displayed in top-left dialog.
+icon: planet
+# Default core block for launch loadouts.
+defaultCore: 9-a1-core-descendant
+# The parent of the planet.
+parent: sun
+# The parent of the whole solar system the planet is in. Affects lighting.
+solarSystem: sun
+# Possible planets that could be landed on from this planet.
+# In the current version, only 1 entry is applicable if you decide to use modded accelerators.
+# Probably useless since the Interplanetary Accelerator is hidden and not working.
+launchCandidates: []
+# Items not available in this planet. Commented out because itemWhitelist is used instead as seen below.
+#hiddenItems: [
+#
+#]
+# Only items available in this planet. Recommended over hiddenItems.
+itemWhitelist: [
+]
