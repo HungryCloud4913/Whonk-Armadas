@@ -12,8 +12,7 @@ graphite-compound/1
 consumes: {
   power: 1
 items: [
-lignite/1
-sand/2
+lignite/2
 ]
 }
 
