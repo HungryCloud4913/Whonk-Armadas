@@ -48,7 +48,7 @@ craftEffect: {
 	amount: 4
     rotationSpacing: 90
     lengthOffset: 6
-    angleOffset: 45
+    effectRotationOffset: 45
     effect: {
       type: ParticleEffect
       particles: 6
@@ -59,7 +59,7 @@ craftEffect: {
       cone: 20
       spin: -0.5
       startDelay: 0
-      interp: pow4Out
+      interp: pow3Out
       colorFrom: F9FFF9
       colorTo: 8FA091
       lightOpacity: 0
