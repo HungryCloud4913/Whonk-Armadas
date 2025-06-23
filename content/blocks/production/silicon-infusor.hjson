@@ -1,0 +1,36 @@
+{
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+craftTime: 100
+craftEffect: reactorsmoke
+outputItems: [
+silicon/1
+]
+
+consumes: {
+  power: 1
+items: [
+lignite/1
+sand/2
+]
+}
+
+requirements: [
+nickel/25
+zinc/20
+]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
