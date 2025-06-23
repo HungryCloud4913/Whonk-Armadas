@@ -1,0 +1,57 @@
+{
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+craftTime: 100
+craftEffect: reactorsmoke
+outputItems: [
+graphite-compound/1
+]
+
+consumes: {
+  power: 1
+items: [
+lignite/1
+sand/2
+]
+}
+
+requirements: [
+nickel/30
+zinc/20
+]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+  {
+type: drawPistons
+sides: 4
+sinMag: 1.2
+sinScl: 2
+sideOffset: 10
+sinOffset: 2
+}
+{
+type: drawPistons
+suffix: -piston
+sides: 4
+sinMag: 1.2
+sinScl: 2
+sideOffset: 5
+sinOffset: 4
+}
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
