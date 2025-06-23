@@ -32,9 +32,21 @@ drawer: {
         flameRadiusIn: 0
         flameRadiusMag: 0
         flameRadiusScl: 0
+        flameRadiusInMag: 0
     }
     {
       type: DrawDefault
     }
+{
+	type: DrawCrucibleFlame
+	flameColor: d7c3e1
+	midColor: ffffff
+	alpha: 0.8
+	flameRad: 5
+	circleStroke: 3.5
+	particles: 50
+	particleRad: 10
+	particleSize: 5
+}
   ]
 }
