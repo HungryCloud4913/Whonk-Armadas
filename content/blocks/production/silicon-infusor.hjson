@@ -6,7 +6,7 @@ category: crafting
 craftTime: 100
 craftEffect: reactorsmoke
 outputItems: [
-silicon/1
+silicon-compound/1
 ]
 
 consumes: {
