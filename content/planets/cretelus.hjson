@@ -204,4 +204,18 @@ launchCandidates: []
 #]
 # Only items available in this planet. Recommended over hiddenItems.
 itemWhitelist: [
+boron
+graphite-compound
+holmium
+lignite
+nickel
+platinum
+platinum-plating
+raw-holmium
+raw-platinum
+silicon-compound
+vanadium
+vanadium-carbide
+zinc
+zinc-ore
 ]
