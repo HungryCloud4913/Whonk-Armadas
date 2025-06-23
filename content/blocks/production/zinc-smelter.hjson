@@ -42,10 +42,10 @@ drawer: {
 	flameColor: d7c3e1
 	midColor: ffffff
 	alpha: 0.8
-	flameRad: 5
-	circleStroke: 3.5
+	flameRad: 0
+	circleStroke: 0
 	particles: 50
-	particleRad: 10
+	particleRad: 15
 	particleSize: 5
 }
   ]
