@@ -36,7 +36,7 @@ type: drawPistons
 suffix: -piston
 angleOffset: 45
 sides: 4
-sinMag: 1.2
+sinMag: 2.5
 sinScl: 2
 sideOffset: 5
 sinOffset: 4
