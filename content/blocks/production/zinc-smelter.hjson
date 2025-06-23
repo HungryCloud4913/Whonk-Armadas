@@ -27,6 +27,11 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawFlame
+        flameRadius: 0
+        flameRadiusIn: 0
+    }
+    {
       type: DrawDefault
     }
   ]
