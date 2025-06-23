@@ -1,0 +1,40 @@
+{
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+craftTime: 100
+craftEffect: reactorsmoke
+outputItems: [
+vanadium carbide/1
+]
+
+consumes: {
+  power: 1
+items: [
+vanadium/1
+graphite-compound/2
+]
+}
+
+requirements: [
+nickel/25
+zinc/20
+]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
