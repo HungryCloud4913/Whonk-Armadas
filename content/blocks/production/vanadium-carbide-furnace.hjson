@@ -4,7 +4,6 @@ health: 200
 size: 4
 category: crafting
 craftTime: 100
-craftEffect: reactorsmoke
 outputItems: [
 vanadium-carbide/1
 ]
@@ -41,3 +40,53 @@ drawer: {
     }
   ]
 }
+craftEffect: {
+    type: MultiEffect
+    effects: [
+    {
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 6
+    effect: {
+      type: ParticleEffect
+      particles: 6
+      length: 20
+      lifetime: 50
+      sizeFrom: 3
+      sizeTo: 0
+      cone: 20
+      spin: -0.5
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: ffffa3
+      colorTo: e2865400
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+    {
+    type: radialEffect
+	amount: 4
+    rotationSpacing: 90
+    lengthOffset: 6
+    effect: {
+      type: ParticleEffect
+      particles: 6
+      length: 80
+      lifetime: 70
+      sizeFrom: 2
+      sizeTo: 0
+      cone: 10
+      spin: 0
+      startDelay: 0
+      interp: pow3Out
+      colorFrom: ffffa3
+      colorTo: e2865400
+      lightOpacity: 0
+      layer: 100.3
+      }
+    }
+  ]
+}
+
