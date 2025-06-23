@@ -6,7 +6,7 @@ category: crafting
 craftTime: 100
 craftEffect: reactorsmoke
 outputItems: [
-vanadium carbide/1
+vanadium-carbide/1
 ]
 
 consumes: {
