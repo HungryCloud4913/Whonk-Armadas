@@ -19,7 +19,6 @@ zinc-ore/1
 requirements: [
 nickel/5
 ]
-}
 drawer: {
   type: DrawMulti
   drawers: [
