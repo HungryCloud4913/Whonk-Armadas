@@ -59,8 +59,8 @@ craftEffect: {
       cone: 20
       spin: -0.5
       startDelay: 0
-      interp: F9FFF9
-      colorFrom: ffffa3
+      interp: pow4Out
+      colorFrom: F9FFF9
       colorTo: 8FA091
       lightOpacity: 0
       layer: 100.3
