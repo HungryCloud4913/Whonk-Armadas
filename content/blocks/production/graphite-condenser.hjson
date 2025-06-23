@@ -20,7 +20,6 @@ requirements: [
 nickel/30
 zinc/20
 ]
-}
 drawer: {
   type: DrawMulti
   drawers: [
