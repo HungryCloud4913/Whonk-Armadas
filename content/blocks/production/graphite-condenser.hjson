@@ -6,19 +6,23 @@ category: crafting
 craftTime: 100
 craftEffect: reactorsmoke
 outputItems: [
-graphite-compound/1
+graphite-compound/3
 ]
 
 consumes: {
   power: 1
+liquids: [
+water/1
+]
 items: [
-lignite/2
+lignite/4
 ]
 }
 
 requirements: [
 nickel/30
 zinc/20
+silicon-compound/40
 ]
 drawer: {
   type: DrawMulti
@@ -27,25 +31,18 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-    {
-      type: DrawDefault
-    }
-  {
-type: drawPistons
-sides: 4
-sinMag: 1.2
-sinScl: 2
-sideOffset: 10
-sinOffset: 2
-}
 {
 type: drawPistons
 suffix: -piston
+angleOffset: 45
 sides: 4
 sinMag: 1.2
 sinScl: 2
 sideOffset: 5
 sinOffset: 4
 }
+    {
+      type: DrawDefault
+    }
   ]
 }
