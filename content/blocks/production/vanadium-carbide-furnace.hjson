@@ -33,6 +33,10 @@ drawer: {
     }
     {
       type: DrawRegion
+      suffix: -large
+    }
+    {
+      type: DrawRegion
       suffix: -top
     }
   ]
