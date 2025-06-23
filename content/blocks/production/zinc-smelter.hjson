@@ -41,10 +41,10 @@ drawer: {
 	type: DrawCrucibleFlame
 	flameColor: d7c3e1
 	midColor: ffffff
-	alpha: 0.8
+	alpha: 0.4
 	flameRad: 0
 	circleStroke: 0
-	particles: 50
+	particles: 20
 	particleRad: 15
 	particleSize: 5
 }
