@@ -3,16 +3,16 @@ type: GenericCrafter
 health: 200
 size: 3
 category: crafting
-craftTime: 100
+craftTime: 135
 craftEffect: reactorsmoke
 outputItems: [
-zinc/1
+zinc/3
 ]
 
 consumes: {
-  power: 1
+  power: 2
 items: [
-zinc-ore/1
+zinc-ore/5
 ]
 }
 
@@ -30,6 +30,8 @@ drawer: {
       type: DrawFlame
         flameRadius: 0
         flameRadiusIn: 0
+        flameRadiusMag: 0
+        flameRadiusScl: 0
     }
     {
       type: DrawDefault
