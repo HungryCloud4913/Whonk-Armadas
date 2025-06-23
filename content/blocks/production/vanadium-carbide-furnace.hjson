@@ -47,7 +47,7 @@ craftEffect: {
     type: radialEffect
 	amount: 4
     rotationSpacing: 90
-    lengthOffset: 18
+    lengthOffset: 10
     rotationOffset: 45
     effect: {
       type: ParticleEffect
@@ -70,7 +70,7 @@ craftEffect: {
     type: radialEffect
 	amount: 4
     rotationSpacing: 90
-    lengthOffset: 18
+    lengthOffset: 10
     rotationOffset: 45
     effect: {
       type: ParticleEffect
