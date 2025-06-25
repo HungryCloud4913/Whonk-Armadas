@@ -10,9 +10,15 @@ vanadium-carbide/1
 
 consumes: {
   power: 1
+heat: 15
 items: [
 vanadium/1
 graphite-compound/2
+platinum/1
+]
+liquids: [
+sulfur/1
+oxygen/1
 ]
 }
 
