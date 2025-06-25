@@ -1,0 +1,45 @@
+type: GenericCrafter
+health: 200
+size: 4
+category: crafting
+craftTime: 100
+outputItems: [
+platinum/1
+]
+
+consumes: {
+  power: 0.5
+items: [
+]
+liquids: [
+congealed-platinum/1
+  ]
+}
+
+requirements: [
+nickel/25
+zinc/20
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawDefault
+    }
+      {
+      type: DrawLiquidTile
+      drawLiquid: congealed-platinum
+      alpha: 1
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+craftEffect: {
+}
