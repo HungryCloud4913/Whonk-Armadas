@@ -37,6 +37,9 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
+    {
+      type: DrawDefault
+    }
 {
 type: drawPistons
 suffix: -piston
@@ -46,8 +49,5 @@ sinScl: 2
 sideOffset: 5
 sinOffset: 4
 }
-    {
-      type: DrawDefault
-    }
   ]
 }
