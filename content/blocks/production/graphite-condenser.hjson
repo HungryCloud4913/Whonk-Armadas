@@ -3,19 +3,25 @@ type: GenericCrafter
 health: 200
 size: 3
 category: crafting
-craftTime: 100
+craftTime: 200
 craftEffect: reactorsmoke
 outputItems: [
-graphite-compound/3
+graphite-compound/6
+boron/2
+]
+outputLiquids: [
+oxygen/30
 ]
 
 consumes: {
   power: 1
+heat: 8
 liquids: [
-water/1
+water/90
 ]
 items: [
-lignite/4
+raw-boron/4
+lignite/8
 ]
 }
 
