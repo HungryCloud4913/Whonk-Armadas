@@ -9,7 +9,7 @@ outputItems: [
 silicon-compound/6
 ]
 outputLiquids: [
-water/30
+water/0.5
 ]
 
 consumes: {
@@ -19,8 +19,8 @@ lignite/4
 sand/8
 ]
 liquids: [
-water/60
-oxygen/90
+water/1
+oxygen/1.5
 ]
 }
 
