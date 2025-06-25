@@ -2,9 +2,9 @@ type: GenericCrafter
 health: 200
 size: 5
 category: crafting
-craftTime: 100
+craftTime: 180
 outputItems: [
-platinum/1
+platinum/5
 ]
 
 consumes: {
@@ -12,7 +12,8 @@ consumes: {
 items: [
 ]
 liquids: [
-congealed-platinum/1
+congealed-platinum/3
+water/4.16
   ]
 }
 
