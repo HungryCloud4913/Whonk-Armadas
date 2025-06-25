@@ -46,8 +46,9 @@ suffix: -piston
 sides: 4
 sinMag: 1.2
 sinScl: 5
-sideOffset: 12
+sideOffset: 5
 sinOffset: 4
+rotationOffset: 45
 }
   ]
 }
