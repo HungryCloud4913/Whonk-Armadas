@@ -1,4 +1,4 @@
-explosiveness: 1
+explosiveness: 0.75
 temperature: 1
 coolant: false
 gas: true
