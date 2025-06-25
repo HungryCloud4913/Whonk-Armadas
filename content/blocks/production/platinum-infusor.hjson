@@ -13,7 +13,7 @@ consumes: {
   power: 1
 liquids: [
 plating-solution/1
-molten-platinum/1
+congealed-platinum/1
 oxygen/1
 ]
 items: [
