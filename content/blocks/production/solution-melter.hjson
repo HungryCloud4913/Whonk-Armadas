@@ -1,0 +1,50 @@
+type: GenericCrafter
+health: 200
+size: 3
+category: crafting
+craftTime: 200
+craftEffect: reactorsmoke
+outputLiquids: [
+plating-solution/2
+]
+
+consumes: {
+  heat: 8
+  power: 0.5
+liquids: [
+hydrogen/1
+sulfur/1
+]
+items: [
+holmium/1
+zinc/1
+]
+}
+
+requirements: [
+nickel/30
+zinc/20
+silicon-compound/40
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+{
+type: drawPistons
+suffix: -piston
+angleOffset: 45
+sides: 4
+sinMag: 2.5
+sinScl: 2
+sideOffset: 5
+sinOffset: 4
+}
+    {
+      type: DrawDefault
+    }
+  ]
+}
