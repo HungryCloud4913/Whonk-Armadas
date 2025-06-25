@@ -18,8 +18,8 @@ graphite-compound/4
 raw-boron/2
 ]
 liquids: [
-sulfur/40
-oxygen/80
+sulfur/0.4
+oxygen/1.4
 ]
 }
 
