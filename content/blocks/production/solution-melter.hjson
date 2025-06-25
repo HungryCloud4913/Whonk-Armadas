@@ -4,12 +4,12 @@ size: 3
 category: crafting
 craftTime: 200
 craftEffect: reactorsmoke
+heatRequirement: 8
 outputLiquids: [
 plating-solution/2
 ]
 
 consumes: {
-  heat: 8
   power: 0.5
 liquids: [
 hydrogen/1
