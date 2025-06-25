@@ -11,13 +11,13 @@ graphite-compound/6
 boron/2
 ]
 outputLiquids: [
-oxygen/30
+oxygen/0.5
 ]
 
 consumes: {
   power: 1
 liquids: [
-water/90
+water/1.5
 ]
 items: [
 raw-boron/4
