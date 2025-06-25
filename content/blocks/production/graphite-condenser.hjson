@@ -5,6 +5,7 @@ size: 3
 category: crafting
 craftTime: 200
 craftEffect: reactorsmoke
+heatRequirement: 8
 outputItems: [
 graphite-compound/6
 boron/2
@@ -15,7 +16,6 @@ oxygen/30
 
 consumes: {
   power: 1
-heat: 8
 liquids: [
 water/90
 ]
