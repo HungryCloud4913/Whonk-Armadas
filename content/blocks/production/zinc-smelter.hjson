@@ -13,6 +13,7 @@ consumes: {
   power: 2
 items: [
 zinc-ore/5
+lignite/2
 ]
 }
 
