@@ -7,6 +7,10 @@ craftTime: 100
 outputItems: [
 vanadium-carbide/1
 ]
+OutputLiquids: [
+oxygen/1
+water/1
+]
 
 consumes: {
   power: 1
