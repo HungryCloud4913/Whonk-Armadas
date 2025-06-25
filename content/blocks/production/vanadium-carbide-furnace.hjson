@@ -4,6 +4,7 @@ health: 200
 size: 4
 category: crafting
 craftTime: 100
+heatRequirement: 15
 outputItems: [
 vanadium-carbide/1
 ]
@@ -14,7 +15,6 @@ water/1
 
 consumes: {
   power: 1
-heat: 15
 items: [
 vanadium/1
 graphite-compound/2
