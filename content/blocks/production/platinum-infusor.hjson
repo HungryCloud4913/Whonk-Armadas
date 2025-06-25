@@ -36,9 +36,8 @@ drawer: {
 {
 type: drawPistons
 suffix: -piston
-angleOffset: 45
 sides: 4
-sinMag: 2.5
+sinMag: 1.2
 sinScl: 2
 sideOffset: 5
 sinOffset: 4
