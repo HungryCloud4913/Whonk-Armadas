@@ -27,13 +27,13 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-    {
-      type: DrawDefault
-    }
       {
       type: DrawLiquidTile
       drawLiquid: congealed-platinum
       alpha: 1
+    }
+    {
+      type: DrawDefault
     }
     {
       type: DrawRegion
