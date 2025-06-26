@@ -17,7 +17,7 @@ oxygen/0.5
 consumes: {
   power: 1
 liquids: [
-water/1.5
+cold-water/1.5
 ]
 items: [
 raw-boron/4
