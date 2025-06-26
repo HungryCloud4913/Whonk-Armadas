@@ -1,5 +1,5 @@
 
-type: GenericCrafter
+type: HeatCrafter
 health: 200
 size: 3
 category: crafting
@@ -7,10 +7,10 @@ craftTime: 120
 outputItems: [
 holmium/10
 ]
-
+heatRequirement: 8
+maxEfficiency: 1
 consumes: {
   power: 1
-heat: 8
 items: [
 holmium-ore/8
 lignite/6
