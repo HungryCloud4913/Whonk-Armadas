@@ -6,11 +6,10 @@ category: crafting
 craftTime: 140
 craftEffect: reactorsmoke
 outputItems: [
-silicon-compound/6
+silicon-compound/8
 ]
-outputLiquids: [
-water/0.5
-]
+itemCapacity: 40
+LiquidCapacity: 300
 
 consumes: {
   power: 1
@@ -19,7 +18,7 @@ lignite/4
 sand/8
 ]
 liquids: [
-water/1
+cold-water/1
 oxygen/1.5
 ]
 }
