@@ -1,5 +1,5 @@
 
-type: GenericCrafter
+type: HeatCrafter
 health: 200
 size: 3
 category: crafting
@@ -8,7 +8,7 @@ craftEffect: reactorsmoke
 heatRequirement: 8
 outputItems: [
 graphite-compound/6
-boron/2
+boron/3
 ]
 outputLiquids: [
 oxygen/0.5
