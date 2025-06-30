@@ -1,0 +1,8 @@
+type: Conduit
+size: 1
+health: 130
+requirements: [
+r3-beryllium/2
+]
+category: liquid
+botColor: 18171d
