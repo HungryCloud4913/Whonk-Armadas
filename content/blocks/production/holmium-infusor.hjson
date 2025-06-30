@@ -3,18 +3,19 @@ type: HeatCrafter
 health: 200
 size: 3
 category: crafting
-craftTime: 120
+craftTime: 240
 outputItems: [
-holmium/10
+holmium/6
 ]
+itemCapacity: 30
+liquidCapacity: 120
 heatRequirement: 8
 maxEfficiency: 1
 consumes: {
   power: 1
 items: [
-raw-holmium/8
-lignite/6
-graphite-compound/4
+raw-holmium/6
+graphite-compound/2
 raw-boron/2
 ]
 liquids: [
