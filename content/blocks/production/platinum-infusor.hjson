@@ -1,12 +1,15 @@
-type: GenericCrafter
+type: HeatCrafter
 health: 200
 size: 4
 category: crafting
-craftTime: 200
+craftTime: 40
 craftEffect: reactorsmoke
 heatRequirement: 8
+maxEfficiency: 1
+itemCapacity: 10
+liquidCapacity: 300
 outputItems: [
-platinum-plating/2
+platinum-plating/1
 ]
 
 consumes: {
@@ -17,7 +20,7 @@ congealed-platinum/1
 oxygen/1
 ]
 items: [
-silicon-compound/1
+silicon-compound/2
 ]
 }
 
