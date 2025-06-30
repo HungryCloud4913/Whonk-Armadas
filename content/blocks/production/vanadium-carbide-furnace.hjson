@@ -1,12 +1,13 @@
 
-type: GenericCrafter
+type: HeatCrafter
 health: 200
 size: 4
 category: crafting
 craftTime: 100
 heatRequirement: 15
+maxEfficiency: 1
 outputItems: [
-vanadium-carbide/1
+vanadium-carbide/2
 ]
 OutputLiquids: [
 oxygen/1
@@ -16,13 +17,13 @@ water/1
 consumes: {
   power: 1
 items: [
-vanadium/1
-graphite-compound/2
-platinum/1
+vanadium/3
+graphite-compound/5
+platinum/2
 ]
 liquids: [
 sulfur/1
-oxygen/1
+oxygen/2
 ]
 }
 
