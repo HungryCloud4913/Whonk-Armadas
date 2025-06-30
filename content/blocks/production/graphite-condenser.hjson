@@ -6,6 +6,7 @@ category: crafting
 craftTime: 200
 craftEffect: reactorsmoke
 heatRequirement: 8
+maxEfficiency: 1
 outputItems: [
 graphite-compound/6
 boron/3
