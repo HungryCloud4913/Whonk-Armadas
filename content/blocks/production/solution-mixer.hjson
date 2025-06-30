@@ -33,14 +33,6 @@ drawer: {
       type: DrawRegion
       suffix: -bottom1
     }
-    {
-      type: DrawRegion
-      suffix: -door
-    }
-    {
-      type: DrawRegion
-      suffix: -bottom2
-    }
  {  
 	  type: DrawRegion
 	  suffix: -rotator
@@ -49,6 +41,14 @@ drawer: {
     }
     {
       type: DrawDefault
+    }
+    {
+      type: DrawFlame
+        flameRadius: 0
+        flameRadiusIn: 0
+        flameRadiusMag: 0
+        flameRadiusScl: 0
+        flameRadiusInMag: 0
     }
   ]
 }
