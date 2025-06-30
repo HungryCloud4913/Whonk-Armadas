@@ -12,8 +12,8 @@ consumes: {
 items: [
 ]
 liquids: [
-congealed-platinum/3
-water/4.16
+congealed-platinum/1
+water/4.1666666666666666666666666667
   ]
 }
 
