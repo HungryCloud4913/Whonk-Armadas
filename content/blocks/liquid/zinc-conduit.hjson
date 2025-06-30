@@ -1,8 +1,9 @@
 type: Conduit
 size: 1
-health: 130
+health: 30
+armor: 10f
 requirements: [
-r3-beryllium/2
+zinc/2
 ]
 category: liquid
-botColor: 18171d
+botColor: 2f3535
