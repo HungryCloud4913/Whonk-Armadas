@@ -50,8 +50,8 @@ sides: 4
 sinMag: 3
 sinScl: 10
 sideOffset: 5
-sinOffset: 4
-rotationOffset: 45
+sinOffset: 10
+angleOffset: 45
 }
   ]
 }
