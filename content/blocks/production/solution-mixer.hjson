@@ -1,6 +1,6 @@
 type: GenericCrafter
 health: 200
-size: 4
+size: 5
 category: crafting
 craftTime: 200
 craftEffect: reactorsmoke
