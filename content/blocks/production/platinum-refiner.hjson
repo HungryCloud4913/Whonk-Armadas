@@ -9,7 +9,6 @@ maxEfficiency: 1
 itemCapacity: 30
 liquidCapacity: 300
 outputItems: [
-graphite-compound/6
 sand/10
 ]
 outputLiquids: [
