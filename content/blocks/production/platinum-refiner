@@ -1,0 +1,50 @@
+type: HeatCrafter
+health: 200
+size: 3
+category: crafting
+craftTime: 300
+craftEffect: reactorsmoke
+heatRequirement: 10
+maxEfficiency: 1
+itemCapacity: 30
+liquidCapacity: 300
+outputItems: [
+graphite-compound/6
+sand/10
+]
+outputLiquids: [
+congealed-platinum/1.3
+]
+
+consumes: {
+  power: 1
+liquids: [
+oxygen/3
+]
+items: [
+raw-platinum/8
+lignite/6
+]
+}
+
+requirements: [
+nickel/30
+zinc/20
+silicon-compound/40
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+        {
+      type: DrawFlame
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
