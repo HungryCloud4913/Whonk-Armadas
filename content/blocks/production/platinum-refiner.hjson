@@ -38,9 +38,13 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-        {
+    {
       type: DrawFlame
-      suffix: -top
+        flameRadius: 0
+        flameRadiusIn: 0
+        flameRadiusMag: 0
+        flameRadiusScl: 0
+        flameRadiusInMag: 0
     }
     {
       type: DrawDefault
