@@ -3,7 +3,7 @@ type: HeatCrafter
 health: 200
 size: 5
 category: crafting
-craftTime: 240
+craftTime: 120
 outputItems: [
 holmium/6
 ]
