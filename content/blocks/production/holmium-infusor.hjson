@@ -1,7 +1,7 @@
 
 type: HeatCrafter
 health: 200
-size: 3
+size: 5
 category: crafting
 craftTime: 240
 outputItems: [
