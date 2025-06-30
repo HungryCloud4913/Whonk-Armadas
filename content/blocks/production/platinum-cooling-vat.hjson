@@ -16,6 +16,8 @@ congealed-platinum/1
 cold-water/4.1666666666666666666666666667
   ]
 }
+liquidCapacity: 500
+itemCapacity: 40
 
 requirements: [
 nickel/25
