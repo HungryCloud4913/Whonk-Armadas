@@ -31,18 +31,22 @@ drawer: {
   drawers: [
     {
       type: DrawRegion
-      suffix: -bottom
+      suffix: -bottom1
     }
-{
-type: drawPistons
-suffix: -piston
-angleOffset: 45
-sides: 4
-sinMag: 2.5
-sinScl: 2
-sideOffset: 5
-sinOffset: 4
-}
+    {
+      type: DrawRegion
+      suffix: -door
+    }
+    {
+      type: DrawRegion
+      suffix: -bottom2
+    }
+ {  
+	  type: DrawRegion
+	  suffix: -rotator
+	  rotateSpeed: 10
+	  spinSprite: true
+    }
     {
       type: DrawDefault
     }
