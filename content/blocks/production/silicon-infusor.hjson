@@ -9,7 +9,7 @@ outputItems: [
 silicon-compound/8
 ]
 itemCapacity: 40
-LiquidCapacity: 300
+liquidCapacity: 300
 
 consumes: {
   power: 1
