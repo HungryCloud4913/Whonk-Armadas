@@ -1,5 +1,5 @@
 type: OreBlock
-itemDrop: raw-platinum
+itemDrop: platinum
 oreDefault: true
 oreScale: 18.0
 oreThreshold: 0.81
