@@ -204,12 +204,7 @@ launchCandidates: []
 #]
 # Only items available in this planet. Recommended over hiddenItems.
 itemWhitelist: [
-nickel
-platinum
-platinum-plating
-vanadium
-vanadium-carbide
-zinc
 ]
+
 
 
