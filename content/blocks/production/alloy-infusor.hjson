@@ -72,7 +72,7 @@ consumes: {
   power: 3.66666666666666666666666666666666666666666666666666666666666666667
   items: [
     platinum/4,
-    silicon/4,
+    silicon/6,
     ]
   liquids: [
     slag/0.0333333333333333333333333333333,
@@ -90,9 +90,10 @@ suffix: -bottom
 type: DrawCrucibleFlame
 midColor: f3e979
 flameColor: f3e979
-rotateScl: 10
-particleLife: 30
-particleRad: 15
+rotateScl: 0
+particleLife: 15
+particles: 20
+particleRad: 10
 circleStroke: 0
 flameRad: 0
 }
