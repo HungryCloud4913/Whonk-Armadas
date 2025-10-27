@@ -90,9 +90,9 @@ suffix: -bottom
 type: DrawCrucibleFlame
 midColor: f3e979
 flameColor: f3e979
-rotateScl: 1
+rotateScl: 10
 particleLife: 30
-particleRad: 60
+particleRad: 15
 circleStroke: 0
 flameRad: 0
 }
