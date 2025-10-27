@@ -1,0 +1,23 @@
+type: GenericCrafter
+craftTime: 270
+outputItem: graphite/3
+size: 2
+
+consumes: {
+  liquids: [
+      water/0.1666666666666666666666666666666666666666
+    ]
+  items: [
+    coal/4
+    ]
+    }
+
+requirements: [
+  nickel/60
+  zync/20
+  ]
+
+category: crafting
+name: "Graphite Compressor"
+description: "Uses a hydraulic press to turn coal into graphite."
+details: "a description for this thing seems kinda redundant but eh-"
