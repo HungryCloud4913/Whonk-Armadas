@@ -2,6 +2,7 @@ type: GenericCrafter
 craftTime: 180
 outputItem: silicon/2
 size: 2
+
 craftEffect: {
     type: ParticleEffect
     particles: 4
@@ -32,6 +33,7 @@ type: DrawDefault
   particleRad: 5
   particleSize: 2
   rotateScl: 1.4
+  reverse: true
         }
 ]
     }
@@ -44,7 +46,8 @@ type: DrawDefault
         oxygen/0.08333333333333333333333333333333333333333
       ]
       }
-
+ambientSoundVolume: 0.04
+ambientSound: smelter
 category: crafting
 requirements: [
   zinc/45
