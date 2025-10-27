@@ -14,7 +14,7 @@ consumes: {
 
 requirements: [
   nickel/60
-  zync/20
+  zinc/20
   ]
 
 category: crafting
