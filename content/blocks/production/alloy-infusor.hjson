@@ -1,7 +1,7 @@
 type: HeatCrafter
 outputItem: surgic-alloy/2
 outputLiquid: oxygen/0.3333333333333333333333333333333333333333333
-craftTime: 120
+craftTime: 220
 heatRequirement: 4
 maxEfficiency: 2
 
