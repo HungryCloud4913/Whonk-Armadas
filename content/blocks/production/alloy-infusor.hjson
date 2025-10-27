@@ -1,0 +1,124 @@
+type: HeatCrafter
+outputItem: surge-alloy/2
+outputLiquid: oxygen/0.3333333333333333333333333333333333333333333
+craftTime: 120
+heatRequirement: 4
+craftEffect: {
+type: MultiEffect
+effects: [
+{
+    type: RadialEffect
+    rotationOffset: 45
+    lengthOffset: 5
+    effect: {
+      type: MultiEffect
+      effects: [
+{
+  type: WrapEffect
+  rotWithParent: true
+  color: f3e979
+  effect: colorSparkBig
+    }
+        {
+    type: ParticleEffect
+    length: 20
+    particles: 5
+    sizeFrom: 4
+    cone: 15
+    colorFrom: f3e979
+    colorTo: f3e97966
+    interp: pow5Out
+    sizeInterp: pow5In
+    lifetime: 40
+      }
+{
+    type: ParticleEffect
+    length: 20
+    particles: 10
+    sizeFrom: 3
+    colorFrom: feb380
+    colorTo: feb38000
+    interp: pow5Out
+    sizeInterp: pow5In
+    lifetime: 40
+    cone: 15
+      }
+  ]
+    }
+}
+  {
+  type: WaveEffect
+  colorFrom: f3e979
+  sizeTo: 24
+  strokeFrom: 3
+  lifetime: 12
+    }
+]
+}
+
+consumes: {
+  power: 3.66666666666666666666666666666666666666666666666666666666666666667
+  items: [
+    platinum/4,
+    silicon/4,
+    ]
+  liquids: [
+    charged-solution/0.0333333333333333333333333333333,
+    hydrogen/0.1666666666666666666666666666666666666666
+    ]
+    }
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawCrucibleFlame
+midColor: feb380
+flameColor: 00000000
+rotateScl: 10
+particleLife: 30
+particleRad: 10
+}
+{
+type: DrawRegion
+suffix: -bottom2
+  }
+{
+type: DrawCrucibleFlame
+midColor: f3e979
+flameColor: f3e979
+rotateScl: 0.9
+particleRad: 3
+particles: 15
+particleLife: 60
+  }
+{
+type: DrawDefault
+  }
+{
+type: DrawGlowRegion
+alpha: 0.5
+}
+{
+type: DrawHeatInput
+  }
+]
+}
+
+size: 3
+ambientSoundVolume: 0.06
+ambientSound: smelter
+
+  requirements: [
+    zinc/210
+    nickel/150
+    silicon/80
+    platinum/60
+  ]
+
+name: "Alloy Infusor"
+description: "Produces surge alloy by melting together a bunch of materials under high temperatures."
+details: "ooo you will make detailed effects for 0 reason oooo"
