@@ -3,6 +3,8 @@ outputItem: surge-alloy/2
 outputLiquid: oxygen/0.3333333333333333333333333333333333333333333
 craftTime: 120
 heatRequirement: 4
+maxEfficiency: 2
+
 craftEffect: {
 type: MultiEffect
 effects: [
@@ -14,11 +16,21 @@ effects: [
       type: MultiEffect
       effects: [
 {
-  type: WrapEffect
-  rotWithParent: true
-  color: f3e979
-  effect: colorSparkBig
-    }
+    type: ParticleEffect
+    length: 20
+    particles: 10
+    line: true
+    lenFrom: 5
+    lenTo: 0
+    strokeFrom: 1
+    strokeTo: 0
+    colorFrom: f3e979
+    colorTo: f3e979
+    interp: pow5Out
+    sizeInterp: pow5In
+    lifetime: 30
+    cone: 15
+}
         {
     type: ParticleEffect
     length: 20
