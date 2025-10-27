@@ -88,12 +88,13 @@ suffix: -bottom
 }
 {
 type: DrawCrucibleFlame
-midColor: feb380
-flameColor: 00000000
-rotateScl: 10
+midColor: f3e979
+flameColor: f3e979
+rotateScl: 1
 particleLife: 30
 particleRad: 60
-alpha: 0.9
+circleStroke: 0
+flameRad: 0
 }
 {
 type: DrawRegion
@@ -104,7 +105,7 @@ type: DrawCrucibleFlame
 midColor: f3e979
 flameColor: f3e979
 rotateScl: 0.9
-particleRad: 10
+particleRad: 5
 particles: 15
 particleLife: 60
   }
