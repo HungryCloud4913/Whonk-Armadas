@@ -43,6 +43,7 @@ flameRadius: 2
 ]
     }
   consumes: {
+    power: 0.666666666667
     items: [
         coal/1,
         sand/2
