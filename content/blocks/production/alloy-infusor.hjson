@@ -93,6 +93,7 @@ flameColor: 00000000
 rotateScl: 10
 particleLife: 30
 particleRad: 10
+alpha: 0.9
 }
 {
 type: DrawRegion
@@ -112,7 +113,7 @@ type: DrawDefault
   }
 {
 type: DrawGlowRegion
-alpha: 0.5
+alpha: 0.3
 }
 {
 type: DrawHeatInput
