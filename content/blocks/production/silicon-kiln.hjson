@@ -24,6 +24,11 @@ suffix: -bottom
 {
 type: DrawDefault
   }
+{
+type: DrawFlame
+lightRadius: 24
+flameRadius: 2
+}
   {
   type: DrawParticles
   color: ffd37f
