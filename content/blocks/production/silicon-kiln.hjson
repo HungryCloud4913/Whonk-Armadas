@@ -1,0 +1,51 @@
+type: GenericCrafter
+craftTime: 180
+outputItem: silicon/2
+craftEffect: {
+    type: ParticleEffect
+    particles: 4
+    colorFrom: ffd37f
+    colorTo: ffd37f00
+    sizeFrom: 3
+    sizeTo: 0
+    lifetime: 40
+    sizeInterp: pow5In
+    length: 6
+      }
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawDefault
+  }
+  {
+  type: DrawParticles
+  color: ffd37f
+  particles: 25
+  particleRotation: 0.6
+  particleLife: 90
+  particleRad: 5
+  particleSize: 2
+  rotateScl: 1.4
+        }
+]
+    }
+  consumes: {
+    items: [
+        coal/1,
+        sand/2
+      ]
+    liquids: [
+        water/0.08333333333333333333333333333333333333333
+      ]
+      }
+
+category: crafting
+requirements: [
+  zinc/45
+  nickel/30
+  ]
+
+name: "Silicon Kiln"
+description: "Produces silicon by melting sand."
+details: "why the hell does it need oxygen, is it to reach high enough temperature??? there's no reducing agent anyways how the hell is it purified enough to be usable"
