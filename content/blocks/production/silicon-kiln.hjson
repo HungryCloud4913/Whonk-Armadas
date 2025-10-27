@@ -1,6 +1,7 @@
 type: GenericCrafter
 craftTime: 180
 outputItem: silicon/2
+size: 2
 craftEffect: {
     type: ParticleEffect
     particles: 4
