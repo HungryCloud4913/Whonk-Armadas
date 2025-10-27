@@ -122,3 +122,4 @@ ambientSound: smelter
 name: "Alloy Infusor"
 description: "Produces surge alloy by melting together a bunch of materials under high temperatures."
 details: "ooo you will make detailed effects for 0 reason oooo"
+category: crafting
