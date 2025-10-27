@@ -92,7 +92,7 @@ midColor: feb380
 flameColor: 00000000
 rotateScl: 10
 particleLife: 30
-particleRad: 10
+particleRad: 30
 alpha: 0.9
 }
 {
