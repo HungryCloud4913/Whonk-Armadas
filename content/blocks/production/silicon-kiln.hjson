@@ -1,6 +1,6 @@
 type: GenericCrafter
-craftTime: 180
-outputItem: silicon/2
+craftTime: 80
+outputItem: silicon/1
 size: 2
 
 craftEffect: {
