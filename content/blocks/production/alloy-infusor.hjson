@@ -93,7 +93,7 @@ flameColor: f3e979
 rotateScl: 0
 particleLife: 15
 particles: 20
-particleRad: 10
+particleRad: 8
 circleStroke: 0
 flameRad: 0
 }
