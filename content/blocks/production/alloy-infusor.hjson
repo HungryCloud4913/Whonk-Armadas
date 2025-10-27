@@ -1,5 +1,5 @@
 type: HeatCrafter
-outputItem: surge-alloy/2
+outputItem: surgic-alloy/2
 outputLiquid: oxygen/0.3333333333333333333333333333333333333333333
 craftTime: 120
 heatRequirement: 4
@@ -92,7 +92,7 @@ midColor: feb380
 flameColor: 00000000
 rotateScl: 10
 particleLife: 30
-particleRad: 30
+particleRad: 60
 alpha: 0.9
 }
 {
@@ -104,7 +104,7 @@ type: DrawCrucibleFlame
 midColor: f3e979
 flameColor: f3e979
 rotateScl: 0.9
-particleRad: 3
+particleRad: 10
 particles: 15
 particleLife: 60
   }
@@ -126,10 +126,11 @@ ambientSoundVolume: 0.06
 ambientSound: smelter
 
   requirements: [
-    zinc/210
-    nickel/150
+    graphite/180
+    zinc/80
+    nickel/220
     silicon/80
-    platinum/60
+    vanadium-carbide/50
   ]
 
 name: "Alloy Infusor"
