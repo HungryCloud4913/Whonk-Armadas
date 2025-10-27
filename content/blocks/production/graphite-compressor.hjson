@@ -1,5 +1,5 @@
 type: GenericCrafter
-craftTime: 90
+craftTime: 110
 outputItem: graphite/1
 size: 2
 
@@ -13,11 +13,11 @@ consumes: {
     }
 
 requirements: [
-  nickel/60
-  zinc/20
+  nickel/40
+  zinc/25
   ]
 
 category: crafting
 name: "Graphite Compressor"
-description: "Uses a hydraulic press to turn coal into graphite."
+description: "Compresses Coal into Graphite."
 details: "a description for this thing seems kinda redundant but eh-"
