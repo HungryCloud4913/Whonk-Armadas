@@ -18,7 +18,7 @@ effects: [
 {
     type: ParticleEffect
     length: 20
-    particles: 10
+    particles: 6
     line: true
     lenFrom: 5
     lenTo: 0
@@ -34,9 +34,9 @@ effects: [
         {
     type: ParticleEffect
     length: 20
-    particles: 5
+    particles: 3
     sizeFrom: 4
-    cone: 15
+    cone: 10
     colorFrom: f3e979
     colorTo: f3e97966
     interp: pow5Out
@@ -46,14 +46,14 @@ effects: [
 {
     type: ParticleEffect
     length: 20
-    particles: 10
+    particles: 8
     sizeFrom: 3
     colorFrom: feb380
     colorTo: feb38000
     interp: pow5Out
     sizeInterp: pow5In
-    lifetime: 40
-    cone: 15
+    lifetime: 15
+    cone: 20
       }
   ]
     }
