@@ -41,7 +41,7 @@ effects: [
     colorTo: f3e97966
     interp: pow5Out
     sizeInterp: pow5In
-    lifetime: 40
+    lifetime: 70
       }
 {
     type: ParticleEffect
@@ -90,10 +90,10 @@ suffix: -bottom
 type: DrawCrucibleFlame
 midColor: f3e979
 flameColor: f3e979
-rotateScl: 0
+rotateScl: 1
 particleLife: 15
 particles: 20
-particleRad: 8
+particleRad: 10
 circleStroke: 0
 flameRad: 0
 }
