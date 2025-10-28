@@ -51,6 +51,6 @@ details: "safety approved by hell inc's department of ethics"
 requirements: [
   silicon/130
   vanadium/160
-  zync/200
+  zinc/200
   nickel/80
   ]
