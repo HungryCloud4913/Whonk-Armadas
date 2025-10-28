@@ -2,7 +2,7 @@ type: liquid
 color: fff5b8
 gasColor: fff5b8
 lightColor: fff5b811
-flammability: 0.00
+flammability: 0.2
 heatCapacity: 0.2
 viscosity: 0.3
 explosiveness: 1.1
