@@ -1,0 +1,56 @@
+type: HeatCrafter
+outputLiquid: charged-solution/0.0666666666666666666666666666666666666666
+size: 3
+craftTime: 40
+heatRequirement: 8
+maxEfficiency: 4
+consumes: {
+  power: 5
+  liquids: [
+    sulfur/0.1333333333333333333
+    ]
+  items: [
+    vanadium/2
+    ]
+    }
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+  {
+  type: DrawLiquidTile
+  padding: 2
+  drawLiquid: sulfur
+}
+{
+  type: DrawPistons
+  sinMag: 2.75
+  sinScl: 5
+  sides: 8
+  sideOffset: 1.5707963267948966192313216916398
+    }
+{
+  type: DrawDefault
+    }
+{
+  type: DrawGlowRegion
+    }
+{
+  type: DrawHeatInput
+    }
+  ]
+    }
+
+name: Solution Charger
+description: Creates an electrically charged liquid with vanadium and sulfur.
+details: "safety approved by hell inc's department of ethics"
+
+requirements: [
+  silicon/130
+  vanadium/160
+  zync/200
+  nickel/80
+  ]
