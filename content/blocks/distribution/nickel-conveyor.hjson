@@ -1,5 +1,5 @@
 type: Conveyor
-speed: 0.032
+speed: 0.06
 displayedSpeed: 8.0
 requirements: [
   nickel/1
