@@ -1,0 +1,12 @@
+type: BufferedItemBridge
+fadeIn: true
+moveArrows: false
+range: 4
+timeScale: 2
+speed: 30
+arrowSpacing: 6
+bufferCapacity: 20
+
+requirement: [
+  nickel/30
+  ]
