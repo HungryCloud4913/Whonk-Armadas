@@ -1,0 +1,10 @@
+type: Conveyor
+speed: 0.016
+displayedSpeed: 8.0
+requirements: [
+  nickel/1
+  ]
+buildCostMultiplier: 2
+health: 50
+name: Nickel Conveyor
+description: Moves items.
