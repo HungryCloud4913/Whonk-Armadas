@@ -1,0 +1,10 @@
+type: Junction
+speed: 15
+capacity: 8
+displayedSpeed: 7.5
+size: 1
+cost: [
+    nickel/5
+  ]
+name: Nickel Junction
+description: Allows two conveyors going different ways to pass each other without mixing.
