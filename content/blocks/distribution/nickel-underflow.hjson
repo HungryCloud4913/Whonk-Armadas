@@ -1,0 +1,8 @@
+type: OverflowGate
+speed: 7.5
+inverted: true
+requirements: [
+  nickel/10
+  ]
+name: Nickel Undeflow Gate
+description: Outputs items to the front if the side paths are blocked.
