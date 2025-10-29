@@ -1,0 +1,7 @@
+type: OverflowGate
+speed: 7.5
+requirements: [
+  nickel/10
+  ]
+name: Nickel Overflow Gate
+description: Outputs items to the side if the front path is blocked
