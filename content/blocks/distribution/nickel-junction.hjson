@@ -3,7 +3,7 @@ speed: 15
 capacity: 8
 displayedSpeed: 7.5
 size: 1
-cost: [
+requirements: [
     nickel/5
   ]
 name: Nickel Junction
