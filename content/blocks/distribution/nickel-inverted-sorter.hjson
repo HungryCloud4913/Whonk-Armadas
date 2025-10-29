@@ -1,0 +1,7 @@
+type: sorter
+requirements: [
+    nickel/15
+  ]
+inverted: true
+name: Nickel Sorter
+description: Selected item outputs to the sides, all other items output at the front.
