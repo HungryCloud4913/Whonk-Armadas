@@ -1,0 +1,6 @@
+type: sorter
+requirements: [
+    nickel/15
+  ]
+name: Nickel Sorter
+description: Selected item outputs at the front, all other items output to the sides.
